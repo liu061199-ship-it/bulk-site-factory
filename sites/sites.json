@@ -7,11 +7,22 @@
     "themeColor": "#2563eb",
     "title": "Alpha Studio | Practical Growth Systems",
     "description": "Alpha Studio publishes practical playbooks for small teams building better web presence.",
-    "keywords": ["growth", "websites", "content", "small business"],
+    "keywords": [
+      "growth",
+      "websites",
+      "content",
+      "small business"
+    ],
     "contactEmail": "hello@alpha.example.com",
     "heroTitle": "Build a sharper web presence in less time",
     "heroSubtitle": "Simple content, clean pages, and repeatable publishing for growing teams.",
-    "articles": ["launch-checklist", "content-calendar"]
+    "articles": [
+      "launch-checklist",
+      "content-calendar",
+      "local-seo-basics",
+      "conversion-copy",
+      "analytics-foundation"
+    ]
   },
   {
     "id": "green-market",
@@ -21,10 +32,146 @@
     "themeColor": "#16a34a",
     "title": "Green Market Guide | Sustainable Business Notes",
     "description": "Green Market Guide shares clear articles for sustainable shops and local brands.",
-    "keywords": ["sustainability", "local business", "retail", "marketing"],
+    "keywords": [
+      "sustainability",
+      "local business",
+      "retail",
+      "marketing"
+    ],
     "contactEmail": "team@green.example.com",
     "heroTitle": "Clear guidance for sustainable local brands",
     "heroSubtitle": "A lightweight site template for articles, trust pages, and customer contact.",
-    "articles": ["sustainable-branding", "launch-checklist"]
+    "articles": [
+      "sustainable-branding",
+      "launch-checklist",
+      "local-seo-basics",
+      "trust-signals",
+      "analytics-foundation"
+    ]
+  },
+  {
+    "id": "northline-finance",
+    "siteName": "Northline Finance",
+    "domain": "northline.example.com",
+    "logo": "/logos/northline.svg",
+    "themeColor": "#0f766e",
+    "title": "Northline Finance | Simple Money Guides for Modern Teams",
+    "description": "Northline Finance publishes clear guides about budgeting, planning, and financial operations for lean businesses.",
+    "keywords": [
+      "finance",
+      "budgeting",
+      "planning",
+      "operations"
+    ],
+    "contactEmail": "hello@northline.example.com",
+    "heroTitle": "Financial clarity for practical operators",
+    "heroSubtitle": "Plain-English articles that help small teams plan, measure, and grow with confidence.",
+    "articles": [
+      "launch-checklist",
+      "analytics-foundation",
+      "conversion-copy",
+      "trust-signals",
+      "content-calendar"
+    ]
+  },
+  {
+    "id": "pixel-harbor",
+    "siteName": "Pixel Harbor",
+    "domain": "pixelharbor.example.com",
+    "logo": "/logos/pixel-harbor.svg",
+    "themeColor": "#db2777",
+    "title": "Pixel Harbor | Design Notes for Digital Brands",
+    "description": "Pixel Harbor helps creators and service businesses improve websites with thoughtful design and useful content.",
+    "keywords": [
+      "design",
+      "branding",
+      "portfolio",
+      "creative business"
+    ],
+    "contactEmail": "studio@pixelharbor.example.com",
+    "heroTitle": "Design-led websites for memorable brands",
+    "heroSubtitle": "A flexible site sample for studios, portfolios, and creative service teams.",
+    "articles": [
+      "conversion-copy",
+      "content-calendar",
+      "launch-checklist",
+      "trust-signals",
+      "local-seo-basics"
+    ]
+  },
+  {
+    "id": "bright-health-lab",
+    "siteName": "Bright Health Lab",
+    "domain": "brighthealth.example.com",
+    "logo": "/logos/bright-health.svg",
+    "themeColor": "#ea580c",
+    "title": "Bright Health Lab | Wellness Content and Clinic Growth",
+    "description": "Bright Health Lab shares approachable website and content ideas for clinics, wellness teams, and health educators.",
+    "keywords": [
+      "health",
+      "wellness",
+      "clinic marketing",
+      "patient education"
+    ],
+    "contactEmail": "care@brighthealth.example.com",
+    "heroTitle": "Helpful health content that earns trust",
+    "heroSubtitle": "Give patients and clients a cleaner path to learn, contact, and take the next step.",
+    "articles": [
+      "trust-signals",
+      "launch-checklist",
+      "analytics-foundation",
+      "content-calendar",
+      "sustainable-branding"
+    ]
+  },
+  {
+    "id": "craft-table",
+    "siteName": "Craft Table",
+    "domain": "crafttable.example.com",
+    "logo": "/logos/craft-table.svg",
+    "themeColor": "#7c3aed",
+    "title": "Craft Table | Restaurant Website Playbooks",
+    "description": "Craft Table gives restaurants, cafes, and food makers simple playbooks for stronger local web presence.",
+    "keywords": [
+      "restaurant",
+      "cafe",
+      "local SEO",
+      "hospitality"
+    ],
+    "contactEmail": "hello@crafttable.example.com",
+    "heroTitle": "A better online table for local food brands",
+    "heroSubtitle": "Publish menus, stories, guides, and contact pages without overcomplicating the stack.",
+    "articles": [
+      "local-seo-basics",
+      "trust-signals",
+      "launch-checklist",
+      "conversion-copy",
+      "content-calendar"
+    ]
+  },
+  {
+    "id": "atlas-learning",
+    "siteName": "Atlas Learning",
+    "domain": "atlaslearning.example.com",
+    "logo": "/logos/atlas-learning.svg",
+    "themeColor": "#0891b2",
+    "title": "Atlas Learning | Education Content Sites Made Simple",
+    "description": "Atlas Learning provides lightweight content site examples for tutors, course creators, and education teams.",
+    "keywords": [
+      "education",
+      "courses",
+      "tutoring",
+      "learning"
+    ],
+    "contactEmail": "team@atlaslearning.example.com",
+    "heroTitle": "Organize learning content into useful pages",
+    "heroSubtitle": "A clean static site pattern for guides, lessons, articles, and student contact flows.",
+    "articles": [
+      "content-calendar",
+      "analytics-foundation",
+      "conversion-copy",
+      "launch-checklist",
+      "local-seo-basics"
+    ]
   }
 ]

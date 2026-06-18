@@ -17,7 +17,10 @@
   "heroSubtitle": "Simple content, clean pages, and repeatable publishing for growing teams.",
   "articles": [
     "launch-checklist",
-    "content-calendar"
+    "content-calendar",
+    "local-seo-basics",
+    "conversion-copy",
+    "analytics-foundation"
   ],
   "resolvedArticles": [
     {
@@ -42,6 +45,42 @@
         "Start with four useful topics your audience asks about often. Turn each topic into a short article, checklist, or answer page.",
         "Publish on a rhythm the team can sustain. Consistency matters more than volume for small websites.",
         "Review performance monthly and update older pages when customer questions change."
+      ]
+    },
+    {
+      "id": "local-seo-basics",
+      "title": "Local SEO Basics for Small Websites",
+      "excerpt": "A short guide to making a local business easier to find in search.",
+      "date": "2026-06-12",
+      "author": "Bulk Site Factory",
+      "body": [
+        "Start with consistent business details across your homepage, contact page, and directory listings.",
+        "Write page titles and descriptions that name the service, audience, and location clearly.",
+        "Keep your most important pages linked from the main navigation so visitors and search engines can find them quickly."
+      ]
+    },
+    {
+      "id": "conversion-copy",
+      "title": "Writing Homepage Copy That Converts",
+      "excerpt": "How to make a homepage explain value quickly and guide readers toward action.",
+      "date": "2026-06-14",
+      "author": "Bulk Site Factory",
+      "body": [
+        "A strong homepage starts with the visitor's problem, then explains the outcome your brand helps create.",
+        "Use direct headings, specific proof, and a single primary call to action instead of competing messages.",
+        "Review the page on mobile and remove any sentence that does not help the reader decide what to do next."
+      ]
+    },
+    {
+      "id": "analytics-foundation",
+      "title": "A Lightweight Analytics Foundation",
+      "excerpt": "The basic measurement setup every new content site should have before launch.",
+      "date": "2026-06-16",
+      "author": "Bulk Site Factory",
+      "body": [
+        "Measure the actions that matter most: visits to key pages, contact clicks, form starts, and completed conversions.",
+        "Keep tracking simple at first so the team can trust the data and act on it.",
+        "Add a monthly review habit to connect traffic, content quality, and business outcomes."
       ]
     }
   ]
