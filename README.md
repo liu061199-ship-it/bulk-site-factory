@@ -91,18 +91,63 @@ npm run build
 
 The build command runs `npm run generate` first.
 
+## GitHub Actions
+
+The repository includes a GitHub Actions workflow at `.github/workflows/build.yml`.
+
+It runs automatically when code is pushed to the `main` branch:
+
+1. Checks out the repository.
+2. Installs dependencies with `npm ci`.
+3. Runs `npm run generate`.
+4. Runs `npm run build`.
+5. Uploads a build artifact named `bulk-site-factory-build`.
+
+The uploaded artifact includes:
+
+- `.next`
+- `output`
+- `public`
+- `package.json`
+- `package-lock.json`
+- `next.config.mjs`
+
+## Environment Variables
+
+Use these variables to choose which configured site is rendered in a deployment:
+
+```bash
+SITE_ID=alpha-studio
+```
+
+`SITE_ID` should match one of the site IDs in `sites/sites.json`. This is the simplest option for Vercel, Cloudflare Pages, and local previews.
+
+```bash
+NEXT_PUBLIC_SITE_DOMAIN=alpha.example.com
+```
+
+`NEXT_PUBLIC_SITE_DOMAIN` is optional. Use it when a deployment platform or preview environment cannot provide the final host name reliably.
+
+If neither variable is set, the app tries to match the request host to a configured domain. If no match is found, it falls back to the first site in `sites/sites.json`.
+
 ## Deploy to Vercel
 
 1. Push the repository to GitHub.
 2. Import the repository in Vercel.
-3. Set the build command to:
+3. Use the Next.js framework preset.
+4. Set the install command to:
+
+```bash
+npm ci
+```
+
+5. Set the build command to:
 
 ```bash
 npm run build
 ```
 
-4. Set the output framework preset to Next.js.
-5. For each deployment, set one of these environment variables:
+6. For each deployment, set one of these environment variables:
 
 ```bash
 SITE_ID=alpha-studio
@@ -114,25 +159,34 @@ or:
 NEXT_PUBLIC_SITE_DOMAIN=alpha.example.com
 ```
 
-6. Add the matching custom domain in Vercel.
+7. Add the matching custom domain in Vercel.
+8. When deploying multiple sites from the same repository, create one Vercel project per site and give each project a different `SITE_ID`.
 
 ## Deploy to Cloudflare Pages
 
 1. Connect the GitHub repository in Cloudflare Pages.
-2. Use:
+2. Set the install command to:
+
+```bash
+npm ci
+```
+
+3. Set the build command to:
 
 ```bash
 npm run build
 ```
 
-3. Set environment variables for the site being deployed:
+4. Set environment variables for the site being deployed:
 
 ```bash
 SITE_ID=alpha-studio
 ```
 
-4. Use the Cloudflare Pages Next.js adapter if your account/project requires it for the selected Next.js mode.
-5. Add the matching custom domain in Cloudflare.
+5. Set the output directory according to the Cloudflare Pages Next.js integration you choose.
+6. Use the Cloudflare Pages Next.js adapter if your account/project requires it for the selected Next.js mode.
+7. Add the matching custom domain in Cloudflare.
+8. When deploying multiple sites from the same repository, create one Cloudflare Pages project per site and give each project a different `SITE_ID`.
 
 ## Available Commands
 
