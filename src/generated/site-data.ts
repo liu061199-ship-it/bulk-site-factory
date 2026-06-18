@@ -608,6 +608,93 @@ export const sites = [
         ]
       }
     ]
+  },
+  {
+    "id": "xp786-guide",
+    "siteName": "XP786 Guide",
+    "domain": "xp786guide.com",
+    "logo": "/logos/xp786-guide.svg",
+    "themeColor": "#dc2626",
+    "title": "XP786 Guide | Practical Online Guides and Updates",
+    "description": "XP786 Guide publishes practical articles, launch checklists, and simple website guidance for readers who want clear next steps.",
+    "keywords": [
+      "XP786 Guide",
+      "online guide",
+      "website tips",
+      "content strategy"
+    ],
+    "contactEmail": "hello@xp786guide.com",
+    "heroTitle": "Clear guides for building a stronger online presence",
+    "heroSubtitle": "Read practical articles, planning notes, and launch checklists organized for quick action.",
+    "articles": [
+      "launch-checklist",
+      "content-calendar",
+      "local-seo-basics",
+      "conversion-copy",
+      "trust-signals"
+    ],
+    "resolvedArticles": [
+      {
+        "id": "launch-checklist",
+        "title": "A Simple Website Launch Checklist",
+        "excerpt": "The essential checks to complete before publishing a new static website.",
+        "date": "2026-06-01",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Before launch, confirm that the homepage explains the offer clearly, links work, and contact information is easy to find.",
+          "Review metadata, page titles, descriptions, sitemap, robots.txt, and analytics settings before pointing your domain to production.",
+          "After deployment, test the live domain on desktop and mobile. Keep a short record of what changed so future updates are easier."
+        ]
+      },
+      {
+        "id": "content-calendar",
+        "title": "How to Plan a Lightweight Content Calendar",
+        "excerpt": "A practical way to keep publishing without creating a complicated editorial process.",
+        "date": "2026-06-05",
+        "author": "Alpha Studio",
+        "body": [
+          "Start with four useful topics your audience asks about often. Turn each topic into a short article, checklist, or answer page.",
+          "Publish on a rhythm the team can sustain. Consistency matters more than volume for small websites.",
+          "Review performance monthly and update older pages when customer questions change."
+        ]
+      },
+      {
+        "id": "local-seo-basics",
+        "title": "Local SEO Basics for Small Websites",
+        "excerpt": "A short guide to making a local business easier to find in search.",
+        "date": "2026-06-12",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Start with consistent business details across your homepage, contact page, and directory listings.",
+          "Write page titles and descriptions that name the service, audience, and location clearly.",
+          "Keep your most important pages linked from the main navigation so visitors and search engines can find them quickly."
+        ]
+      },
+      {
+        "id": "conversion-copy",
+        "title": "Writing Homepage Copy That Converts",
+        "excerpt": "How to make a homepage explain value quickly and guide readers toward action.",
+        "date": "2026-06-14",
+        "author": "Bulk Site Factory",
+        "body": [
+          "A strong homepage starts with the visitor's problem, then explains the outcome your brand helps create.",
+          "Use direct headings, specific proof, and a single primary call to action instead of competing messages.",
+          "Review the page on mobile and remove any sentence that does not help the reader decide what to do next."
+        ]
+      },
+      {
+        "id": "trust-signals",
+        "title": "Trust Signals That Help Visitors Decide",
+        "excerpt": "Simple content blocks that make a small website feel credible and useful.",
+        "date": "2026-06-18",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Trust signals include clear contact details, real examples, transparent claims, useful policies, and recent updates.",
+          "Place proof close to important decisions such as booking, contacting, buying, or subscribing.",
+          "Avoid vague badges and unsupported claims. Specific evidence is easier for visitors to believe."
+        ]
+      }
+    ]
   }
 ] as const;
 

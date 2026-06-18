@@ -173,5 +173,30 @@
       "launch-checklist",
       "local-seo-basics"
     ]
+  },
+  {
+    "id": "xp786-guide",
+    "siteName": "XP786 Guide",
+    "domain": "xp786guide.com",
+    "logo": "/logos/xp786-guide.svg",
+    "themeColor": "#dc2626",
+    "title": "XP786 Guide | Practical Online Guides and Updates",
+    "description": "XP786 Guide publishes practical articles, launch checklists, and simple website guidance for readers who want clear next steps.",
+    "keywords": [
+      "XP786 Guide",
+      "online guide",
+      "website tips",
+      "content strategy"
+    ],
+    "contactEmail": "hello@xp786guide.com",
+    "heroTitle": "Clear guides for building a stronger online presence",
+    "heroSubtitle": "Read practical articles, planning notes, and launch checklists organized for quick action.",
+    "articles": [
+      "launch-checklist",
+      "content-calendar",
+      "local-seo-basics",
+      "conversion-copy",
+      "trust-signals"
+    ]
   }
 ]
