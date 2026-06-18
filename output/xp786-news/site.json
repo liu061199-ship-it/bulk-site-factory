@@ -1,0 +1,87 @@
+{
+  "id": "xp786-news",
+  "siteName": "XP786 News",
+  "domain": "xp786news.example.com",
+  "logo": "/logos/xp786-news.svg",
+  "themeColor": "#2563eb",
+  "title": "XP786 News | Fresh Updates and Practical Online Notes",
+  "description": "XP786 News collects timely updates, simple explainers, and practical notes for readers following online trends.",
+  "keywords": [
+    "XP786 News",
+    "online updates",
+    "digital news",
+    "website guides"
+  ],
+  "contactEmail": "hello@xp786news.example.com",
+  "heroTitle": "Fresh XP786 updates in one simple guide",
+  "heroSubtitle": "Follow useful news, launch notes, and practical online tips without digging through noisy sources.",
+  "articles": [
+    "content-calendar",
+    "launch-checklist",
+    "analytics-foundation",
+    "local-seo-basics",
+    "trust-signals"
+  ],
+  "resolvedArticles": [
+    {
+      "id": "content-calendar",
+      "title": "How to Plan a Lightweight Content Calendar",
+      "excerpt": "A practical way to keep publishing without creating a complicated editorial process.",
+      "date": "2026-06-05",
+      "author": "Alpha Studio",
+      "body": [
+        "Start with four useful topics your audience asks about often. Turn each topic into a short article, checklist, or answer page.",
+        "Publish on a rhythm the team can sustain. Consistency matters more than volume for small websites.",
+        "Review performance monthly and update older pages when customer questions change."
+      ]
+    },
+    {
+      "id": "launch-checklist",
+      "title": "A Simple Website Launch Checklist",
+      "excerpt": "The essential checks to complete before publishing a new static website.",
+      "date": "2026-06-01",
+      "author": "Bulk Site Factory",
+      "body": [
+        "Before launch, confirm that the homepage explains the offer clearly, links work, and contact information is easy to find.",
+        "Review metadata, page titles, descriptions, sitemap, robots.txt, and analytics settings before pointing your domain to production.",
+        "After deployment, test the live domain on desktop and mobile. Keep a short record of what changed so future updates are easier."
+      ]
+    },
+    {
+      "id": "analytics-foundation",
+      "title": "A Lightweight Analytics Foundation",
+      "excerpt": "The basic measurement setup every new content site should have before launch.",
+      "date": "2026-06-16",
+      "author": "Bulk Site Factory",
+      "body": [
+        "Measure the actions that matter most: visits to key pages, contact clicks, form starts, and completed conversions.",
+        "Keep tracking simple at first so the team can trust the data and act on it.",
+        "Add a monthly review habit to connect traffic, content quality, and business outcomes."
+      ]
+    },
+    {
+      "id": "local-seo-basics",
+      "title": "Local SEO Basics for Small Websites",
+      "excerpt": "A short guide to making a local business easier to find in search.",
+      "date": "2026-06-12",
+      "author": "Bulk Site Factory",
+      "body": [
+        "Start with consistent business details across your homepage, contact page, and directory listings.",
+        "Write page titles and descriptions that name the service, audience, and location clearly.",
+        "Keep your most important pages linked from the main navigation so visitors and search engines can find them quickly."
+      ]
+    },
+    {
+      "id": "trust-signals",
+      "title": "Trust Signals That Help Visitors Decide",
+      "excerpt": "Simple content blocks that make a small website feel credible and useful.",
+      "date": "2026-06-18",
+      "author": "Bulk Site Factory",
+      "body": [
+        "Trust signals include clear contact details, real examples, transparent claims, useful policies, and recent updates.",
+        "Place proof close to important decisions such as booking, contacting, buying, or subscribing.",
+        "Avoid vague badges and unsupported claims. Specific evidence is easier for visitors to believe."
+      ]
+    }
+  ]
+}

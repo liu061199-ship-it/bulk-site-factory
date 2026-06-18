@@ -695,6 +695,354 @@ export const sites = [
         ]
       }
     ]
+  },
+  {
+    "id": "xp786-news",
+    "siteName": "XP786 News",
+    "domain": "xp786news.example.com",
+    "logo": "/logos/xp786-news.svg",
+    "themeColor": "#2563eb",
+    "title": "XP786 News | Fresh Updates and Practical Online Notes",
+    "description": "XP786 News collects timely updates, simple explainers, and practical notes for readers following online trends.",
+    "keywords": [
+      "XP786 News",
+      "online updates",
+      "digital news",
+      "website guides"
+    ],
+    "contactEmail": "hello@xp786news.example.com",
+    "heroTitle": "Fresh XP786 updates in one simple guide",
+    "heroSubtitle": "Follow useful news, launch notes, and practical online tips without digging through noisy sources.",
+    "articles": [
+      "content-calendar",
+      "launch-checklist",
+      "analytics-foundation",
+      "local-seo-basics",
+      "trust-signals"
+    ],
+    "resolvedArticles": [
+      {
+        "id": "content-calendar",
+        "title": "How to Plan a Lightweight Content Calendar",
+        "excerpt": "A practical way to keep publishing without creating a complicated editorial process.",
+        "date": "2026-06-05",
+        "author": "Alpha Studio",
+        "body": [
+          "Start with four useful topics your audience asks about often. Turn each topic into a short article, checklist, or answer page.",
+          "Publish on a rhythm the team can sustain. Consistency matters more than volume for small websites.",
+          "Review performance monthly and update older pages when customer questions change."
+        ]
+      },
+      {
+        "id": "launch-checklist",
+        "title": "A Simple Website Launch Checklist",
+        "excerpt": "The essential checks to complete before publishing a new static website.",
+        "date": "2026-06-01",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Before launch, confirm that the homepage explains the offer clearly, links work, and contact information is easy to find.",
+          "Review metadata, page titles, descriptions, sitemap, robots.txt, and analytics settings before pointing your domain to production.",
+          "After deployment, test the live domain on desktop and mobile. Keep a short record of what changed so future updates are easier."
+        ]
+      },
+      {
+        "id": "analytics-foundation",
+        "title": "A Lightweight Analytics Foundation",
+        "excerpt": "The basic measurement setup every new content site should have before launch.",
+        "date": "2026-06-16",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Measure the actions that matter most: visits to key pages, contact clicks, form starts, and completed conversions.",
+          "Keep tracking simple at first so the team can trust the data and act on it.",
+          "Add a monthly review habit to connect traffic, content quality, and business outcomes."
+        ]
+      },
+      {
+        "id": "local-seo-basics",
+        "title": "Local SEO Basics for Small Websites",
+        "excerpt": "A short guide to making a local business easier to find in search.",
+        "date": "2026-06-12",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Start with consistent business details across your homepage, contact page, and directory listings.",
+          "Write page titles and descriptions that name the service, audience, and location clearly.",
+          "Keep your most important pages linked from the main navigation so visitors and search engines can find them quickly."
+        ]
+      },
+      {
+        "id": "trust-signals",
+        "title": "Trust Signals That Help Visitors Decide",
+        "excerpt": "Simple content blocks that make a small website feel credible and useful.",
+        "date": "2026-06-18",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Trust signals include clear contact details, real examples, transparent claims, useful policies, and recent updates.",
+          "Place proof close to important decisions such as booking, contacting, buying, or subscribing.",
+          "Avoid vague badges and unsupported claims. Specific evidence is easier for visitors to believe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xp786-hub",
+    "siteName": "XP786 Hub",
+    "domain": "xp786hub.example.com",
+    "logo": "/logos/xp786-hub.svg",
+    "themeColor": "#16a34a",
+    "title": "XP786 Hub | Resource Center for Online Growth",
+    "description": "XP786 Hub provides resource-style articles for planning content, improving web pages, and organizing online growth work.",
+    "keywords": [
+      "XP786 Hub",
+      "resource center",
+      "online growth",
+      "content planning"
+    ],
+    "contactEmail": "team@xp786hub.example.com",
+    "heroTitle": "A practical hub for online growth resources",
+    "heroSubtitle": "Use clear checklists, content ideas, and site improvement guides to move faster.",
+    "articles": [
+      "local-seo-basics",
+      "conversion-copy",
+      "content-calendar",
+      "analytics-foundation",
+      "launch-checklist"
+    ],
+    "resolvedArticles": [
+      {
+        "id": "local-seo-basics",
+        "title": "Local SEO Basics for Small Websites",
+        "excerpt": "A short guide to making a local business easier to find in search.",
+        "date": "2026-06-12",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Start with consistent business details across your homepage, contact page, and directory listings.",
+          "Write page titles and descriptions that name the service, audience, and location clearly.",
+          "Keep your most important pages linked from the main navigation so visitors and search engines can find them quickly."
+        ]
+      },
+      {
+        "id": "conversion-copy",
+        "title": "Writing Homepage Copy That Converts",
+        "excerpt": "How to make a homepage explain value quickly and guide readers toward action.",
+        "date": "2026-06-14",
+        "author": "Bulk Site Factory",
+        "body": [
+          "A strong homepage starts with the visitor's problem, then explains the outcome your brand helps create.",
+          "Use direct headings, specific proof, and a single primary call to action instead of competing messages.",
+          "Review the page on mobile and remove any sentence that does not help the reader decide what to do next."
+        ]
+      },
+      {
+        "id": "content-calendar",
+        "title": "How to Plan a Lightweight Content Calendar",
+        "excerpt": "A practical way to keep publishing without creating a complicated editorial process.",
+        "date": "2026-06-05",
+        "author": "Alpha Studio",
+        "body": [
+          "Start with four useful topics your audience asks about often. Turn each topic into a short article, checklist, or answer page.",
+          "Publish on a rhythm the team can sustain. Consistency matters more than volume for small websites.",
+          "Review performance monthly and update older pages when customer questions change."
+        ]
+      },
+      {
+        "id": "analytics-foundation",
+        "title": "A Lightweight Analytics Foundation",
+        "excerpt": "The basic measurement setup every new content site should have before launch.",
+        "date": "2026-06-16",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Measure the actions that matter most: visits to key pages, contact clicks, form starts, and completed conversions.",
+          "Keep tracking simple at first so the team can trust the data and act on it.",
+          "Add a monthly review habit to connect traffic, content quality, and business outcomes."
+        ]
+      },
+      {
+        "id": "launch-checklist",
+        "title": "A Simple Website Launch Checklist",
+        "excerpt": "The essential checks to complete before publishing a new static website.",
+        "date": "2026-06-01",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Before launch, confirm that the homepage explains the offer clearly, links work, and contact information is easy to find.",
+          "Review metadata, page titles, descriptions, sitemap, robots.txt, and analytics settings before pointing your domain to production.",
+          "After deployment, test the live domain on desktop and mobile. Keep a short record of what changed so future updates are easier."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xp786-tips",
+    "siteName": "XP786 Tips",
+    "domain": "xp786tips.example.com",
+    "logo": "/logos/xp786-tips.svg",
+    "themeColor": "#f59e0b",
+    "title": "XP786 Tips | Simple Website and Content Tips",
+    "description": "XP786 Tips publishes short, actionable advice for improving website content, trust signals, and visitor paths.",
+    "keywords": [
+      "XP786 Tips",
+      "website tips",
+      "content tips",
+      "SEO basics"
+    ],
+    "contactEmail": "tips@xp786tips.example.com",
+    "heroTitle": "Short tips for better online pages",
+    "heroSubtitle": "Quick, practical ideas for cleaner pages, stronger content, and easier visitor decisions.",
+    "articles": [
+      "conversion-copy",
+      "trust-signals",
+      "local-seo-basics",
+      "launch-checklist",
+      "content-calendar"
+    ],
+    "resolvedArticles": [
+      {
+        "id": "conversion-copy",
+        "title": "Writing Homepage Copy That Converts",
+        "excerpt": "How to make a homepage explain value quickly and guide readers toward action.",
+        "date": "2026-06-14",
+        "author": "Bulk Site Factory",
+        "body": [
+          "A strong homepage starts with the visitor's problem, then explains the outcome your brand helps create.",
+          "Use direct headings, specific proof, and a single primary call to action instead of competing messages.",
+          "Review the page on mobile and remove any sentence that does not help the reader decide what to do next."
+        ]
+      },
+      {
+        "id": "trust-signals",
+        "title": "Trust Signals That Help Visitors Decide",
+        "excerpt": "Simple content blocks that make a small website feel credible and useful.",
+        "date": "2026-06-18",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Trust signals include clear contact details, real examples, transparent claims, useful policies, and recent updates.",
+          "Place proof close to important decisions such as booking, contacting, buying, or subscribing.",
+          "Avoid vague badges and unsupported claims. Specific evidence is easier for visitors to believe."
+        ]
+      },
+      {
+        "id": "local-seo-basics",
+        "title": "Local SEO Basics for Small Websites",
+        "excerpt": "A short guide to making a local business easier to find in search.",
+        "date": "2026-06-12",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Start with consistent business details across your homepage, contact page, and directory listings.",
+          "Write page titles and descriptions that name the service, audience, and location clearly.",
+          "Keep your most important pages linked from the main navigation so visitors and search engines can find them quickly."
+        ]
+      },
+      {
+        "id": "launch-checklist",
+        "title": "A Simple Website Launch Checklist",
+        "excerpt": "The essential checks to complete before publishing a new static website.",
+        "date": "2026-06-01",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Before launch, confirm that the homepage explains the offer clearly, links work, and contact information is easy to find.",
+          "Review metadata, page titles, descriptions, sitemap, robots.txt, and analytics settings before pointing your domain to production.",
+          "After deployment, test the live domain on desktop and mobile. Keep a short record of what changed so future updates are easier."
+        ]
+      },
+      {
+        "id": "content-calendar",
+        "title": "How to Plan a Lightweight Content Calendar",
+        "excerpt": "A practical way to keep publishing without creating a complicated editorial process.",
+        "date": "2026-06-05",
+        "author": "Alpha Studio",
+        "body": [
+          "Start with four useful topics your audience asks about often. Turn each topic into a short article, checklist, or answer page.",
+          "Publish on a rhythm the team can sustain. Consistency matters more than volume for small websites.",
+          "Review performance monthly and update older pages when customer questions change."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xp786-review",
+    "siteName": "XP786 Review",
+    "domain": "xp786review.example.com",
+    "logo": "/logos/xp786-review.svg",
+    "themeColor": "#9333ea",
+    "title": "XP786 Review | Guides, Reviews, and Website Checklists",
+    "description": "XP786 Review organizes review-style content, trust guidance, and practical website checklists for online readers.",
+    "keywords": [
+      "XP786 Review",
+      "reviews",
+      "online checklist",
+      "trust signals"
+    ],
+    "contactEmail": "reviews@xp786review.example.com",
+    "heroTitle": "Review-style guides with practical next steps",
+    "heroSubtitle": "Compare ideas, check key details, and use simple guides to improve online decisions.",
+    "articles": [
+      "trust-signals",
+      "analytics-foundation",
+      "conversion-copy",
+      "launch-checklist",
+      "local-seo-basics"
+    ],
+    "resolvedArticles": [
+      {
+        "id": "trust-signals",
+        "title": "Trust Signals That Help Visitors Decide",
+        "excerpt": "Simple content blocks that make a small website feel credible and useful.",
+        "date": "2026-06-18",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Trust signals include clear contact details, real examples, transparent claims, useful policies, and recent updates.",
+          "Place proof close to important decisions such as booking, contacting, buying, or subscribing.",
+          "Avoid vague badges and unsupported claims. Specific evidence is easier for visitors to believe."
+        ]
+      },
+      {
+        "id": "analytics-foundation",
+        "title": "A Lightweight Analytics Foundation",
+        "excerpt": "The basic measurement setup every new content site should have before launch.",
+        "date": "2026-06-16",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Measure the actions that matter most: visits to key pages, contact clicks, form starts, and completed conversions.",
+          "Keep tracking simple at first so the team can trust the data and act on it.",
+          "Add a monthly review habit to connect traffic, content quality, and business outcomes."
+        ]
+      },
+      {
+        "id": "conversion-copy",
+        "title": "Writing Homepage Copy That Converts",
+        "excerpt": "How to make a homepage explain value quickly and guide readers toward action.",
+        "date": "2026-06-14",
+        "author": "Bulk Site Factory",
+        "body": [
+          "A strong homepage starts with the visitor's problem, then explains the outcome your brand helps create.",
+          "Use direct headings, specific proof, and a single primary call to action instead of competing messages.",
+          "Review the page on mobile and remove any sentence that does not help the reader decide what to do next."
+        ]
+      },
+      {
+        "id": "launch-checklist",
+        "title": "A Simple Website Launch Checklist",
+        "excerpt": "The essential checks to complete before publishing a new static website.",
+        "date": "2026-06-01",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Before launch, confirm that the homepage explains the offer clearly, links work, and contact information is easy to find.",
+          "Review metadata, page titles, descriptions, sitemap, robots.txt, and analytics settings before pointing your domain to production.",
+          "After deployment, test the live domain on desktop and mobile. Keep a short record of what changed so future updates are easier."
+        ]
+      },
+      {
+        "id": "local-seo-basics",
+        "title": "Local SEO Basics for Small Websites",
+        "excerpt": "A short guide to making a local business easier to find in search.",
+        "date": "2026-06-12",
+        "author": "Bulk Site Factory",
+        "body": [
+          "Start with consistent business details across your homepage, contact page, and directory listings.",
+          "Write page titles and descriptions that name the service, audience, and location clearly.",
+          "Keep your most important pages linked from the main navigation so visitors and search engines can find them quickly."
+        ]
+      }
+    ]
   }
 ] as const;
 

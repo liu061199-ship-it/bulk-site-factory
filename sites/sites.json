@@ -198,5 +198,105 @@
       "conversion-copy",
       "trust-signals"
     ]
+  },
+  {
+    "id": "xp786-news",
+    "siteName": "XP786 News",
+    "domain": "xp786news.example.com",
+    "logo": "/logos/xp786-news.svg",
+    "themeColor": "#2563eb",
+    "title": "XP786 News | Fresh Updates and Practical Online Notes",
+    "description": "XP786 News collects timely updates, simple explainers, and practical notes for readers following online trends.",
+    "keywords": [
+      "XP786 News",
+      "online updates",
+      "digital news",
+      "website guides"
+    ],
+    "contactEmail": "hello@xp786news.example.com",
+    "heroTitle": "Fresh XP786 updates in one simple guide",
+    "heroSubtitle": "Follow useful news, launch notes, and practical online tips without digging through noisy sources.",
+    "articles": [
+      "content-calendar",
+      "launch-checklist",
+      "analytics-foundation",
+      "local-seo-basics",
+      "trust-signals"
+    ]
+  },
+  {
+    "id": "xp786-hub",
+    "siteName": "XP786 Hub",
+    "domain": "xp786hub.example.com",
+    "logo": "/logos/xp786-hub.svg",
+    "themeColor": "#16a34a",
+    "title": "XP786 Hub | Resource Center for Online Growth",
+    "description": "XP786 Hub provides resource-style articles for planning content, improving web pages, and organizing online growth work.",
+    "keywords": [
+      "XP786 Hub",
+      "resource center",
+      "online growth",
+      "content planning"
+    ],
+    "contactEmail": "team@xp786hub.example.com",
+    "heroTitle": "A practical hub for online growth resources",
+    "heroSubtitle": "Use clear checklists, content ideas, and site improvement guides to move faster.",
+    "articles": [
+      "local-seo-basics",
+      "conversion-copy",
+      "content-calendar",
+      "analytics-foundation",
+      "launch-checklist"
+    ]
+  },
+  {
+    "id": "xp786-tips",
+    "siteName": "XP786 Tips",
+    "domain": "xp786tips.example.com",
+    "logo": "/logos/xp786-tips.svg",
+    "themeColor": "#f59e0b",
+    "title": "XP786 Tips | Simple Website and Content Tips",
+    "description": "XP786 Tips publishes short, actionable advice for improving website content, trust signals, and visitor paths.",
+    "keywords": [
+      "XP786 Tips",
+      "website tips",
+      "content tips",
+      "SEO basics"
+    ],
+    "contactEmail": "tips@xp786tips.example.com",
+    "heroTitle": "Short tips for better online pages",
+    "heroSubtitle": "Quick, practical ideas for cleaner pages, stronger content, and easier visitor decisions.",
+    "articles": [
+      "conversion-copy",
+      "trust-signals",
+      "local-seo-basics",
+      "launch-checklist",
+      "content-calendar"
+    ]
+  },
+  {
+    "id": "xp786-review",
+    "siteName": "XP786 Review",
+    "domain": "xp786review.example.com",
+    "logo": "/logos/xp786-review.svg",
+    "themeColor": "#9333ea",
+    "title": "XP786 Review | Guides, Reviews, and Website Checklists",
+    "description": "XP786 Review organizes review-style content, trust guidance, and practical website checklists for online readers.",
+    "keywords": [
+      "XP786 Review",
+      "reviews",
+      "online checklist",
+      "trust signals"
+    ],
+    "contactEmail": "reviews@xp786review.example.com",
+    "heroTitle": "Review-style guides with practical next steps",
+    "heroSubtitle": "Compare ideas, check key details, and use simple guides to improve online decisions.",
+    "articles": [
+      "trust-signals",
+      "analytics-foundation",
+      "conversion-copy",
+      "launch-checklist",
+      "local-seo-basics"
+    ]
   }
 ]
