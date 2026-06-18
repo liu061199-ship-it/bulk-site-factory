@@ -1,0 +1,38 @@
+[
+  {
+    "id": "launch-checklist",
+    "title": "A Simple Website Launch Checklist",
+    "excerpt": "The essential checks to complete before publishing a new static website.",
+    "date": "2026-06-01",
+    "author": "Bulk Site Factory",
+    "body": [
+      "Before launch, confirm that the homepage explains the offer clearly, links work, and contact information is easy to find.",
+      "Review metadata, page titles, descriptions, sitemap, robots.txt, and analytics settings before pointing your domain to production.",
+      "After deployment, test the live domain on desktop and mobile. Keep a short record of what changed so future updates are easier."
+    ]
+  },
+  {
+    "id": "content-calendar",
+    "title": "How to Plan a Lightweight Content Calendar",
+    "excerpt": "A practical way to keep publishing without creating a complicated editorial process.",
+    "date": "2026-06-05",
+    "author": "Alpha Studio",
+    "body": [
+      "Start with four useful topics your audience asks about often. Turn each topic into a short article, checklist, or answer page.",
+      "Publish on a rhythm the team can sustain. Consistency matters more than volume for small websites.",
+      "Review performance monthly and update older pages when customer questions change."
+    ]
+  },
+  {
+    "id": "sustainable-branding",
+    "title": "Sustainable Branding Without Greenwashing",
+    "excerpt": "How local businesses can communicate sustainability claims with clarity and care.",
+    "date": "2026-06-10",
+    "author": "Green Market Guide",
+    "body": [
+      "Strong sustainability messaging starts with specific practices, not vague promises. Share what you do, how you measure it, and where you are still improving.",
+      "Use plain language and avoid overstating impact. Customers trust brands that show evidence and acknowledge tradeoffs.",
+      "Keep claims close to the product or service experience so readers can understand why they matter."
+    ]
+  }
+]

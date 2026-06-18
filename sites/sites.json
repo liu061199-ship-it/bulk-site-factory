@@ -1,0 +1,30 @@
+[
+  {
+    "id": "alpha-studio",
+    "siteName": "Alpha Studio",
+    "domain": "alpha.example.com",
+    "logo": "/logos/alpha.svg",
+    "themeColor": "#2563eb",
+    "title": "Alpha Studio | Practical Growth Systems",
+    "description": "Alpha Studio publishes practical playbooks for small teams building better web presence.",
+    "keywords": ["growth", "websites", "content", "small business"],
+    "contactEmail": "hello@alpha.example.com",
+    "heroTitle": "Build a sharper web presence in less time",
+    "heroSubtitle": "Simple content, clean pages, and repeatable publishing for growing teams.",
+    "articles": ["launch-checklist", "content-calendar"]
+  },
+  {
+    "id": "green-market",
+    "siteName": "Green Market Guide",
+    "domain": "green.example.com",
+    "logo": "/logos/green.svg",
+    "themeColor": "#16a34a",
+    "title": "Green Market Guide | Sustainable Business Notes",
+    "description": "Green Market Guide shares clear articles for sustainable shops and local brands.",
+    "keywords": ["sustainability", "local business", "retail", "marketing"],
+    "contactEmail": "team@green.example.com",
+    "heroTitle": "Clear guidance for sustainable local brands",
+    "heroSubtitle": "A lightweight site template for articles, trust pages, and customer contact.",
+    "articles": ["sustainable-branding", "launch-checklist"]
+  }
+]
