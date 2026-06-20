@@ -1,7 +1,7 @@
 {
   "id": "xp786-tips",
   "siteName": "XP786 Tips",
-  "domain": "xp786tips.example.com",
+  "domain": "xp786-tips.com",
   "logo": "/logos/xp786-tips.svg",
   "themeColor": "#f59e0b",
   "title": "XP786 Tips | Simple Website and Content Tips",
@@ -12,7 +12,7 @@
     "content tips",
     "SEO basics"
   ],
-  "contactEmail": "tips@xp786tips.example.com",
+  "contactEmail": "tips@xp786-tips.com",
   "heroTitle": "Short tips for better online pages",
   "heroSubtitle": "Quick, practical ideas for cleaner pages, stronger content, and easier visitor decisions.",
   "articles": [

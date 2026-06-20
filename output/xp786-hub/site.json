@@ -1,7 +1,7 @@
 {
   "id": "xp786-hub",
   "siteName": "XP786 Hub",
-  "domain": "xp786hub.example.com",
+  "domain": "xp786-hub.com",
   "logo": "/logos/xp786-hub.svg",
   "themeColor": "#16a34a",
   "title": "XP786 Hub | Resource Center for Online Growth",
@@ -12,7 +12,7 @@
     "online growth",
     "content planning"
   ],
-  "contactEmail": "team@xp786hub.example.com",
+  "contactEmail": "team@xp786-hub.com",
   "heroTitle": "A practical hub for online growth resources",
   "heroSubtitle": "Use clear checklists, content ideas, and site improvement guides to move faster.",
   "articles": [

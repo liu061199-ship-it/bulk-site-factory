@@ -1,7 +1,7 @@
 {
   "id": "xp786-review",
   "siteName": "XP786 Review",
-  "domain": "xp786review.example.com",
+  "domain": "xp786-review.com",
   "logo": "/logos/xp786-review.svg",
   "themeColor": "#9333ea",
   "title": "XP786 Review | Guides, Reviews, and Website Checklists",
@@ -12,7 +12,7 @@
     "online checklist",
     "trust signals"
   ],
-  "contactEmail": "reviews@xp786review.example.com",
+  "contactEmail": "reviews@xp786-review.com",
   "heroTitle": "Review-style guides with practical next steps",
   "heroSubtitle": "Compare ideas, check key details, and use simple guides to improve online decisions.",
   "articles": [

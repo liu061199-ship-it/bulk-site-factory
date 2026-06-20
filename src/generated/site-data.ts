@@ -706,7 +706,7 @@ export const sites = [
   {
     "id": "xp786-news",
     "siteName": "XP786 News",
-    "domain": "xp786news.example.com",
+    "domain": "xp786-news.com",
     "logo": "/logos/xp786-news.svg",
     "themeColor": "#2563eb",
     "title": "XP786 News | Fresh Updates and Practical Online Notes",
@@ -717,7 +717,7 @@ export const sites = [
       "digital news",
       "website guides"
     ],
-    "contactEmail": "hello@xp786news.example.com",
+    "contactEmail": "hello@xp786-news.com",
     "heroTitle": "Fresh XP786 updates in one simple guide",
     "heroSubtitle": "Follow useful news, launch notes, and practical online tips without digging through noisy sources.",
     "articles": [
@@ -793,7 +793,7 @@ export const sites = [
   {
     "id": "xp786-hub",
     "siteName": "XP786 Hub",
-    "domain": "xp786hub.example.com",
+    "domain": "xp786-hub.com",
     "logo": "/logos/xp786-hub.svg",
     "themeColor": "#16a34a",
     "title": "XP786 Hub | Resource Center for Online Growth",
@@ -804,7 +804,7 @@ export const sites = [
       "online growth",
       "content planning"
     ],
-    "contactEmail": "team@xp786hub.example.com",
+    "contactEmail": "team@xp786-hub.com",
     "heroTitle": "A practical hub for online growth resources",
     "heroSubtitle": "Use clear checklists, content ideas, and site improvement guides to move faster.",
     "articles": [
@@ -880,7 +880,7 @@ export const sites = [
   {
     "id": "xp786-tips",
     "siteName": "XP786 Tips",
-    "domain": "xp786tips.example.com",
+    "domain": "xp786-tips.com",
     "logo": "/logos/xp786-tips.svg",
     "themeColor": "#f59e0b",
     "title": "XP786 Tips | Simple Website and Content Tips",
@@ -891,7 +891,7 @@ export const sites = [
       "content tips",
       "SEO basics"
     ],
-    "contactEmail": "tips@xp786tips.example.com",
+    "contactEmail": "tips@xp786-tips.com",
     "heroTitle": "Short tips for better online pages",
     "heroSubtitle": "Quick, practical ideas for cleaner pages, stronger content, and easier visitor decisions.",
     "articles": [
@@ -967,7 +967,7 @@ export const sites = [
   {
     "id": "xp786-review",
     "siteName": "XP786 Review",
-    "domain": "xp786review.example.com",
+    "domain": "xp786-review.com",
     "logo": "/logos/xp786-review.svg",
     "themeColor": "#9333ea",
     "title": "XP786 Review | Guides, Reviews, and Website Checklists",
@@ -978,7 +978,7 @@ export const sites = [
       "online checklist",
       "trust signals"
     ],
-    "contactEmail": "reviews@xp786review.example.com",
+    "contactEmail": "reviews@xp786-review.com",
     "heroTitle": "Review-style guides with practical next steps",
     "heroSubtitle": "Compare ideas, check key details, and use simple guides to improve online decisions.",
     "articles": [

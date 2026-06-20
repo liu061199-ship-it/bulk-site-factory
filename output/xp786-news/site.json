@@ -1,7 +1,7 @@
 {
   "id": "xp786-news",
   "siteName": "XP786 News",
-  "domain": "xp786news.example.com",
+  "domain": "xp786-news.com",
   "logo": "/logos/xp786-news.svg",
   "themeColor": "#2563eb",
   "title": "XP786 News | Fresh Updates and Practical Online Notes",
@@ -12,7 +12,7 @@
     "digital news",
     "website guides"
   ],
-  "contactEmail": "hello@xp786news.example.com",
+  "contactEmail": "hello@xp786-news.com",
   "heroTitle": "Fresh XP786 updates in one simple guide",
   "heroSubtitle": "Follow useful news, launch notes, and practical online tips without digging through noisy sources.",
   "articles": [

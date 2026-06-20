@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xp786news.example.com/sitemap.xml
+Sitemap: https://xp786-news.com/sitemap.xml
