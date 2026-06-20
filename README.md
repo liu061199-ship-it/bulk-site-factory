@@ -63,6 +63,53 @@ This creates:
 - `output/<site-id>/sitemap.xml`
 - `output/<site-id>/robots.txt`
 
+## How to Create Many Site Configs
+
+For large batches such as 5, 10, 20, 50, 100, 150, or 200 sites, use:
+
+```bash
+npm run create:batch -- --prefix=xp786-auto --brand="XP786 Auto" --count=20
+```
+
+This appends new site objects to `sites/sites.json` and creates matching SVG logos in `public/logos/`.
+
+Useful options:
+
+```bash
+npm run create:batch -- --prefix=xp786-auto --brand="XP786 Auto" --count=50 --start=1
+npm run create:batch -- --prefix=xp786-auto --brand="XP786 Auto" --count=100 --domain-pattern="{id}.example.com"
+npm run create:batch -- --prefix=xp786-auto --brand="XP786 Auto" --count=200 --domain-pattern="{prefix}-{index}.example.com"
+```
+
+Available placeholders for `--domain-pattern`:
+
+- `{id}`: generated site id, such as `xp786-auto-001`
+- `{prefix}`: prefix value, such as `xp786-auto`
+- `{index}`: numeric index, such as `1`
+
+After creating a batch, always run:
+
+```bash
+npm run generate
+npm run build
+```
+
+Example workflow for 100 sites:
+
+```bash
+npm run create:batch -- --prefix=xp786-batch --brand="XP786 Batch" --count=100
+npm run generate
+npm run build
+```
+
+If you need to continue a previous batch, use `--start`:
+
+```bash
+npm run create:batch -- --prefix=xp786-batch --brand="XP786 Batch" --count=50 --start=101
+```
+
+The script protects existing site IDs and domains by default. Use `--force` only when you intentionally want to replace matching generated entries.
+
 ## How to Run Locally
 
 Preview the default first site:
@@ -193,6 +240,7 @@ SITE_ID=alpha-studio
 ```bash
 npm run dev
 npm run build
+npm run create:batch
 npm run generate
 ```
 
