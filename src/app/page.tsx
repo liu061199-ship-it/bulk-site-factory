@@ -9,6 +9,8 @@ import {
   getSiteTemplate
 } from "@/lib/site";
 
+export const runtime = "edge";
+
 function ArticleLinks({ site, variant = "grid" }: { site: GeneratedSite; variant?: "grid" | "list" }) {
   const articles = site.resolvedArticles.slice(0, 4);
 

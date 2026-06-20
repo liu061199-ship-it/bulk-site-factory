@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getCurrentSite } from "@/lib/site";
 
+export const runtime = "edge";
+
 export async function generateMetadata(): Promise<Metadata> {
   const site = await getCurrentSite();
   return {

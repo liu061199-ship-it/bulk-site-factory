@@ -1,5 +1,7 @@
 import { getCurrentSite, siteUrl } from "@/lib/site";
 
+export const runtime = "edge";
+
 export async function GET() {
   const site = await getCurrentSite();
   const urls = ["", "/about", "/contact", "/blog", ...site.resolvedArticles.map((article) => `/blog/${article.id}`)];

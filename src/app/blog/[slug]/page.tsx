@@ -1,23 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllSites, getArticle, getCurrentSite } from "@/lib/site";
+import { getArticle, getCurrentSite } from "@/lib/site";
+
+export const runtime = "edge";
 
 type BlogArticlePageProps = {
   params: {
     slug: string;
   };
 };
-
-export function generateStaticParams() {
-  const articleIds = new Set<string>();
-  for (const site of getAllSites()) {
-    for (const article of site.resolvedArticles) {
-      articleIds.add(article.id);
-    }
-  }
-
-  return [...articleIds].map((slug) => ({ slug }));
-}
 
 export async function generateMetadata({ params }: BlogArticlePageProps): Promise<Metadata> {
   const site = await getCurrentSite();
