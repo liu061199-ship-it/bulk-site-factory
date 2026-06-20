@@ -12,14 +12,19 @@ function text(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 }
 
-function siteByHost(host) {
+function normalizedHost(host) {
   const hostname = (host || "").split(":")[0].toLowerCase();
-  return sites.find((site) => [site.domain, ...(site.aliases || [])].some((domain) => domain.toLowerCase() === hostname)) || sites[0];
+  return hostname.startsWith("www.") ? hostname.slice(4) : hostname;
+}
+
+function siteByHost(host) {
+  const hostname = normalizedHost(host);
+  return sites.find((site) => [site.domain, ...(site.aliases || [])].some((domain) => normalizedHost(domain) === hostname)) || sites[0];
 }
 
 function redirectForHost(host, url) {
-  const hostname = (host || "").split(":")[0].toLowerCase();
-  const site = sites.find((item) => (item.redirectDomains || []).some((domain) => domain.toLowerCase() === hostname));
+  const hostname = normalizedHost(host);
+  const site = sites.find((item) => (item.redirectDomains || []).some((domain) => normalizedHost(domain) === hostname));
   if (!site) return null;
   const target = new URL(url);
   target.hostname = site.domain;
