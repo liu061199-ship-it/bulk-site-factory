@@ -623,6 +623,13 @@ export const sites = [
       "website tips",
       "content strategy"
     ],
+    "aliases": [
+      "xp786guide.pages.dev"
+    ],
+    "redirectDomains": [
+      "xp786pakistan.com",
+      "xp786official.com"
+    ],
     "contactEmail": "hello@xp786guide.com",
     "heroTitle": "Clear guides for building a stronger online presence",
     "heroSubtitle": "Read practical articles, planning notes, and launch checklists organized for quick action.",

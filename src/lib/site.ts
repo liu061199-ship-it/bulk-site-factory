@@ -10,13 +10,24 @@ export function getSiteById(siteId: string | undefined) {
   return sites.find((site) => site.id === siteId);
 }
 
+function getAliases(site: GeneratedSite) {
+  return "aliases" in site ? [...(site.aliases as readonly string[])] : [];
+}
+
+function getRedirectDomains(site: GeneratedSite) {
+  return "redirectDomains" in site ? [...(site.redirectDomains as readonly string[])] : [];
+}
+
 export function getSiteByDomain(domain: string | undefined) {
   if (!domain) {
     return undefined;
   }
 
   const hostname = domain.split(":")[0].toLowerCase();
-  return sites.find((site) => site.domain.toLowerCase() === hostname);
+  return sites.find((site) => {
+    const domains = [site.domain, ...getAliases(site), ...getRedirectDomains(site)];
+    return domains.some((item) => item.toLowerCase() === hostname);
+  });
 }
 
 export async function getCurrentSite(): Promise<GeneratedSite> {

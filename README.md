@@ -33,6 +33,8 @@ src/generated/            Generated data consumed by the app
   "title": "New Site | Page Title",
   "description": "Short SEO description.",
   "keywords": ["keyword one", "keyword two"],
+  "aliases": ["new-site.pages.dev"],
+  "redirectDomains": ["new-site-official.com"],
   "contactEmail": "hello@new.example.com",
   "heroTitle": "Homepage headline",
   "heroSubtitle": "Homepage supporting text.",
@@ -41,6 +43,21 @@ src/generated/            Generated data consumed by the app
 ```
 
 The `articles` array must reference article IDs that exist in `content/articles.json`.
+
+Optional domain fields:
+
+- `aliases`: domains that should render the same site without redirecting. This is useful for preview domains such as Cloudflare Pages temporary domains.
+- `redirectDomains`: domains that should 301 redirect to the main `domain`. This is useful for auxiliary domains that should consolidate SEO signals to the primary domain.
+
+Example:
+
+```json
+{
+  "domain": "xp786guide.com",
+  "aliases": ["xp786guide.pages.dev"],
+  "redirectDomains": ["xp786pakistan.com", "xp786official.com"]
+}
+```
 
 ## How to Batch Generate
 

@@ -10,6 +10,8 @@ type SiteConfig = {
   title: string;
   description: string;
   keywords: string[];
+  aliases?: string[];
+  redirectDomains?: string[];
   contactEmail: string;
   heroTitle: string;
   heroSubtitle: string;
@@ -65,10 +67,18 @@ function validateSites(sites: SiteConfig[]) {
   ];
 
   const seen = new Set<string>();
+  const seenDomains = new Set<string>();
   for (const site of sites) {
     requireFields(site as unknown as Record<string, unknown>, required, `Site "${site.id ?? "unknown"}"`);
     if (seen.has(site.id)) {
       throw new Error(`Duplicate site id "${site.id}"`);
+    }
+    for (const domain of [site.domain, ...(site.aliases ?? []), ...(site.redirectDomains ?? [])]) {
+      const normalizedDomain = domain.toLowerCase();
+      if (seenDomains.has(normalizedDomain)) {
+        throw new Error(`Duplicate domain or alias "${domain}"`);
+      }
+      seenDomains.add(normalizedDomain);
     }
     seen.add(site.id);
   }
