@@ -4,13 +4,26 @@
   "domain": "xp786guide.com",
   "logo": "/logos/xp786-guide.svg",
   "themeColor": "#dc2626",
+  "template": "guide",
   "title": "XP786 Guide | Practical Online Guides and Updates",
   "description": "XP786 Guide publishes practical articles, launch checklists, and simple website guidance for readers who want clear next steps.",
   "keywords": [
     "XP786 Guide",
     "online guide",
     "website tips",
-    "content strategy"
+    "content strategy",
+    "XP786 tutorial",
+    "XP786 official guide",
+    "XP786 help"
+  ],
+  "contentFocus": "Step-by-step evergreen guides for readers who need the clearest path first.",
+  "targetAudience": "new XP786 readers looking for simple explanations, safe navigation, and practical next steps",
+  "editorialPromise": "Every page is written as a direct guide with plain wording, useful context, and links to deeper resources.",
+  "contentPillars": [
+    "beginner guide",
+    "setup checklist",
+    "official access",
+    "safe browsing"
   ],
   "aliases": [
     "xp786guide.pages.dev"

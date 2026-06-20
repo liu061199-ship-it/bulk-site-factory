@@ -4,13 +4,26 @@
   "domain": "xp786-review.com",
   "logo": "/logos/xp786-review.svg",
   "themeColor": "#9333ea",
+  "template": "review",
   "title": "XP786 Review | Guides, Reviews, and Website Checklists",
   "description": "XP786 Review organizes review-style content, trust guidance, and practical website checklists for online readers.",
   "keywords": [
     "XP786 Review",
     "reviews",
     "online checklist",
-    "trust signals"
+    "trust signals",
+    "XP786 review",
+    "XP786 comparison",
+    "XP786 safety check"
+  ],
+  "contentFocus": "Review-style pages that compare signals, summarize trust factors, and organize checklists.",
+  "targetAudience": "readers checking XP786 options, trust signals, and comparison-style content",
+  "editorialPromise": "Review pages focus on comparison, evidence, and practical checklists before readers take action.",
+  "contentPillars": [
+    "review notes",
+    "comparison points",
+    "trust checks",
+    "decision checklist"
   ],
   "contactEmail": "reviews@xp786-review.com",
   "heroTitle": "Review-style guides with practical next steps",

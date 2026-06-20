@@ -615,13 +615,26 @@ export const sites = [
     "domain": "xp786guide.com",
     "logo": "/logos/xp786-guide.svg",
     "themeColor": "#dc2626",
+    "template": "guide",
     "title": "XP786 Guide | Practical Online Guides and Updates",
     "description": "XP786 Guide publishes practical articles, launch checklists, and simple website guidance for readers who want clear next steps.",
     "keywords": [
       "XP786 Guide",
       "online guide",
       "website tips",
-      "content strategy"
+      "content strategy",
+      "XP786 tutorial",
+      "XP786 official guide",
+      "XP786 help"
+    ],
+    "contentFocus": "Step-by-step evergreen guides for readers who need the clearest path first.",
+    "targetAudience": "new XP786 readers looking for simple explanations, safe navigation, and practical next steps",
+    "editorialPromise": "Every page is written as a direct guide with plain wording, useful context, and links to deeper resources.",
+    "contentPillars": [
+      "beginner guide",
+      "setup checklist",
+      "official access",
+      "safe browsing"
     ],
     "aliases": [
       "xp786guide.pages.dev"
@@ -709,13 +722,26 @@ export const sites = [
     "domain": "xp786-news.com",
     "logo": "/logos/xp786-news.svg",
     "themeColor": "#2563eb",
+    "template": "news",
     "title": "XP786 News | Fresh Updates and Practical Online Notes",
     "description": "XP786 News collects timely updates, simple explainers, and practical notes for readers following online trends.",
     "keywords": [
       "XP786 News",
       "online updates",
       "digital news",
-      "website guides"
+      "website guides",
+      "XP786 latest news",
+      "XP786 update",
+      "XP786 announcement"
+    ],
+    "contentFocus": "Fresh updates, change notes, and short explainers around XP786-related searches.",
+    "targetAudience": "returning readers who want recent XP786 updates and quick context",
+    "editorialPromise": "News pages prioritize recent context, concise summaries, and links to practical follow-up guides.",
+    "contentPillars": [
+      "latest updates",
+      "release notes",
+      "quick explainers",
+      "trend coverage"
     ],
     "contactEmail": "hello@xp786-news.com",
     "heroTitle": "Fresh XP786 updates in one simple guide",
@@ -796,13 +822,26 @@ export const sites = [
     "domain": "xp786-hub.com",
     "logo": "/logos/xp786-hub.svg",
     "themeColor": "#16a34a",
+    "template": "hub",
     "title": "XP786 Hub | Resource Center for Online Growth",
     "description": "XP786 Hub provides resource-style articles for planning content, improving web pages, and organizing online growth work.",
     "keywords": [
       "XP786 Hub",
       "resource center",
       "online growth",
-      "content planning"
+      "content planning",
+      "XP786 resources",
+      "XP786 knowledge base",
+      "XP786 help center"
+    ],
+    "contentFocus": "A resource center that groups XP786 topics into easy-to-browse categories.",
+    "targetAudience": "readers comparing multiple XP786 resources before choosing what to read next",
+    "editorialPromise": "Hub pages organize related topics, resource links, and practical article collections in one place.",
+    "contentPillars": [
+      "resource library",
+      "topic clusters",
+      "planning notes",
+      "reference pages"
     ],
     "contactEmail": "team@xp786-hub.com",
     "heroTitle": "A practical hub for online growth resources",
@@ -883,13 +922,26 @@ export const sites = [
     "domain": "xp786-tips.com",
     "logo": "/logos/xp786-tips.svg",
     "themeColor": "#f59e0b",
+    "template": "tips",
     "title": "XP786 Tips | Simple Website and Content Tips",
     "description": "XP786 Tips publishes short, actionable advice for improving website content, trust signals, and visitor paths.",
     "keywords": [
       "XP786 Tips",
       "website tips",
       "content tips",
-      "SEO basics"
+      "SEO basics",
+      "XP786 tips",
+      "XP786 tricks",
+      "XP786 quick guide"
+    ],
+    "contentFocus": "Short actionable tips for readers who want quick answers instead of long guides.",
+    "targetAudience": "mobile readers and repeat visitors looking for fast XP786 tips",
+    "editorialPromise": "Tips pages keep advice brief, scannable, and focused on one useful action at a time.",
+    "contentPillars": [
+      "quick tips",
+      "short tutorials",
+      "common mistakes",
+      "fast fixes"
     ],
     "contactEmail": "tips@xp786-tips.com",
     "heroTitle": "Short tips for better online pages",
@@ -970,13 +1022,26 @@ export const sites = [
     "domain": "xp786-review.com",
     "logo": "/logos/xp786-review.svg",
     "themeColor": "#9333ea",
+    "template": "review",
     "title": "XP786 Review | Guides, Reviews, and Website Checklists",
     "description": "XP786 Review organizes review-style content, trust guidance, and practical website checklists for online readers.",
     "keywords": [
       "XP786 Review",
       "reviews",
       "online checklist",
-      "trust signals"
+      "trust signals",
+      "XP786 review",
+      "XP786 comparison",
+      "XP786 safety check"
+    ],
+    "contentFocus": "Review-style pages that compare signals, summarize trust factors, and organize checklists.",
+    "targetAudience": "readers checking XP786 options, trust signals, and comparison-style content",
+    "editorialPromise": "Review pages focus on comparison, evidence, and practical checklists before readers take action.",
+    "contentPillars": [
+      "review notes",
+      "comparison points",
+      "trust checks",
+      "decision checklist"
     ],
     "contactEmail": "reviews@xp786-review.com",
     "heroTitle": "Review-style guides with practical next steps",

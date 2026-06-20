@@ -10,7 +10,7 @@ It reads site definitions from `sites/sites.json` and article content from `cont
 sites/sites.json          Site configuration
 content/articles.json     Shared article library
 scripts/generate-sites.ts Batch generation script
-templates/                Reserved for future reusable templates
+templates/                Notes for reusable template patterns
 public/logos/             Site logos
 output/                   Generated per-site artifacts
 src/app/                  Next.js App Router pages
@@ -30,9 +30,14 @@ src/generated/            Generated data consumed by the app
   "domain": "new.example.com",
   "logo": "/logos/new-site.svg",
   "themeColor": "#2563eb",
+  "template": "guide",
   "title": "New Site | Page Title",
   "description": "Short SEO description.",
   "keywords": ["keyword one", "keyword two"],
+  "contentFocus": "The specific editorial angle for this site.",
+  "targetAudience": "The reader group this site is built for.",
+  "editorialPromise": "What this site consistently helps readers do.",
+  "contentPillars": ["pillar one", "pillar two", "pillar three"],
   "aliases": ["new-site.pages.dev"],
   "redirectDomains": ["new-site-official.com"],
   "contactEmail": "hello@new.example.com",
@@ -43,6 +48,16 @@ src/generated/            Generated data consumed by the app
 ```
 
 The `articles` array must reference article IDs that exist in `content/articles.json`.
+
+Template and content fields:
+
+- `template`: controls the homepage layout. Supported values are `guide`, `news`, `hub`, `tips`, and `review`.
+- `contentFocus`: the unique topic angle for the site.
+- `targetAudience`: the audience this site is written for.
+- `editorialPromise`: the site-specific content promise shown on pages.
+- `contentPillars`: short topic labels used by templates and About pages.
+
+Use different templates, keyword sets, content focus, and article selections when creating multiple sites in the same niche. This keeps each site distinct while still using the same Next.js codebase.
 
 Optional domain fields:
 

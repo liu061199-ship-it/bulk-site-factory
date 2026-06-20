@@ -2,6 +2,8 @@ import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { sites, type GeneratedArticle, type GeneratedSite } from "@/generated/site-data";
 
+export type SiteTemplate = "guide" | "news" | "hub" | "tips" | "review";
+
 export function getAllSites() {
   return [...sites];
 }
@@ -61,4 +63,39 @@ export function getArticle(site: GeneratedSite, articleId: string): GeneratedArt
 
 export function siteUrl(site: GeneratedSite, pathname = "") {
   return `https://${site.domain}${pathname}`;
+}
+
+export function getSiteTemplate(site: GeneratedSite): SiteTemplate {
+  if ("template" in site) {
+    return site.template as SiteTemplate;
+  }
+  return "guide";
+}
+
+export function getSiteContentFocus(site: GeneratedSite) {
+  if ("contentFocus" in site) {
+    return site.contentFocus as string;
+  }
+  return site.description;
+}
+
+export function getSiteTargetAudience(site: GeneratedSite) {
+  if ("targetAudience" in site) {
+    return site.targetAudience as string;
+  }
+  return "readers who want practical, clear online guidance";
+}
+
+export function getSiteEditorialPromise(site: GeneratedSite) {
+  if ("editorialPromise" in site) {
+    return site.editorialPromise as string;
+  }
+  return site.heroSubtitle;
+}
+
+export function getSiteContentPillars(site: GeneratedSite) {
+  if ("contentPillars" in site) {
+    return [...(site.contentPillars as readonly string[])];
+  }
+  return [...site.keywords].slice(0, 4);
 }

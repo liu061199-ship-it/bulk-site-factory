@@ -7,9 +7,14 @@ type SiteConfig = {
   domain: string;
   logo: string;
   themeColor: string;
+  template?: "guide" | "news" | "hub" | "tips" | "review";
   title: string;
   description: string;
   keywords: string[];
+  contentFocus?: string;
+  targetAudience?: string;
+  editorialPromise?: string;
+  contentPillars?: string[];
   aliases?: string[];
   redirectDomains?: string[];
   contactEmail: string;

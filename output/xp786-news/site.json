@@ -4,13 +4,26 @@
   "domain": "xp786-news.com",
   "logo": "/logos/xp786-news.svg",
   "themeColor": "#2563eb",
+  "template": "news",
   "title": "XP786 News | Fresh Updates and Practical Online Notes",
   "description": "XP786 News collects timely updates, simple explainers, and practical notes for readers following online trends.",
   "keywords": [
     "XP786 News",
     "online updates",
     "digital news",
-    "website guides"
+    "website guides",
+    "XP786 latest news",
+    "XP786 update",
+    "XP786 announcement"
+  ],
+  "contentFocus": "Fresh updates, change notes, and short explainers around XP786-related searches.",
+  "targetAudience": "returning readers who want recent XP786 updates and quick context",
+  "editorialPromise": "News pages prioritize recent context, concise summaries, and links to practical follow-up guides.",
+  "contentPillars": [
+    "latest updates",
+    "release notes",
+    "quick explainers",
+    "trend coverage"
   ],
   "contactEmail": "hello@xp786-news.com",
   "heroTitle": "Fresh XP786 updates in one simple guide",

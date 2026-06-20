@@ -4,13 +4,26 @@
   "domain": "xp786-hub.com",
   "logo": "/logos/xp786-hub.svg",
   "themeColor": "#16a34a",
+  "template": "hub",
   "title": "XP786 Hub | Resource Center for Online Growth",
   "description": "XP786 Hub provides resource-style articles for planning content, improving web pages, and organizing online growth work.",
   "keywords": [
     "XP786 Hub",
     "resource center",
     "online growth",
-    "content planning"
+    "content planning",
+    "XP786 resources",
+    "XP786 knowledge base",
+    "XP786 help center"
+  ],
+  "contentFocus": "A resource center that groups XP786 topics into easy-to-browse categories.",
+  "targetAudience": "readers comparing multiple XP786 resources before choosing what to read next",
+  "editorialPromise": "Hub pages organize related topics, resource links, and practical article collections in one place.",
+  "contentPillars": [
+    "resource library",
+    "topic clusters",
+    "planning notes",
+    "reference pages"
   ],
   "contactEmail": "team@xp786-hub.com",
   "heroTitle": "A practical hub for online growth resources",

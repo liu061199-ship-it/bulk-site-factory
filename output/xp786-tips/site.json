@@ -4,13 +4,26 @@
   "domain": "xp786-tips.com",
   "logo": "/logos/xp786-tips.svg",
   "themeColor": "#f59e0b",
+  "template": "tips",
   "title": "XP786 Tips | Simple Website and Content Tips",
   "description": "XP786 Tips publishes short, actionable advice for improving website content, trust signals, and visitor paths.",
   "keywords": [
     "XP786 Tips",
     "website tips",
     "content tips",
-    "SEO basics"
+    "SEO basics",
+    "XP786 tips",
+    "XP786 tricks",
+    "XP786 quick guide"
+  ],
+  "contentFocus": "Short actionable tips for readers who want quick answers instead of long guides.",
+  "targetAudience": "mobile readers and repeat visitors looking for fast XP786 tips",
+  "editorialPromise": "Tips pages keep advice brief, scannable, and focused on one useful action at a time.",
+  "contentPillars": [
+    "quick tips",
+    "short tutorials",
+    "common mistakes",
+    "fast fixes"
   ],
   "contactEmail": "tips@xp786-tips.com",
   "heroTitle": "Short tips for better online pages",
