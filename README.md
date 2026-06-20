@@ -279,9 +279,12 @@ For one Cloudflare Pages project serving multiple custom domains, leave both `SI
 ```bash
 npm run dev
 npm run build
+npm run build:cloudflare
 npm run create:batch
 npm run generate
 ```
+
+`npm run build:cloudflare` generates `out/_worker.js` for Cloudflare Pages static output. Use it when one Cloudflare Pages project serves multiple domains and the site should be selected by request host.
 
 ## Notes
 
