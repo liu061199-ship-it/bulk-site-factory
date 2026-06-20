@@ -64,6 +64,8 @@ Optional domain fields:
 - `aliases`: domains that should render the same site without redirecting. This is useful for preview domains such as Cloudflare Pages temporary domains.
 - `redirectDomains`: domains that should 301 redirect to the main `domain`. This is useful for auxiliary domains that should consolidate SEO signals to the primary domain.
 
+When `redirectDomains` is set, `npm run generate` writes Cloudflare Pages-compatible redirect rules to `public/_redirects`.
+
 Example:
 
 ```json
@@ -91,6 +93,7 @@ npm run generate
 This creates:
 
 - `src/generated/site-data.ts`
+- `public/_redirects`
 - `output/<site-id>/site.json`
 - `output/<site-id>/sitemap.xml`
 - `output/<site-id>/robots.txt`
@@ -193,21 +196,23 @@ The uploaded artifact includes:
 
 ## Environment Variables
 
-Use these variables to choose which configured site is rendered in a deployment:
+The app first tries to match the request host to `domain`, `aliases`, or `redirectDomains` in `sites/sites.json`.
+
+Use this variable only when you want one deployment to always render one specific configured site:
 
 ```bash
 SITE_ID=alpha-studio
 ```
 
-`SITE_ID` should match one of the site IDs in `sites/sites.json`. This is the simplest option for Vercel, Cloudflare Pages, and local previews.
+`SITE_ID` should match one of the site IDs in `sites/sites.json`. It is useful for one-project-per-site deployments and local previews.
 
 ```bash
 NEXT_PUBLIC_SITE_DOMAIN=alpha.example.com
 ```
 
-`NEXT_PUBLIC_SITE_DOMAIN` is optional. Use it when a deployment platform or preview environment cannot provide the final host name reliably.
+`NEXT_PUBLIC_SITE_DOMAIN` is optional. Use it only when a deployment platform or preview environment cannot provide the final host name reliably. It overrides request-host matching, so leave it empty for one Cloudflare Pages project serving multiple custom domains.
 
-If neither variable is set, the app tries to match the request host to a configured domain. If no match is found, it falls back to the first site in `sites/sites.json`.
+If no host, `NEXT_PUBLIC_SITE_DOMAIN`, or `SITE_ID` match is found, the app falls back to the first site in `sites/sites.json`.
 
 ## Deploy to Vercel
 
@@ -256,16 +261,18 @@ npm ci
 npm run build
 ```
 
-4. Set environment variables for the site being deployed:
+4. For one Cloudflare Pages project per site, set:
 
 ```bash
 SITE_ID=alpha-studio
 ```
 
+For one Cloudflare Pages project serving multiple custom domains, leave both `SITE_ID` and `NEXT_PUBLIC_SITE_DOMAIN` empty so the app can choose the site by request host.
+
 5. Set the output directory according to the Cloudflare Pages Next.js integration you choose.
 6. Use the Cloudflare Pages Next.js adapter if your account/project requires it for the selected Next.js mode.
 7. Add the matching custom domain in Cloudflare.
-8. When deploying multiple sites from the same repository, create one Cloudflare Pages project per site and give each project a different `SITE_ID`.
+8. Run `npm run generate` before build. This creates `public/_redirects` from `redirectDomains` so auxiliary domains can 301 redirect to the primary domain.
 
 ## Available Commands
 
