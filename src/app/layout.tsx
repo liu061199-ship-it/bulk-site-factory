@@ -4,6 +4,8 @@ import Link from "next/link";
 import "./globals.css";
 import { getCurrentSite, siteUrl } from "@/lib/site";
 
+export const runtime = "edge";
+
 export async function generateMetadata(): Promise<Metadata> {
   const site = await getCurrentSite();
 
