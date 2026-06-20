@@ -5,14 +5,15 @@ import { getArticle, getCurrentSite } from "@/lib/site";
 export const runtime = "edge";
 
 type BlogArticlePageProps = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export async function generateMetadata({ params }: BlogArticlePageProps): Promise<Metadata> {
   const site = await getCurrentSite();
-  const article = getArticle(site, params.slug);
+  const { slug } = await params;
+  const article = getArticle(site, slug);
 
   return {
     title: article.title,
@@ -23,7 +24,8 @@ export async function generateMetadata({ params }: BlogArticlePageProps): Promis
 
 export default async function BlogArticlePage({ params }: BlogArticlePageProps) {
   const site = await getCurrentSite();
-  const article = getArticle(site, params.slug);
+  const { slug } = await params;
+  const article = getArticle(site, slug);
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-16">
