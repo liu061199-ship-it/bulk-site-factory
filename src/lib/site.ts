@@ -33,11 +33,6 @@ export function getSiteByDomain(domain: string | undefined) {
 }
 
 export async function getCurrentSite(): Promise<GeneratedSite> {
-  const configuredSite = getSiteById(process.env.SITE_ID);
-  if (configuredSite) {
-    return configuredSite;
-  }
-
   const configuredDomain = getSiteByDomain(process.env.NEXT_PUBLIC_SITE_DOMAIN);
   if (configuredDomain) {
     return configuredDomain;
@@ -45,7 +40,12 @@ export async function getCurrentSite(): Promise<GeneratedSite> {
 
   const requestHeaders = await headers();
   const hostSite = getSiteByDomain(requestHeaders.get("host") ?? undefined);
-  const fallbackSite = hostSite ?? sites[0];
+  if (hostSite) {
+    return hostSite;
+  }
+
+  const configuredSite = getSiteById(process.env.SITE_ID);
+  const fallbackSite = configuredSite ?? sites[0];
   if (!fallbackSite) {
     throw new Error("No sites are configured. Add at least one site to sites/sites.json and run npm run generate.");
   }
