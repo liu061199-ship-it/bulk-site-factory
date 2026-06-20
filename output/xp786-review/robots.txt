@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xp786-review.com/sitemap.xml
