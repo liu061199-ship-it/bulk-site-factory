@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { GeneratedSite } from "@/generated/site-data";
+import { CTA_URL } from "@/lib/cta";
 import {
   getCurrentSite,
   getSiteContentFocus,
@@ -68,6 +69,22 @@ function TemplateFacts({ site }: { site: GeneratedSite }) {
   );
 }
 
+function CtaButtons({ site, dark = false }: { site: GeneratedSite; dark?: boolean }) {
+  return (
+    <div className="mt-8 flex flex-wrap gap-3">
+      <a href={CTA_URL} className="rounded-md px-5 py-3 text-sm font-semibold text-white" style={{ backgroundColor: site.themeColor }}>
+        Login
+      </a>
+      <a
+        href={CTA_URL}
+        className={`rounded-md border px-5 py-3 text-sm font-semibold ${dark ? "border-white/30 text-white" : "border-slate-300 text-slate-950"}`}
+      >
+        Register
+      </a>
+    </div>
+  );
+}
+
 function GuideHome({ site }: { site: GeneratedSite }) {
   return (
     <>
@@ -81,14 +98,7 @@ function GuideHome({ site }: { site: GeneratedSite }) {
               {site.heroTitle}
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">{site.heroSubtitle}</p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/blog" className="rounded-md px-5 py-3 text-sm font-semibold text-white" style={{ backgroundColor: site.themeColor }}>
-                Read the blog
-              </Link>
-              <Link href="/contact" className="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold">
-                Contact us
-              </Link>
-            </div>
+            <CtaButtons site={site} />
           </div>
           <div className="rounded-md border border-slate-200 bg-slate-50 p-6">
             <img src={site.logo} alt="" className="h-16 w-16 rounded-md" />
@@ -120,6 +130,7 @@ function NewsHome({ site }: { site: GeneratedSite }) {
           </p>
           <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-tight md:text-6xl">{site.heroTitle}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">{site.heroSubtitle}</p>
+          <CtaButtons site={site} dark />
         </div>
       </section>
       <section className="mx-auto grid max-w-6xl gap-8 px-5 py-12 lg:grid-cols-[1.3fr_0.7fr]">
@@ -155,6 +166,7 @@ function HubHome({ site }: { site: GeneratedSite }) {
             </p>
             <h1 className="mt-4 text-4xl font-bold leading-tight text-slate-950 md:text-6xl">{site.heroTitle}</h1>
             <p className="mt-5 text-lg leading-8 text-slate-600">{site.heroSubtitle}</p>
+            <CtaButtons site={site} />
           </div>
         </div>
       </section>
@@ -185,6 +197,7 @@ function TipsHome({ site }: { site: GeneratedSite }) {
           </p>
           <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-tight text-slate-950 md:text-6xl">{site.heroTitle}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">{site.heroSubtitle}</p>
+          <CtaButtons site={site} />
         </div>
       </section>
       <section className="mx-auto max-w-6xl px-5 py-8">
@@ -214,6 +227,7 @@ function ReviewHome({ site }: { site: GeneratedSite }) {
           </p>
           <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-tight md:text-6xl">{site.heroTitle}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">{site.heroSubtitle}</p>
+          <CtaButtons site={site} dark />
         </div>
       </section>
       <section className="mx-auto max-w-6xl px-5 py-12">

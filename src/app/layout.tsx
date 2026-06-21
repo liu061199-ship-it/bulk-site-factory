@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import "./globals.css";
+import { CTA_URL } from "@/lib/cta";
 import { getCurrentSite, siteUrl } from "@/lib/site";
 
 export const runtime = "edge";
@@ -48,10 +49,16 @@ export default async function RootLayout({
                 <img src={site.logo} alt={`${site.siteName} logo`} className="h-9 w-9 rounded-md" />
                 <span>{site.siteName}</span>
               </Link>
-              <div className="flex items-center gap-5 text-sm text-slate-700">
+              <div className="flex flex-wrap items-center justify-end gap-3 text-sm text-slate-700">
                 <Link href="/about">About</Link>
                 <Link href="/blog">Blog</Link>
                 <Link href="/contact">Contact</Link>
+                <a href={CTA_URL} className="rounded-md border border-slate-300 px-3 py-2 font-semibold">
+                  Login
+                </a>
+                <a href={CTA_URL} className="rounded-md bg-slate-950 px-3 py-2 font-semibold text-white">
+                  Register
+                </a>
               </div>
             </nav>
           </header>

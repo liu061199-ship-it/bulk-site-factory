@@ -289,3 +289,11 @@ npm run generate
 ## Notes
 
 This first version is intentionally small. It supports multiple configured sites, shared article content, generated metadata, generated sitemap and robots routes, and per-site output artifacts ready for deployment automation.
+
+## Site Action Buttons
+
+All site pages include Login and Register buttons in the header. The homepage also shows the same action buttons in the hero section. Both buttons currently point to:
+
+```text
+https://b9.game/refer/MDMwMDAxMTIyNjY=
+```
