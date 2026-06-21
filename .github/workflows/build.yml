@@ -2,43 +2,39 @@ name: Build
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
 
 jobs:
   build:
-    name: Generate and build sites
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
-          cache: npm
+          node-version: 20
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      - name: Generate site data
+      - name: Generate static sites
         run: npm run generate
 
-      - name: Build Next.js app
+      - name: Build
         run: npm run build
 
-      - name: Upload build artifact
+      - name: Upload generated static sites
         uses: actions/upload-artifact@v4
         with:
-          name: bulk-site-factory-build
+          name: generated-sites
+          path: output
           if-no-files-found: error
-          retention-days: 7
-          path: |
-            .next
-            output
-            public
-            package.json
-            package-lock.json
-            next.config.mjs
+
+      - name: Upload Next.js build
+        uses: actions/upload-artifact@v4
+        with:
+          name: next-build
+          path: .next
+          if-no-files-found: error

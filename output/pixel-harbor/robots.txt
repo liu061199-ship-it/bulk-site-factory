@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pixelharbor.example.com/sitemap.xml

@@ -1,50 +1,33 @@
 # AGENTS.md
 
-Development rules for Codex and future contributors working on this repository.
+## Project Goal
 
-## Core Rules
+Bulk Site Factory generates multiple static websites from JSON configuration.
 
-1. Keep every feature runnable.
-   - Do not leave broken scripts, broken routes, invalid JSON, or incomplete generated data.
-   - Preserve the existing project structure unless a change is clearly documented.
+## Stack
 
-2. Run the production build after changes.
-   - After modifying code, configuration, generated data, or documentation that affects usage, run:
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
 
-```bash
-npm run build
-```
+## Data Files
 
-3. Do not hard-code site content in pages.
-   - Site-specific content must come from `sites/sites.json`.
-   - Article content must come from `content/articles.json`.
-   - Pages should read generated site data from `src/generated/site-data.ts`.
+- `sites/sites.json` contains website configuration.
+- `content/articles.json` contains reusable articles.
+- `scripts/generate-sites.ts` writes static sites to `output/<site-slug>/`.
 
-4. Keep pages SEO-ready.
-   - New pages should define useful metadata.
-   - Titles, descriptions, keywords, canonical URLs, sitemap output, and robots output should remain driven by site configuration where appropriate.
+## Development Rules
 
-5. Keep batch generation simple and clear.
-   - `scripts/generate-sites.ts` should remain easy to read and safe to modify.
-   - Prefer explicit validation and plain data transforms over complex abstractions.
-   - Do not add unnecessary frameworks or hidden generation steps.
+1. All features must remain runnable after changes.
+2. After modifying code, run `npm run build` and fix any errors before handoff.
+3. Do not hardcode site content in pages or templates. Site content must be read from `sites/sites.json`.
+4. Pages must support SEO through title, description, keywords, sitemap, and robots output where relevant.
+5. Batch generation logic must stay simple, deterministic, and easy to read.
+6. Any new feature or workflow change must update `README.md`.
+7. Pull request descriptions must include test results, including whether `npm run generate` and `npm run build` passed.
 
-6. Update `README.md` for new features.
-   - Any new command, config option, deployment behavior, environment variable, or workflow must be documented.
-   - Keep examples copy-friendly for adding or modifying sites.
+## Quality Bar
 
-7. Pull request descriptions must include test results.
-   - Every PR should mention the commands that were run.
-   - At minimum, include the result of:
-
-```bash
-npm run build
-```
-
-## Preferred Change Flow
-
-1. Make the smallest clear change that satisfies the request.
-2. Run `npm run generate` when changing site or article data.
-3. Run `npm run build` before finishing.
-4. Update `README.md` when behavior or usage changes.
-5. Summarize what changed and list test results in the PR.
+- Keep the generator small and predictable.
+- Preserve the existing project structure unless a change clearly improves maintainability.
+- Do not commit secrets. Keep runtime values in `.env.local` and document examples in `.env.example`.

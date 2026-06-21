@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://xp786-tips.com/sitemap.xml

@@ -1,374 +1,223 @@
 [
   {
-    "id": "alpha-studio",
-    "siteName": "Alpha Studio",
-    "domain": "alpha.example.com",
+    "slug": "pkplus17apk",
+    "template": "download-landing",
+    "contentFramework": "APK Download Landing Page",
+    "siteName": "PKPlus17 APK",
+    "domain": "pkplus17apk.com",
     "logo": "/logos/alpha.svg",
-    "themeColor": "#2563eb",
-    "title": "Alpha Studio | Practical Growth Systems",
-    "description": "Alpha Studio publishes practical playbooks for small teams building better web presence.",
-    "keywords": [
-      "growth",
-      "websites",
-      "content",
-      "small business"
-    ],
-    "contactEmail": "hello@alpha.example.com",
-    "heroTitle": "Build a sharper web presence in less time",
-    "heroSubtitle": "Simple content, clean pages, and repeatable publishing for growing teams.",
-    "articles": [
-      "launch-checklist",
-      "content-calendar",
-      "local-seo-basics",
-      "conversion-copy",
-      "analytics-foundation"
-    ]
-  },
-  {
-    "id": "green-market",
-    "siteName": "Green Market Guide",
-    "domain": "green.example.com",
-    "logo": "/logos/green.svg",
     "themeColor": "#16a34a",
-    "title": "Green Market Guide | Sustainable Business Notes",
-    "description": "Green Market Guide shares clear articles for sustainable shops and local brands.",
+    "title": "PKPlus17 APK Download Pakistan - Latest Android Guide",
+    "description": "PKPlus17 APK helps Pakistan users understand Android download steps app version details registration bonus information and safe update checks",
     "keywords": [
-      "sustainability",
-      "local business",
-      "retail",
-      "marketing"
+      "pkplus17 apk",
+      "pkplus17 download",
+      "pkplus17 app download",
+      "pkplus17 android",
+      "pkplus apk pakistan"
     ],
-    "contactEmail": "team@green.example.com",
-    "heroTitle": "Clear guidance for sustainable local brands",
-    "heroSubtitle": "A lightweight site template for articles, trust pages, and customer contact.",
+    "contactEmail": "hello@pkplus17apk.com",
+    "heroTitle": "PKPlus17 APK Download Guide for Pakistan",
+    "heroSubtitle": "Check the latest app details bonus information install steps and helpful guides before you play",
+    "appVersion": "1.0.17",
+    "appSize": "48 MB",
+    "downloadUrl": "https://pkplus17.com/",
+    "offerText": "Register bonus 188-5888 plus first deposit bonus details",
+    "paymentMethods": [
+      "EasyPaisa",
+      "JazzCash",
+      "Bank Transfer"
+    ],
+    "featureBullets": [
+      "Fast Android install",
+      "Version and size card",
+      "Pakistan payment methods",
+      "Beginner install checklist",
+      "Download focused CTA"
+    ],
     "articles": [
-      "sustainable-branding",
-      "launch-checklist",
-      "local-seo-basics",
-      "trust-signals",
-      "analytics-foundation"
+      "pkplus17-apk-download",
+      "pkplus17-install-android",
+      "pkplus17-latest-version",
+      "pkplus17-safe-download",
+      "pkplus17-download-faq"
     ]
   },
   {
-    "id": "northline-finance",
-    "siteName": "Northline Finance",
-    "domain": "northline.example.com",
-    "logo": "/logos/northline.svg",
-    "themeColor": "#0f766e",
-    "title": "Northline Finance | Simple Money Guides for Modern Teams",
-    "description": "Northline Finance publishes clear guides about budgeting, planning, and financial operations for lean businesses.",
+    "slug": "pkplus17game",
+    "template": "review-magazine",
+    "contentFramework": "Review Magazine Article",
+    "siteName": "PKPlus17 Game",
+    "domain": "pkplus17game.com",
+    "logo": "/logos/beta.svg",
+    "themeColor": "#2563eb",
+    "title": "PKPlus17 Game Pakistan - Features Games and APK Review",
+    "description": "PKPlus17 Game publishes a review-style guide for Pakistan users comparing app features account flow Android APK details and game lobby information",
     "keywords": [
-      "finance",
-      "budgeting",
-      "planning",
-      "operations"
+      "pkplus17 game",
+      "pkplus game pakistan",
+      "pkplus17 features",
+      "pkplus17 apk review",
+      "pkplus game app"
     ],
-    "contactEmail": "hello@northline.example.com",
-    "heroTitle": "Financial clarity for practical operators",
-    "heroSubtitle": "Plain-English articles that help small teams plan, measure, and grow with confidence.",
+    "contactEmail": "team@pkplus17game.com",
+    "heroTitle": "PKPlus17 Game Review and Feature Breakdown",
+    "heroSubtitle": "Read a review-style guide covering app features Android details account flow and Pakistan user questions",
+    "appVersion": "1.0.18",
+    "appSize": "50 MB",
+    "downloadUrl": "https://pkplus17.com/",
+    "offerText": "New user welcome bonus and quick account setup guide",
+    "paymentMethods": [
+      "EasyPaisa",
+      "JazzCash",
+      "USDT"
+    ],
+    "featureBullets": [
+      "Feature review layout",
+      "Pros and cons section",
+      "Game lobby overview",
+      "Security note blocks",
+      "Review article style"
+    ],
     "articles": [
-      "launch-checklist",
-      "analytics-foundation",
-      "conversion-copy",
-      "trust-signals",
-      "content-calendar"
+      "pkplus-apk-review",
+      "pkplus-game-features",
+      "pkplus-pros-cons",
+      "pkplus-android-compatibility",
+      "pkplus-review-faq"
     ]
   },
   {
-    "id": "pixel-harbor",
-    "siteName": "Pixel Harbor",
-    "domain": "pixelharbor.example.com",
-    "logo": "/logos/pixel-harbor.svg",
-    "themeColor": "#db2777",
-    "title": "Pixel Harbor | Design Notes for Digital Brands",
-    "description": "Pixel Harbor helps creators and service businesses improve websites with thoughtful design and useful content.",
-    "keywords": [
-      "design",
-      "branding",
-      "portfolio",
-      "creative business"
-    ],
-    "contactEmail": "studio@pixelharbor.example.com",
-    "heroTitle": "Design-led websites for memorable brands",
-    "heroSubtitle": "A flexible site sample for studios, portfolios, and creative service teams.",
-    "articles": [
-      "conversion-copy",
-      "content-calendar",
-      "launch-checklist",
-      "trust-signals",
-      "local-seo-basics"
-    ]
-  },
-  {
-    "id": "bright-health-lab",
-    "siteName": "Bright Health Lab",
-    "domain": "brighthealth.example.com",
-    "logo": "/logos/bright-health.svg",
-    "themeColor": "#ea580c",
-    "title": "Bright Health Lab | Wellness Content and Clinic Growth",
-    "description": "Bright Health Lab shares approachable website and content ideas for clinics, wellness teams, and health educators.",
-    "keywords": [
-      "health",
-      "wellness",
-      "clinic marketing",
-      "patient education"
-    ],
-    "contactEmail": "care@brighthealth.example.com",
-    "heroTitle": "Helpful health content that earns trust",
-    "heroSubtitle": "Give patients and clients a cleaner path to learn, contact, and take the next step.",
-    "articles": [
-      "trust-signals",
-      "launch-checklist",
-      "analytics-foundation",
-      "content-calendar",
-      "sustainable-branding"
-    ]
-  },
-  {
-    "id": "craft-table",
-    "siteName": "Craft Table",
-    "domain": "crafttable.example.com",
-    "logo": "/logos/craft-table.svg",
-    "themeColor": "#7c3aed",
-    "title": "Craft Table | Restaurant Website Playbooks",
-    "description": "Craft Table gives restaurants, cafes, and food makers simple playbooks for stronger local web presence.",
-    "keywords": [
-      "restaurant",
-      "cafe",
-      "local SEO",
-      "hospitality"
-    ],
-    "contactEmail": "hello@crafttable.example.com",
-    "heroTitle": "A better online table for local food brands",
-    "heroSubtitle": "Publish menus, stories, guides, and contact pages without overcomplicating the stack.",
-    "articles": [
-      "local-seo-basics",
-      "trust-signals",
-      "launch-checklist",
-      "conversion-copy",
-      "content-calendar"
-    ]
-  },
-  {
-    "id": "atlas-learning",
-    "siteName": "Atlas Learning",
-    "domain": "atlaslearning.example.com",
-    "logo": "/logos/atlas-learning.svg",
-    "themeColor": "#0891b2",
-    "title": "Atlas Learning | Education Content Sites Made Simple",
-    "description": "Atlas Learning provides lightweight content site examples for tutors, course creators, and education teams.",
-    "keywords": [
-      "education",
-      "courses",
-      "tutoring",
-      "learning"
-    ],
-    "contactEmail": "team@atlaslearning.example.com",
-    "heroTitle": "Organize learning content into useful pages",
-    "heroSubtitle": "A clean static site pattern for guides, lessons, articles, and student contact flows.",
-    "articles": [
-      "content-calendar",
-      "analytics-foundation",
-      "conversion-copy",
-      "launch-checklist",
-      "local-seo-basics"
-    ]
-  },
-  {
-    "id": "xp786-guide",
-    "siteName": "XP786 Guide",
-    "domain": "xp786guide.com",
-    "logo": "/logos/xp786-guide.svg",
+    "slug": "pkplus17download",
+    "template": "howto-tutorial",
+    "contentFramework": "Step-by-Step Tutorial Hub",
+    "siteName": "PKPlus17 Download",
+    "domain": "pkplus17download.com",
+    "logo": "/logos/alpha.svg",
     "themeColor": "#dc2626",
-    "template": "guide",
-    "title": "XP786 Guide | Practical Online Guides and Updates",
-    "description": "XP786 Guide publishes practical articles, launch checklists, and simple website guidance for readers who want clear next steps.",
+    "title": "PKPlus17 Download Pakistan - Register Deposit and Play Tutorial",
+    "description": "PKPlus17 Download is a tutorial-style content site for APK download registration payment setup gameplay and beginner help in Pakistan",
     "keywords": [
-      "XP786 Guide",
-      "online guide",
-      "website tips",
-      "content strategy",
-      "XP786 tutorial",
-      "XP786 official guide",
-      "XP786 help"
+      "pkplus17 download",
+      "pkplus17 register",
+      "pkplus17 deposit",
+      "pkplus17 withdraw",
+      "pkplus17 tutorial"
     ],
-    "contentFocus": "Step-by-step evergreen guides for readers who need the clearest path first.",
-    "targetAudience": "new XP786 readers looking for simple explanations, safe navigation, and practical next steps",
-    "editorialPromise": "Every page is written as a direct guide with plain wording, useful context, and links to deeper resources.",
-    "contentPillars": [
-      "beginner guide",
-      "setup checklist",
-      "official access",
-      "safe browsing"
+    "contactEmail": "care@pkplus17download.com",
+    "heroTitle": "PKPlus17 Download Tutorial for Pakistan Players",
+    "heroSubtitle": "Follow step-by-step tutorials for account setup payment methods gameplay basics and FAQ support",
+    "appVersion": "1.0.19",
+    "appSize": "49 MB",
+    "downloadUrl": "https://pkplus17.com/",
+    "offerText": "First deposit promotion and daily reward guide",
+    "paymentMethods": [
+      "EasyPaisa",
+      "JazzCash",
+      "Bank Transfer"
     ],
-    "aliases": [
-      "xp786guide.pages.dev"
+    "featureBullets": [
+      "Step by step blocks",
+      "Registration tutorial",
+      "Deposit and withdrawal guide",
+      "Beginner game guide",
+      "FAQ support flow"
     ],
-    "redirectDomains": [
-      "xp786pakistan.com",
-      "xp786official.com"
-    ],
-    "contactEmail": "hello@xp786guide.com",
-    "heroTitle": "Clear guides for building a stronger online presence",
-    "heroSubtitle": "Read practical articles, planning notes, and launch checklists organized for quick action.",
     "articles": [
-      "launch-checklist",
-      "content-calendar",
-      "local-seo-basics",
-      "conversion-copy",
-      "trust-signals"
+      "pkplus-register-account",
+      "pkplus-deposit-guide",
+      "pkplus-withdrawal-guide",
+      "pkplus-play-guide",
+      "pkplus-account-faq"
     ]
   },
   {
-    "id": "xp786-news",
-    "siteName": "XP786 News",
-    "domain": "xp786-news.com",
-    "logo": "/logos/xp786-news.svg",
-    "themeColor": "#2563eb",
-    "template": "news",
-    "title": "XP786 News | Fresh Updates and Practical Online Notes",
-    "description": "XP786 News collects timely updates, simple explainers, and practical notes for readers following online trends.",
+    "slug": "pkplus17guide",
+    "template": "bonus-guide",
+    "contentFramework": "Bonus and Promotion Guide",
+    "siteName": "PKPlus17 Guide",
+    "domain": "pkplus17guide.com",
+    "logo": "/logos/beta.svg",
+    "themeColor": "#7c3aed",
+    "title": "PKPlus17 Guide Pakistan - Bonus Rewards and Promotion Info",
+    "description": "PKPlus17 Guide focuses on welcome rewards promotion details eligibility notes APK download guidance and Pakistan payment context",
     "keywords": [
-      "XP786 News",
-      "online updates",
-      "digital news",
-      "website guides",
-      "XP786 latest news",
-      "XP786 update",
-      "XP786 announcement"
+      "pkplus17 guide",
+      "pkplus17 bonus",
+      "pkplus17 registration bonus",
+      "pkplus17 rewards pakistan",
+      "pkplus17 promo"
     ],
-    "contentFocus": "Fresh updates, change notes, and short explainers around XP786-related searches.",
-    "targetAudience": "returning readers who want recent XP786 updates and quick context",
-    "editorialPromise": "News pages prioritize recent context, concise summaries, and links to practical follow-up guides.",
-    "contentPillars": [
-      "latest updates",
-      "release notes",
-      "quick explainers",
-      "trend coverage"
+    "contactEmail": "contact@pkplus17guide.com",
+    "heroTitle": "PKPlus17 Bonus and Promotion Guide",
+    "heroSubtitle": "Understand welcome rewards registration bonus payment notes and promotion terms before you start",
+    "appVersion": "1.0.20",
+    "appSize": "51 MB",
+    "downloadUrl": "https://pkplus17.com/",
+    "offerText": "Welcome reward 188-5888 and first deposit bonus explanation",
+    "paymentMethods": [
+      "EasyPaisa",
+      "JazzCash",
+      "Bank Transfer",
+      "USDT"
     ],
-    "contactEmail": "hello@xp786-news.com",
-    "heroTitle": "Fresh XP786 updates in one simple guide",
-    "heroSubtitle": "Follow useful news, launch notes, and practical online tips without digging through noisy sources.",
+    "featureBullets": [
+      "Bonus comparison blocks",
+      "Promotion explanation",
+      "Eligibility checklist",
+      "Payment method notes",
+      "FAQ rich snippets"
+    ],
     "articles": [
-      "content-calendar",
-      "launch-checklist",
-      "analytics-foundation",
-      "local-seo-basics",
-      "trust-signals"
+      "pkplus-welcome-bonus",
+      "pkplus-first-deposit-bonus",
+      "pkplus-bonus-eligibility",
+      "pkplus-promo-code-guide",
+      "pkplus-bonus-faq"
     ]
   },
   {
-    "id": "xp786-hub",
-    "siteName": "XP786 Hub",
-    "domain": "xp786-hub.com",
-    "logo": "/logos/xp786-hub.svg",
-    "themeColor": "#16a34a",
-    "template": "hub",
-    "title": "XP786 Hub | Resource Center for Online Growth",
-    "description": "XP786 Hub provides resource-style articles for planning content, improving web pages, and organizing online growth work.",
+    "slug": "pkplus17pakistan",
+    "template": "updates-hub",
+    "contentFramework": "News and Updates Hub",
+    "siteName": "PKPlus17 Pakistan",
+    "domain": "pkplus17pakistan.com",
+    "logo": "/logos/alpha.svg",
+    "themeColor": "#ea580c",
+    "title": "PKPlus17 Pakistan - APK Version News and App Updates",
+    "description": "PKPlus17 Pakistan tracks APK version notes install guidance payment method changes new features and evergreen tutorials for Pakistan users",
     "keywords": [
-      "XP786 Hub",
-      "resource center",
-      "online growth",
-      "content planning",
-      "XP786 resources",
-      "XP786 knowledge base",
-      "XP786 help center"
+      "pkplus17 pakistan",
+      "pkplus17 updates",
+      "pkplus17 latest version",
+      "pkplus17 apk 2026",
+      "pkplus17 new version"
     ],
-    "contentFocus": "A resource center that groups XP786 topics into easy-to-browse categories.",
-    "targetAudience": "readers comparing multiple XP786 resources before choosing what to read next",
-    "editorialPromise": "Hub pages organize related topics, resource links, and practical article collections in one place.",
-    "contentPillars": [
-      "resource library",
-      "topic clusters",
-      "planning notes",
-      "reference pages"
+    "contactEmail": "hello@pkplus17pakistan.com",
+    "heroTitle": "PKPlus17 Pakistan APK Updates and Version News",
+    "heroSubtitle": "Follow latest version information download notes feature summaries payment changes and practical setup tutorials",
+    "appVersion": "1.0.21",
+    "appSize": "52 MB",
+    "downloadUrl": "https://pkplus17.com/",
+    "offerText": "Latest version notes and new player bonus summary",
+    "paymentMethods": [
+      "EasyPaisa",
+      "JazzCash",
+      "Bank Transfer"
     ],
-    "contactEmail": "team@xp786-hub.com",
-    "heroTitle": "A practical hub for online growth resources",
-    "heroSubtitle": "Use clear checklists, content ideas, and site improvement guides to move faster.",
+    "featureBullets": [
+      "Update timeline",
+      "Version notes",
+      "APK changelog blocks",
+      "Feature news cards",
+      "Continuous refresh model"
+    ],
     "articles": [
-      "local-seo-basics",
-      "conversion-copy",
-      "content-calendar",
-      "analytics-foundation",
-      "launch-checklist"
-    ]
-  },
-  {
-    "id": "xp786-tips",
-    "siteName": "XP786 Tips",
-    "domain": "xp786-tips.com",
-    "logo": "/logos/xp786-tips.svg",
-    "themeColor": "#f59e0b",
-    "template": "tips",
-    "title": "XP786 Tips | Simple Website and Content Tips",
-    "description": "XP786 Tips publishes short, actionable advice for improving website content, trust signals, and visitor paths.",
-    "keywords": [
-      "XP786 Tips",
-      "website tips",
-      "content tips",
-      "SEO basics",
-      "XP786 tips",
-      "XP786 tricks",
-      "XP786 quick guide"
-    ],
-    "contentFocus": "Short actionable tips for readers who want quick answers instead of long guides.",
-    "targetAudience": "mobile readers and repeat visitors looking for fast XP786 tips",
-    "editorialPromise": "Tips pages keep advice brief, scannable, and focused on one useful action at a time.",
-    "contentPillars": [
-      "quick tips",
-      "short tutorials",
-      "common mistakes",
-      "fast fixes"
-    ],
-    "contactEmail": "tips@xp786-tips.com",
-    "heroTitle": "Short tips for better online pages",
-    "heroSubtitle": "Quick, practical ideas for cleaner pages, stronger content, and easier visitor decisions.",
-    "articles": [
-      "conversion-copy",
-      "trust-signals",
-      "local-seo-basics",
-      "launch-checklist",
-      "content-calendar"
-    ]
-  },
-  {
-    "id": "xp786-review",
-    "siteName": "XP786 Review",
-    "domain": "xp786-review.com",
-    "logo": "/logos/xp786-review.svg",
-    "themeColor": "#9333ea",
-    "template": "review",
-    "title": "XP786 Review | Guides, Reviews, and Website Checklists",
-    "description": "XP786 Review organizes review-style content, trust guidance, and practical website checklists for online readers.",
-    "keywords": [
-      "XP786 Review",
-      "reviews",
-      "online checklist",
-      "trust signals",
-      "XP786 review",
-      "XP786 comparison",
-      "XP786 safety check"
-    ],
-    "contentFocus": "Review-style pages that compare signals, summarize trust factors, and organize checklists.",
-    "targetAudience": "readers checking XP786 options, trust signals, and comparison-style content",
-    "editorialPromise": "Review pages focus on comparison, evidence, and practical checklists before readers take action.",
-    "contentPillars": [
-      "review notes",
-      "comparison points",
-      "trust checks",
-      "decision checklist"
-    ],
-    "contactEmail": "reviews@xp786-review.com",
-    "heroTitle": "Review-style guides with practical next steps",
-    "heroSubtitle": "Compare ideas, check key details, and use simple guides to improve online decisions.",
-    "articles": [
-      "trust-signals",
-      "analytics-foundation",
-      "conversion-copy",
-      "launch-checklist",
-      "local-seo-basics"
+      "pkplus-latest-update",
+      "pkplus-version-history",
+      "pkplus-new-features",
+      "pkplus-update-install",
+      "pkplus-update-faq"
     ]
   }
 ]

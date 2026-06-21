@@ -1,9 +1,15 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ["./src/**/*.{ts,tsx}", "./templates/**/*.{ts,tsx}"],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        ink: "#121417",
+        cloud: "#f5f7fb",
+        line: "#d9e1ea"
+      }
+    }
   },
   plugins: []
 };
