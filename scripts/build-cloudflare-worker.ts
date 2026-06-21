@@ -82,6 +82,12 @@ function robots(site) {
   return "User-agent: *\\nAllow: /\\n\\nSitemap: " + siteUrl(site, "/sitemap.xml") + "\\n";
 }
 
+function googleVerification(pathname) {
+  const files = new Set(["/googlea464782b9d486411.html"]);
+  if (!files.has(pathname)) return null;
+  return "google-site-verification: " + pathname.slice(1);
+}
+
 function notFound(site) {
   return layout(site, "Page not found | " + site.siteName, site.description, "<section class=\\"wrap\\"><h1>Page not found</h1><p class=\\"muted\\">The page you are looking for does not exist.</p></section>");
 }
@@ -92,6 +98,8 @@ export default {
     if (redirect) return redirect;
     const site = siteByHost(request.headers.get("host"));
     const url = new URL(request.url);
+    const verification = googleVerification(url.pathname);
+    if (verification) return new Response(verification, { headers: { "content-type": "text/plain;charset=utf-8" } });
     if (url.pathname === "/robots.txt") return new Response(robots(site), { headers: { "content-type": "text/plain;charset=utf-8" } });
     if (url.pathname === "/sitemap.xml") return new Response(sitemap(site), { headers: { "content-type": "application/xml;charset=utf-8" } });
     let html;
