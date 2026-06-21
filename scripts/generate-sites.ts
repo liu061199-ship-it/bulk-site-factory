@@ -1,180 +1,74 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-
-type SiteConfig = {
-  id: string;
-  siteName: string;
-  domain: string;
-  logo: string;
-  themeColor: string;
-  template?: "guide" | "news" | "hub" | "tips" | "review";
-  title: string;
-  description: string;
-  keywords: string[];
-  contentFocus?: string;
-  targetAudience?: string;
-  editorialPromise?: string;
-  contentPillars?: string[];
-  aliases?: string[];
-  redirectDomains?: string[];
-  contactEmail: string;
-  heroTitle: string;
-  heroSubtitle: string;
-  articles: string[];
-};
-
-type Article = {
-  id: string;
-  title: string;
-  excerpt: string;
-  date: string;
-  author: string;
-  body: string[];
-};
-
-type GeneratedSite = SiteConfig & {
-  resolvedArticles: Article[];
-};
+import type { Article, SiteConfig } from "../lib/site-types";
+import {
+  renderAbout,
+  renderBlogList,
+  renderBlogPost,
+  renderContact,
+  renderHome,
+  renderRobots,
+  renderSitemap
+} from "../templates/site-template";
 
 const root = process.cwd();
 const sitesPath = path.join(root, "sites", "sites.json");
 const articlesPath = path.join(root, "content", "articles.json");
-const generatedDir = path.join(root, "src", "generated");
-const outputDir = path.join(root, "output");
+const outputRoot = path.join(root, "output");
 
 async function readJson<T>(filePath: string): Promise<T> {
-  const raw = await readFile(filePath, "utf8");
-  return JSON.parse(raw) as T;
+  return JSON.parse(await readFile(filePath, "utf8")) as T;
 }
 
-function requireFields(record: Record<string, unknown>, fields: string[], label: string) {
-  for (const field of fields) {
-    if (record[field] === undefined || record[field] === "") {
-      throw new Error(`${label} is missing required field "${field}"`);
-    }
+async function writePage(filePath: string, html: string) {
+  await mkdir(path.dirname(filePath), { recursive: true });
+  await writeFile(filePath, html, "utf8");
+}
+
+function articlesForSite(site: SiteConfig, articles: Article[]) {
+  return site.articles
+    .map((slug) => articles.find((article) => article.slug === slug))
+    .filter((article): article is Article => Boolean(article));
+}
+
+async function generateSite(site: SiteConfig, allArticles: Article[]) {
+  const siteArticles = articlesForSite(site, allArticles);
+  const siteOutput = path.join(outputRoot, site.slug);
+
+  await writePage(path.join(siteOutput, "index.html"), renderHome(site, siteArticles));
+  await writePage(path.join(siteOutput, "about", "index.html"), renderAbout(site));
+  await writePage(path.join(siteOutput, "contact", "index.html"), renderContact(site));
+  await writePage(path.join(siteOutput, "blog", "index.html"), renderBlogList(site, siteArticles));
+
+  for (const article of siteArticles) {
+    await writePage(
+      path.join(siteOutput, "blog", article.slug, "index.html"),
+      renderBlogPost(site, article)
+    );
   }
-}
 
-function validateSites(sites: SiteConfig[]) {
-  const required = [
-    "id",
-    "siteName",
-    "domain",
-    "logo",
-    "themeColor",
-    "title",
-    "description",
-    "keywords",
-    "contactEmail",
-    "heroTitle",
-    "heroSubtitle",
-    "articles"
-  ];
-
-  const seen = new Set<string>();
-  const seenDomains = new Set<string>();
-  for (const site of sites) {
-    requireFields(site as unknown as Record<string, unknown>, required, `Site "${site.id ?? "unknown"}"`);
-    if (seen.has(site.id)) {
-      throw new Error(`Duplicate site id "${site.id}"`);
-    }
-    for (const domain of [site.domain, ...(site.aliases ?? []), ...(site.redirectDomains ?? [])]) {
-      const normalizedDomain = domain.toLowerCase();
-      if (seenDomains.has(normalizedDomain)) {
-        throw new Error(`Duplicate domain or alias "${domain}"`);
-      }
-      seenDomains.add(normalizedDomain);
-    }
-    seen.add(site.id);
-  }
-}
-
-function validateArticles(articles: Article[]) {
-  const required = ["id", "title", "excerpt", "date", "author", "body"];
-  const seen = new Set<string>();
-  for (const article of articles) {
-    requireFields(article as unknown as Record<string, unknown>, required, `Article "${article.id ?? "unknown"}"`);
-    if (seen.has(article.id)) {
-      throw new Error(`Duplicate article id "${article.id}"`);
-    }
-    seen.add(article.id);
-  }
-}
-
-function buildSitemap(site: GeneratedSite) {
-  const baseUrl = `https://${site.domain}`;
-  const staticUrls = ["", "/about", "/contact", "/blog"];
-  const articleUrls = site.resolvedArticles.map((article) => `/blog/${article.id}`);
-  const urls = [...staticUrls, ...articleUrls]
-    .map(
-      (url) => `  <url>
-    <loc>${baseUrl}${url}</loc>
-  </url>`
-    )
-    .join("\n");
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls}
-</urlset>
-`;
-}
-
-function buildRobots(site: GeneratedSite) {
-  return `User-agent: *
-Allow: /
-
-Sitemap: https://${site.domain}/sitemap.xml
-`;
+  await writePage(path.join(siteOutput, "sitemap.xml"), renderSitemap(site, siteArticles));
+  await writePage(path.join(siteOutput, "robots.txt"), renderRobots(site));
 }
 
 async function main() {
-  const sites = await readJson<SiteConfig[]>(sitesPath);
-  const articles = await readJson<Article[]>(articlesPath);
+  const [sites, articles] = await Promise.all([
+    readJson<SiteConfig[]>(sitesPath),
+    readJson<Article[]>(articlesPath)
+  ]);
 
-  validateSites(sites);
-  validateArticles(articles);
+  await rm(outputRoot, { recursive: true, force: true });
+  await mkdir(outputRoot, { recursive: true });
+  await writeFile(path.join(outputRoot, ".gitkeep"), "", "utf8");
 
-  const articleMap = new Map(articles.map((article) => [article.id, article]));
-  const generatedSites: GeneratedSite[] = sites.map((site) => {
-    const resolvedArticles = site.articles.map((articleId) => {
-      const article = articleMap.get(articleId);
-      if (!article) {
-        throw new Error(`Site "${site.id}" references missing article "${articleId}"`);
-      }
-      return article;
-    });
-
-    return {
-      ...site,
-      resolvedArticles
-    };
-  });
-
-  await mkdir(generatedDir, { recursive: true });
-  await mkdir(outputDir, { recursive: true });
-
-  const generatedModule = `// Auto-generated by scripts/generate-sites.ts. Do not edit by hand.
-export const sites = ${JSON.stringify(generatedSites, null, 2)} as const;
-
-export type GeneratedSite = (typeof sites)[number];
-export type GeneratedArticle = GeneratedSite["resolvedArticles"][number];
-`;
-
-  await writeFile(path.join(generatedDir, "site-data.ts"), generatedModule, "utf8");
-
-  for (const site of generatedSites) {
-    const siteOutputDir = path.join(outputDir, site.id);
-    await mkdir(siteOutputDir, { recursive: true });
-    await writeFile(path.join(siteOutputDir, "site.json"), JSON.stringify(site, null, 2), "utf8");
-    await writeFile(path.join(siteOutputDir, "sitemap.xml"), buildSitemap(site), "utf8");
-    await writeFile(path.join(siteOutputDir, "robots.txt"), buildRobots(site), "utf8");
+  for (const site of sites) {
+    await generateSite(site, articles);
   }
 
-  console.log(`Generated ${generatedSites.length} site${generatedSites.length === 1 ? "" : "s"}.`);
+  console.log(`Generated ${sites.length} sites in output/`);
 }
 
 main().catch((error) => {
   console.error(error);
-  process.exit(1);
+  process.exitCode = 1;
 });
