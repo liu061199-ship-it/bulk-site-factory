@@ -181,8 +181,8 @@
     "logo": "/logos/xp786-guide.svg",
     "themeColor": "#dc2626",
     "template": "guide",
-    "title": "XP786 Guide | Practical Online Guides and Updates",
-    "description": "XP786 Guide publishes practical articles, launch checklists, and simple website guidance for readers who want clear next steps.",
+    "title": "XP786 Game Official Guide | Login, Download and Mobile Help",
+    "description": "XP786 Guide gives readers a clear starting point for XP786 login, download, mobile access, safety checks, and official guide resources.",
     "keywords": [
       "XP786 Guide",
       "online guide",
@@ -190,7 +190,10 @@
       "content strategy",
       "XP786 tutorial",
       "XP786 official guide",
-      "XP786 help"
+      "XP786 help",
+      "XP786 login",
+      "XP786 download",
+      "XP786 game guide"
     ],
     "contentFocus": "Step-by-step evergreen guides for readers who need the clearest path first.",
     "targetAudience": "new XP786 readers looking for simple explanations, safe navigation, and practical next steps",
@@ -209,14 +212,19 @@
       "xp786official.com"
     ],
     "contactEmail": "hello@xp786guide.com",
-    "heroTitle": "Clear guides for building a stronger online presence",
-    "heroSubtitle": "Read practical articles, planning notes, and launch checklists organized for quick action.",
+    "heroTitle": "XP786 official guide for login, download, and mobile access",
+    "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
     "articles": [
-      "launch-checklist",
-      "content-calendar",
-      "local-seo-basics",
-      "conversion-copy",
-      "trust-signals"
+      "xp786-official-access-guide",
+      "xp786-login-page-checklist",
+      "xp786-download-safety-notes",
+      "xp786-mobile-guide",
+      "xp786-beginner-faq",
+      "xp786-quick-start-tips",
+      "xp786-common-mistakes",
+      "xp786-review-checklist",
+      "xp786-resource-center-map",
+      "xp786-domain-comparison"
     ]
   },
   {
@@ -226,8 +234,8 @@
     "logo": "/logos/xp786-news.svg",
     "themeColor": "#2563eb",
     "template": "news",
-    "title": "XP786 News | Fresh Updates and Practical Online Notes",
-    "description": "XP786 News collects timely updates, simple explainers, and practical notes for readers following online trends.",
+    "title": "XP786 News | Latest Updates, Announcements and Access Notes",
+    "description": "XP786 News tracks timely XP786 updates, announcements, search trends, access notes, and practical changes for returning readers.",
     "keywords": [
       "XP786 News",
       "online updates",
@@ -235,7 +243,9 @@
       "website guides",
       "XP786 latest news",
       "XP786 update",
-      "XP786 announcement"
+      "XP786 announcement",
+      "XP786 latest update",
+      "XP786 news today"
     ],
     "contentFocus": "Fresh updates, change notes, and short explainers around XP786-related searches.",
     "targetAudience": "returning readers who want recent XP786 updates and quick context",
@@ -247,14 +257,19 @@
       "trend coverage"
     ],
     "contactEmail": "hello@xp786-news.com",
-    "heroTitle": "Fresh XP786 updates in one simple guide",
-    "heroSubtitle": "Follow useful news, launch notes, and practical online tips without digging through noisy sources.",
+    "heroTitle": "Fresh XP786 updates and announcement notes",
+    "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
     "articles": [
-      "content-calendar",
-      "launch-checklist",
-      "analytics-foundation",
-      "local-seo-basics",
-      "trust-signals"
+      "xp786-latest-update-watchlist",
+      "xp786-news-domain-update",
+      "xp786-announcement-summary",
+      "xp786-official-access-guide",
+      "xp786-mobile-guide",
+      "xp786-login-page-checklist",
+      "xp786-download-safety-notes",
+      "xp786-common-mistakes",
+      "xp786-resource-center-map",
+      "xp786-topic-cluster-plan"
     ]
   },
   {
@@ -264,8 +279,8 @@
     "logo": "/logos/xp786-hub.svg",
     "themeColor": "#16a34a",
     "template": "hub",
-    "title": "XP786 Hub | Resource Center for Online Growth",
-    "description": "XP786 Hub provides resource-style articles for planning content, improving web pages, and organizing online growth work.",
+    "title": "XP786 Hub | Resource Center, Help Pages and Guide Library",
+    "description": "XP786 Hub organizes XP786 guide pages, help center notes, topic clusters, mobile resources, and review links in one place.",
     "keywords": [
       "XP786 Hub",
       "resource center",
@@ -273,7 +288,9 @@
       "content planning",
       "XP786 resources",
       "XP786 knowledge base",
-      "XP786 help center"
+      "XP786 help center",
+      "XP786 guide library",
+      "XP786 resource hub"
     ],
     "contentFocus": "A resource center that groups XP786 topics into easy-to-browse categories.",
     "targetAudience": "readers comparing multiple XP786 resources before choosing what to read next",
@@ -285,14 +302,19 @@
       "reference pages"
     ],
     "contactEmail": "team@xp786-hub.com",
-    "heroTitle": "A practical hub for online growth resources",
-    "heroSubtitle": "Use clear checklists, content ideas, and site improvement guides to move faster.",
+    "heroTitle": "XP786 resource hub for guides, tips, and review pages",
+    "heroSubtitle": "Use one organized XP786 hub to find official guide notes, help center pages, quick tips, and safety review content.",
     "articles": [
-      "local-seo-basics",
-      "conversion-copy",
-      "content-calendar",
-      "analytics-foundation",
-      "launch-checklist"
+      "xp786-resource-center-map",
+      "xp786-help-center-structure",
+      "xp786-topic-cluster-plan",
+      "xp786-official-access-guide",
+      "xp786-beginner-faq",
+      "xp786-mobile-guide",
+      "xp786-quick-start-tips",
+      "xp786-review-checklist",
+      "xp786-domain-comparison",
+      "xp786-latest-update-watchlist"
     ]
   },
   {
@@ -302,8 +324,8 @@
     "logo": "/logos/xp786-tips.svg",
     "themeColor": "#f59e0b",
     "template": "tips",
-    "title": "XP786 Tips | Simple Website and Content Tips",
-    "description": "XP786 Tips publishes short, actionable advice for improving website content, trust signals, and visitor paths.",
+    "title": "XP786 Tips | Quick Tutorials, Mobile Tips and Common Mistakes",
+    "description": "XP786 Tips publishes short tutorials, quick safety checks, mobile reading tips, and common mistakes for XP786 readers.",
     "keywords": [
       "XP786 Tips",
       "website tips",
@@ -311,7 +333,9 @@
       "SEO basics",
       "XP786 tips",
       "XP786 tricks",
-      "XP786 quick guide"
+      "XP786 quick guide",
+      "XP786 tutorial",
+      "XP786 mobile tips"
     ],
     "contentFocus": "Short actionable tips for readers who want quick answers instead of long guides.",
     "targetAudience": "mobile readers and repeat visitors looking for fast XP786 tips",
@@ -323,14 +347,19 @@
       "fast fixes"
     ],
     "contactEmail": "tips@xp786-tips.com",
-    "heroTitle": "Short tips for better online pages",
-    "heroSubtitle": "Quick, practical ideas for cleaner pages, stronger content, and easier visitor decisions.",
+    "heroTitle": "Quick XP786 tips for mobile readers and beginners",
+    "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
     "articles": [
-      "conversion-copy",
-      "trust-signals",
-      "local-seo-basics",
-      "launch-checklist",
-      "content-calendar"
+      "xp786-quick-start-tips",
+      "xp786-common-mistakes",
+      "xp786-mobile-guide",
+      "xp786-login-page-checklist",
+      "xp786-download-safety-notes",
+      "xp786-beginner-faq",
+      "xp786-official-access-guide",
+      "xp786-latest-update-watchlist",
+      "xp786-review-checklist",
+      "xp786-help-center-structure"
     ]
   },
   {
@@ -340,8 +369,8 @@
     "logo": "/logos/xp786-review.svg",
     "themeColor": "#9333ea",
     "template": "review",
-    "title": "XP786 Review | Guides, Reviews, and Website Checklists",
-    "description": "XP786 Review organizes review-style content, trust guidance, and practical website checklists for online readers.",
+    "title": "XP786 Review | Safety Checks, Domain Comparison and Trust Notes",
+    "description": "XP786 Review helps readers compare XP786 domains, review trust signals, check safety notes, and choose the right guide page.",
     "keywords": [
       "XP786 Review",
       "reviews",
@@ -349,7 +378,9 @@
       "trust signals",
       "XP786 review",
       "XP786 comparison",
-      "XP786 safety check"
+      "XP786 safety check",
+      "XP786 domain review",
+      "XP786 trust signals"
     ],
     "contentFocus": "Review-style pages that compare signals, summarize trust factors, and organize checklists.",
     "targetAudience": "readers checking XP786 options, trust signals, and comparison-style content",
@@ -361,14 +392,19 @@
       "decision checklist"
     ],
     "contactEmail": "reviews@xp786-review.com",
-    "heroTitle": "Review-style guides with practical next steps",
-    "heroSubtitle": "Compare ideas, check key details, and use simple guides to improve online decisions.",
+    "heroTitle": "XP786 review notes for safer reading decisions",
+    "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
     "articles": [
-      "trust-signals",
-      "analytics-foundation",
-      "conversion-copy",
-      "launch-checklist",
-      "local-seo-basics"
+      "xp786-review-checklist",
+      "xp786-domain-comparison",
+      "xp786-download-safety-notes",
+      "xp786-login-page-checklist",
+      "xp786-official-access-guide",
+      "xp786-common-mistakes",
+      "xp786-resource-center-map",
+      "xp786-help-center-structure",
+      "xp786-latest-update-watchlist",
+      "xp786-beginner-faq"
     ]
   }
 ]

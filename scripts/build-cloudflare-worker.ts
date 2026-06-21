@@ -43,7 +43,7 @@ function layout(site, title, description, body) {
     "<title>" + text(title) + "</title><meta name=\\"description\\" content=\\"" + text(description) + "\\"><meta name=\\"keywords\\" content=\\"" + text(keywords) + "\\">" +
     "<link rel=\\"canonical\\" href=\\"" + siteUrl(site) + "\\"><style>body{margin:0;font-family:Arial,sans-serif;color:#0f172a;background:#f8fafc}a{color:inherit}header,footer{background:#fff;border-color:#e2e8f0}header{border-bottom:1px solid #e2e8f0}footer{border-top:1px solid #e2e8f0}.wrap{max-width:1120px;margin:auto;padding:24px}.nav{display:flex;justify-content:space-between;gap:20px;align-items:center}.links{display:flex;gap:18px;font-size:14px}.hero{padding:56px 24px;background:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:22px}.muted{color:#64748b;line-height:1.7}.btn{display:inline-block;color:#fff;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700}h1{font-size:44px;line-height:1.08;margin:12px 0}h2{font-size:26px;margin:8px 0}main{min-height:70vh}@media(max-width:640px){h1{font-size:34px}.nav{align-items:flex-start;flex-direction:column}}</style></head><body>" +
     "<header><div class=\\"wrap nav\\"><strong>" + text(site.siteName) + "</strong><nav class=\\"links\\"><a href=\\"/about\\">About</a><a href=\\"/blog\\">Blog</a><a href=\\"/contact\\">Contact</a></nav></div></header><main>" +
-    body + "</main><footer><div class=\\"wrap muted\\">© " + new Date().getFullYear() + " " + text(site.siteName) + " · " + text(site.contactEmail) + "</div></footer></body></html>";
+    body + "</main><footer><div class=\\"wrap muted\\">Copyright " + new Date().getFullYear() + " " + text(site.siteName) + " - " + text(site.contactEmail) + "</div></footer></body></html>";
 }
 
 function articleCards(site) {
@@ -59,7 +59,7 @@ function about(site) {
 }
 
 function contact(site) {
-  return layout(site, "Contact | " + site.siteName, "Contact " + site.siteName + ".", "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Contact</p><h1>Get in touch</h1><p class=\\"muted\\">For questions or updates, email <a href=\\"mailto:" + text(site.contactEmail) + "\\">" + text(site.contactEmail) + "</a>.</p><div class=\\"card\\"><h2>Site details</h2><p class=\\"muted\\">" + text(site.siteName) + " · " + text(site.domain) + "</p></div></section>");
+  return layout(site, "Contact | " + site.siteName, "Contact " + site.siteName + ".", "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Contact</p><h1>Get in touch</h1><p class=\\"muted\\">For questions or updates, email <a href=\\"mailto:" + text(site.contactEmail) + "\\">" + text(site.contactEmail) + "</a>.</p><div class=\\"card\\"><h2>Site details</h2><p class=\\"muted\\">" + text(site.siteName) + " - " + text(site.domain) + "</p></div></section>");
 }
 
 function blog(site) {
