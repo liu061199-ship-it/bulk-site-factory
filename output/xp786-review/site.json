@@ -73,6 +73,12 @@
       "answer": "Review content reduces confusion for readers who see multiple domains and need a safer way to choose the right page."
     }
   ],
+  "trustBadges": [
+    "Trust review",
+    "Domain checks",
+    "Risk control",
+    "No fake data"
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-official-site-signals",

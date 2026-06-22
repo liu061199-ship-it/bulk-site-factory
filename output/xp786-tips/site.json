@@ -73,6 +73,12 @@
       "answer": "Avoid unknown mirror links, unclear update claims, copied pages, and login paths where the domain or page purpose is not clear."
     }
   ],
+  "trustBadges": [
+    "Quick tips",
+    "H5 mobile",
+    "Tap friendly",
+    "Beginner safe"
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-mobile-h5-checklist",

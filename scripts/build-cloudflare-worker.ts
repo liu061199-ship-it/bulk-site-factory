@@ -59,6 +59,11 @@ function ctaButtons(site) {
   return "<div class=\\"cta-row\\"><a class=\\"btn\\" style=\\"background:" + text(site.themeColor) + "\\" href=\\"" + CTA_URL + "\\">Login</a><a class=\\"btn-outline\\" href=\\"" + CTA_URL + "\\">Register</a></div>";
 }
 
+function trustPanel(site) {
+  const badges = site.trustBadges || ["HTTPS checked", "Mobile ready", "Updated sitemap"];
+  return "<div class=\\"card\\"><div style=\\"display:flex;gap:16px;align-items:center\\"><img src=\\"" + text(site.logo) + "\\" alt=\\"" + text(site.siteName) + " logo\\" style=\\"width:64px;height:64px;border-radius:8px\\"><div><p class=\\"muted\\" style=\\"margin:0\\">Official resource</p><h2>" + text(site.siteName) + "</h2><p class=\\"muted\\" style=\\"margin:0\\">" + text(site.domain) + "</p></div></div><p class=\\"muted\\">" + text(site.editorialPromise || site.heroSubtitle) + "</p><div style=\\"display:flex;flex-wrap:wrap;gap:8px\\">" + badges.map((badge) => "<span style=\\"border:1px solid #cbd5e1;background:#fff;border-radius:6px;padding:6px 10px;font-size:14px\\">" + text(badge) + "</span>").join("") + "</div></div>";
+}
+
 function officialSignals(site) {
   const signals = site.officialSignals || [
     "Clear domain and HTTPS access",
@@ -138,7 +143,7 @@ function relatedBlocks(site, articleId) {
 }
 
 function home(site) {
-  return layout(site, site.title, site.description, homeSchema(site) + "<section class=\\"hero\\"><div class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">" + text(site.domain) + "</p><h1>" + text(site.heroTitle) + "</h1><p class=\\"muted\\" style=\\"font-size:18px;max-width:760px\\">" + text(site.heroSubtitle) + "</p>" + ctaButtons(site) + "</div></section>" + officialSignals(site) + "<section class=\\"wrap\\">" + articleCards(site) + "</section>" + faqSection(site));
+  return layout(site, site.title, site.description, homeSchema(site) + "<section class=\\"hero\\"><div class=\\"wrap\\" style=\\"display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px;align-items:center\\"><div><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">" + text(site.domain) + "</p><h1>" + text(site.heroTitle) + "</h1><p class=\\"muted\\" style=\\"font-size:18px;max-width:760px\\">" + text(site.heroSubtitle) + "</p>" + ctaButtons(site) + "</div>" + trustPanel(site) + "</div></section>" + officialSignals(site) + "<section class=\\"wrap\\">" + articleCards(site) + "</section>" + faqSection(site));
 }
 
 function about(site) {

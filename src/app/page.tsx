@@ -8,6 +8,7 @@ import {
   getSiteEditorialPromise,
   getSiteFaq,
   getSiteOfficialSignals,
+  getSiteTrustBadges,
   getSiteTargetAudience,
   getSiteTemplate,
   siteUrl
@@ -84,6 +85,34 @@ function CtaButtons({ site, dark = false }: { site: GeneratedSite; dark?: boolea
       >
         Register
       </a>
+    </div>
+  );
+}
+
+function BrandTrustPanel({ site, dark = false }: { site: GeneratedSite; dark?: boolean }) {
+  const badges = getSiteTrustBadges(site);
+  const panelClass = dark ? "border-white/15 bg-white/10 text-white" : "border-slate-200 bg-slate-50 text-slate-950";
+  const mutedClass = dark ? "text-slate-300" : "text-slate-600";
+  const badgeClass = dark ? "border-white/20 bg-white/10 text-white" : "border-slate-200 bg-white text-slate-700";
+
+  return (
+    <div className={`rounded-md border p-6 ${panelClass}`}>
+      <div className="flex items-center gap-4">
+        <img src={site.logo} alt={`${site.siteName} logo`} className="h-16 w-16 rounded-md" />
+        <div>
+          <p className={`text-sm ${mutedClass}`}>Official resource</p>
+          <h2 className="text-2xl font-semibold">{site.siteName}</h2>
+          <p className={`mt-1 text-sm ${mutedClass}`}>{site.domain}</p>
+        </div>
+      </div>
+      <p className={`mt-5 leading-7 ${mutedClass}`}>{getSiteEditorialPromise(site)}</p>
+      <div className="mt-5 flex flex-wrap gap-2">
+        {badges.map((badge) => (
+          <span key={badge} className={`rounded-md border px-3 py-1 text-sm ${badgeClass}`}>
+            {badge}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
@@ -174,11 +203,7 @@ function GuideHome({ site }: { site: GeneratedSite }) {
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">{site.heroSubtitle}</p>
             <CtaButtons site={site} />
           </div>
-          <div className="rounded-md border border-slate-200 bg-slate-50 p-6">
-            <img src={site.logo} alt="" className="h-16 w-16 rounded-md" />
-            <h2 className="mt-6 text-2xl font-semibold">{site.siteName}</h2>
-            <p className="mt-3 leading-7 text-slate-600">{getSiteEditorialPromise(site)}</p>
-          </div>
+          <BrandTrustPanel site={site} />
         </div>
       </section>
       <OfficialSignals site={site} />
@@ -207,6 +232,9 @@ function NewsHome({ site }: { site: GeneratedSite }) {
           <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-tight md:text-6xl">{site.heroTitle}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">{site.heroSubtitle}</p>
           <CtaButtons site={site} dark />
+          <div className="mt-8 max-w-xl">
+            <BrandTrustPanel site={site} dark />
+          </div>
         </div>
       </section>
       <section className="mx-auto grid max-w-6xl gap-8 px-5 py-12 lg:grid-cols-[1.3fr_0.7fr]">
@@ -245,6 +273,9 @@ function HubHome({ site }: { site: GeneratedSite }) {
             <h1 className="mt-4 text-4xl font-bold leading-tight text-slate-950 md:text-6xl">{site.heroTitle}</h1>
             <p className="mt-5 text-lg leading-8 text-slate-600">{site.heroSubtitle}</p>
             <CtaButtons site={site} />
+            <div className="mt-8 max-w-xl">
+              <BrandTrustPanel site={site} />
+            </div>
           </div>
         </div>
       </section>
@@ -278,6 +309,9 @@ function TipsHome({ site }: { site: GeneratedSite }) {
           <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-tight text-slate-950 md:text-6xl">{site.heroTitle}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">{site.heroSubtitle}</p>
           <CtaButtons site={site} />
+          <div className="mt-8 max-w-xl">
+            <BrandTrustPanel site={site} />
+          </div>
         </div>
       </section>
       <section className="mx-auto max-w-6xl px-5 py-8">
@@ -310,6 +344,9 @@ function ReviewHome({ site }: { site: GeneratedSite }) {
           <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-tight md:text-6xl">{site.heroTitle}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">{site.heroSubtitle}</p>
           <CtaButtons site={site} dark />
+          <div className="mt-8 max-w-xl">
+            <BrandTrustPanel site={site} dark />
+          </div>
         </div>
       </section>
       <section className="mx-auto max-w-6xl px-5 py-12">

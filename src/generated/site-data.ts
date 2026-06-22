@@ -690,6 +690,12 @@ export const sites = [
         "answer": "Each domain has a different role so readers can separate evergreen guide content, news updates, quick tips, resource lists, and review notes."
       }
     ],
+    "trustBadges": [
+      "Official guide",
+      "Pakistan mobile",
+      "HTTPS checked",
+      "Updated sitemap"
+    ],
     "resolvedArticles": [
       {
         "id": "xp786-pakistan-user-guide",
@@ -947,6 +953,12 @@ export const sites = [
         "question": "Can Pakistan readers use XP786 News?",
         "answer": "Yes. Pakistan readers can use it for recent context, but evergreen actions should still start from the main guide."
       }
+    ],
+    "trustBadges": [
+      "Latest updates",
+      "Dated notes",
+      "Pakistan trend watch",
+      "Guide linked"
     ],
     "resolvedArticles": [
       {
@@ -1206,6 +1218,12 @@ export const sites = [
         "answer": "It clarifies site structure, internal links, and topic relationships so readers and search engines can understand the content network."
       }
     ],
+    "trustBadges": [
+      "Resource hub",
+      "Topic clusters",
+      "Internal links",
+      "Mobile ready"
+    ],
     "resolvedArticles": [
       {
         "id": "xp786-pakistan-keyword-map",
@@ -1464,6 +1482,12 @@ export const sites = [
         "answer": "Avoid unknown mirror links, unclear update claims, copied pages, and login paths where the domain or page purpose is not clear."
       }
     ],
+    "trustBadges": [
+      "Quick tips",
+      "H5 mobile",
+      "Tap friendly",
+      "Beginner safe"
+    ],
     "resolvedArticles": [
       {
         "id": "xp786-mobile-h5-checklist",
@@ -1721,6 +1745,12 @@ export const sites = [
         "question": "Why does review content matter?",
         "answer": "Review content reduces confusion for readers who see multiple domains and need a safer way to choose the right page."
       }
+    ],
+    "trustBadges": [
+      "Trust review",
+      "Domain checks",
+      "Risk control",
+      "No fake data"
     ],
     "resolvedArticles": [
       {

@@ -73,6 +73,12 @@
       "answer": "Yes. Pakistan readers can use it for recent context, but evergreen actions should still start from the main guide."
     }
   ],
+  "trustBadges": [
+    "Latest updates",
+    "Dated notes",
+    "Pakistan trend watch",
+    "Guide linked"
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-daily-seo-report-format",

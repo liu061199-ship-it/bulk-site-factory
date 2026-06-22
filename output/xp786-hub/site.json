@@ -73,6 +73,12 @@
       "answer": "It clarifies site structure, internal links, and topic relationships so readers and search engines can understand the content network."
     }
   ],
+  "trustBadges": [
+    "Resource hub",
+    "Topic clusters",
+    "Internal links",
+    "Mobile ready"
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-pakistan-keyword-map",

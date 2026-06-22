@@ -39,6 +39,7 @@ src/generated/            Generated data consumed by the app
   "editorialPromise": "What this site consistently helps readers do.",
   "contentPillars": ["pillar one", "pillar two", "pillar three"],
   "officialSignals": ["Official signal one", "Official signal two"],
+  "trustBadges": ["HTTPS checked", "Mobile ready"],
   "faq": [
     {
       "question": "Common question?",
@@ -64,6 +65,7 @@ Template and content fields:
 - `editorialPromise`: the site-specific content promise shown on pages.
 - `contentPillars`: short topic labels used by templates and About pages.
 - `officialSignals`: homepage trust and official-access checks.
+- `trustBadges`: short badges shown in the homepage brand trust panel.
 - `faq`: homepage FAQ entries for search intent coverage.
 
 Use different templates, keyword sets, content focus, and article selections when creating multiple sites in the same niche. This keeps each site distinct while still using the same Next.js codebase.

@@ -16,6 +16,7 @@ type SiteConfig = {
   editorialPromise?: string;
   contentPillars?: string[];
   officialSignals?: string[];
+  trustBadges?: string[];
   faq?: {
     question: string;
     answer: string;

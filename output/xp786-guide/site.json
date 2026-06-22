@@ -79,6 +79,12 @@
       "answer": "Each domain has a different role so readers can separate evergreen guide content, news updates, quick tips, resource lists, and review notes."
     }
   ],
+  "trustBadges": [
+    "Official guide",
+    "Pakistan mobile",
+    "HTTPS checked",
+    "Updated sitemap"
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-pakistan-user-guide",

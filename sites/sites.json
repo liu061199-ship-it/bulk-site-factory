@@ -254,6 +254,12 @@
         "question": "Why are there multiple XP786 domains?",
         "answer": "Each domain has a different role so readers can separate evergreen guide content, news updates, quick tips, resource lists, and review notes."
       }
+    ],
+    "trustBadges": [
+      "Official guide",
+      "Pakistan mobile",
+      "HTTPS checked",
+      "Updated sitemap"
     ]
   },
   {
@@ -330,6 +336,12 @@
         "question": "Can Pakistan readers use XP786 News?",
         "answer": "Yes. Pakistan readers can use it for recent context, but evergreen actions should still start from the main guide."
       }
+    ],
+    "trustBadges": [
+      "Latest updates",
+      "Dated notes",
+      "Pakistan trend watch",
+      "Guide linked"
     ]
   },
   {
@@ -406,6 +418,12 @@
         "question": "How does the Hub help SEO?",
         "answer": "It clarifies site structure, internal links, and topic relationships so readers and search engines can understand the content network."
       }
+    ],
+    "trustBadges": [
+      "Resource hub",
+      "Topic clusters",
+      "Internal links",
+      "Mobile ready"
     ]
   },
   {
@@ -482,6 +500,12 @@
         "question": "What mistakes should readers avoid?",
         "answer": "Avoid unknown mirror links, unclear update claims, copied pages, and login paths where the domain or page purpose is not clear."
       }
+    ],
+    "trustBadges": [
+      "Quick tips",
+      "H5 mobile",
+      "Tap friendly",
+      "Beginner safe"
     ]
   },
   {
@@ -558,6 +582,12 @@
         "question": "Why does review content matter?",
         "answer": "Review content reduces confusion for readers who see multiple domains and need a safer way to choose the right page."
       }
+    ],
+    "trustBadges": [
+      "Trust review",
+      "Domain checks",
+      "Risk control",
+      "No fake data"
     ]
   }
 ]

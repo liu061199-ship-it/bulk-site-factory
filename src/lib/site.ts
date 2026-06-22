@@ -121,6 +121,13 @@ export function getSiteOfficialSignals(site: GeneratedSite) {
   ];
 }
 
+export function getSiteTrustBadges(site: GeneratedSite) {
+  if ("trustBadges" in site) {
+    return [...(site.trustBadges as readonly string[])];
+  }
+  return ["HTTPS checked", "Mobile ready", "Updated sitemap"];
+}
+
 export function getSiteFaq(site: GeneratedSite) {
   if ("faq" in site) {
     return [...(site.faq as readonly { question: string; answer: string }[])];
