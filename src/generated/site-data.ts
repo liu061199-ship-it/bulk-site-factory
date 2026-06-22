@@ -644,12 +644,18 @@ export const sites = [
     ],
     "redirectDomains": [
       "xp786pakistan.com",
-      "xp786official.com"
+      "xp786official.com",
+      "www.xp786guide.com"
     ],
     "contactEmail": "hello@xp786guide.com",
     "heroTitle": "XP786 official guide for login, download, and mobile access",
     "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
     "articles": [
+      "xp786-pakistan-user-guide",
+      "xp786-pakistan-login-intent",
+      "xp786-official-site-signals",
+      "xp786-mobile-h5-checklist",
+      "xp786-internal-linking-plan",
       "xp786-official-access-guide",
       "xp786-login-page-checklist",
       "xp786-download-safety-notes",
@@ -662,6 +668,66 @@ export const sites = [
       "xp786-domain-comparison"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-pakistan-user-guide",
+        "title": "XP786 Pakistan User Guide",
+        "excerpt": "A Pakistan-focused XP786 guide covering mobile access, common search intent, and safe navigation basics.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "Pakistan readers often search for XP786 from mobile devices, so the best starting page should be fast, clear, and easy to scan.",
+          "Use the main XP786 Guide domain for evergreen access notes, then move to News, Hub, Tips, or Review pages when the question is more specific.",
+          "A Pakistan-focused guide should explain login intent, mobile reading, safety checks, and domain differences without repeating the same wording on every site."
+        ]
+      },
+      {
+        "id": "xp786-pakistan-login-intent",
+        "title": "XP786 Pakistan Login Search Intent Explained",
+        "excerpt": "How to understand XP786 login searches from Pakistan and match them with safer guide pages.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "Many login searches are urgent, but a useful page should slow the reader down enough to check the domain and page purpose first.",
+          "For Pakistan traffic, the page should answer whether the visitor wants access help, mobile instructions, update notes, or a trust check.",
+          "Clear internal links help separate login guidance from news, tips, and review content so readers can choose the right next page."
+        ]
+      },
+      {
+        "id": "xp786-official-site-signals",
+        "title": "XP786 Official Site Signals to Check",
+        "excerpt": "Practical signals that make an XP786 page feel more official, trustworthy, and useful for new visitors.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Official-feeling pages use consistent branding, a clear title, contact details, current sitemap links, and simple navigation.",
+          "Readers should be cautious when a page repeats keywords but does not explain its purpose or connect to related resources.",
+          "Strong official signals include a focused homepage, updated articles, clear login and register buttons, and a clean mobile layout."
+        ]
+      },
+      {
+        "id": "xp786-mobile-h5-checklist",
+        "title": "XP786 Mobile H5 Checklist",
+        "excerpt": "A concise checklist for improving XP786 pages on mobile and H5-style browsing flows.",
+        "date": "2026-06-22",
+        "author": "XP786 Tips",
+        "body": [
+          "Mobile readers need large tap targets, readable headings, short paragraphs, and a clear path back to the main guide.",
+          "A good H5 page should avoid layout shifts, hidden navigation, and buttons that are hard to tap on small screens.",
+          "Check every XP786 page on mobile after updates because most search visitors will judge the site from a phone first."
+        ]
+      },
+      {
+        "id": "xp786-internal-linking-plan",
+        "title": "XP786 Internal Linking Plan",
+        "excerpt": "How to connect XP786 guide, news, hub, tips, and review pages into a clearer topic cluster.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "Internal links should move readers from broad pages to narrow answers and back to the main guide when they need a stable reference.",
+          "Guide pages can link to news for recent context, tips for quick actions, hub for grouped resources, and review for trust checks.",
+          "Use descriptive anchor text so readers and search engines understand why each related page matters."
+        ]
+      },
       {
         "id": "xp786-official-access-guide",
         "title": "XP786 Official Access Guide for New Visitors",
@@ -817,6 +883,11 @@ export const sites = [
     "heroTitle": "Fresh XP786 updates and announcement notes",
     "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
     "articles": [
+      "xp786-daily-seo-report-format",
+      "xp786-pakistan-keyword-map",
+      "xp786-competitor-serp-review",
+      "xp786-indexing-monitoring-plan",
+      "xp786-risk-control-notes",
       "xp786-latest-update-watchlist",
       "xp786-news-domain-update",
       "xp786-announcement-summary",
@@ -828,7 +899,70 @@ export const sites = [
       "xp786-resource-center-map",
       "xp786-topic-cluster-plan"
     ],
+    "redirectDomains": [
+      "www.xp786-news.com"
+    ],
     "resolvedArticles": [
+      {
+        "id": "xp786-daily-seo-report-format",
+        "title": "XP786 Daily SEO Report Format",
+        "excerpt": "A simple format for daily XP786 SEO reporting across content, technical checks, GSC data, and next actions.",
+        "date": "2026-06-22",
+        "author": "XP786 News",
+        "body": [
+          "A useful daily report starts with the most important action, then separates automatic work from tasks that need user approval.",
+          "The GSC table should include clicks, impressions, CTR, average position, queries, data date, and source for every site.",
+          "If a metric cannot be read reliably, mark it clearly as unavailable instead of filling the report with guesses."
+        ]
+      },
+      {
+        "id": "xp786-pakistan-keyword-map",
+        "title": "XP786 Pakistan Keyword Map",
+        "excerpt": "A simple keyword map for dividing XP786 Pakistan topics across guide, news, hub, tips, and review pages.",
+        "date": "2026-06-22",
+        "author": "XP786 Hub",
+        "body": [
+          "The main guide should target broad evergreen phrases such as XP786 Pakistan, XP786 guide, and XP786 official access.",
+          "News pages can cover timely update phrases, while tips pages should target quick mobile and beginner questions.",
+          "Review pages should handle comparison, trust, and safety searches so every domain has a distinct purpose."
+        ]
+      },
+      {
+        "id": "xp786-competitor-serp-review",
+        "title": "XP786 Competitor SERP Review Notes",
+        "excerpt": "What to compare when reviewing XP786 competitors in search results without copying their content.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Competitor review should look at search titles, page type, content depth, update dates, mobile experience, and internal linking patterns.",
+          "The goal is not to copy a ranking page, but to find gaps where XP786 pages can be clearer, safer, and more useful.",
+          "Record whether competitors answer Pakistan-specific questions, explain official signals, and support mobile users well."
+        ]
+      },
+      {
+        "id": "xp786-indexing-monitoring-plan",
+        "title": "XP786 Indexing and Monitoring Plan",
+        "excerpt": "A daily plan for monitoring XP786 sitemap status, GSC signals, and content changes without inventing data.",
+        "date": "2026-06-22",
+        "author": "XP786 Hub",
+        "body": [
+          "Daily monitoring should separate what is verified from what is still unknown. If GSC data is not available, report it as unavailable.",
+          "Check sitemap access, robots output, canonical tags, page titles, and Search Console performance for every live domain.",
+          "Keep a short log of actions, risks, and next steps so the SEO process improves without relying on guesses."
+        ]
+      },
+      {
+        "id": "xp786-risk-control-notes",
+        "title": "XP786 SEO Risk Control Notes",
+        "excerpt": "Risk controls for XP786 pages covering duplicate content, unsupported claims, redirects, and data reporting.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Avoid copying the same article across multiple domains because repeated content weakens the purpose of each site.",
+          "Do not claim rankings, traffic, or search performance unless the data comes from a reliable source such as Search Console.",
+          "Keep redirect domains clean, monitor DNS changes, and document any external promotion before treating it as an SEO signal."
+        ]
+      },
       {
         "id": "xp786-latest-update-watchlist",
         "title": "XP786 Latest Update Watchlist",
@@ -984,6 +1118,11 @@ export const sites = [
     "heroTitle": "XP786 resource hub for guides, tips, and review pages",
     "heroSubtitle": "Use one organized XP786 hub to find official guide notes, help center pages, quick tips, and safety review content.",
     "articles": [
+      "xp786-pakistan-keyword-map",
+      "xp786-indexing-monitoring-plan",
+      "xp786-internal-linking-plan",
+      "xp786-pakistan-user-guide",
+      "xp786-daily-seo-report-format",
       "xp786-resource-center-map",
       "xp786-help-center-structure",
       "xp786-topic-cluster-plan",
@@ -995,7 +1134,70 @@ export const sites = [
       "xp786-domain-comparison",
       "xp786-latest-update-watchlist"
     ],
+    "redirectDomains": [
+      "www.xp786-hub.com"
+    ],
     "resolvedArticles": [
+      {
+        "id": "xp786-pakistan-keyword-map",
+        "title": "XP786 Pakistan Keyword Map",
+        "excerpt": "A simple keyword map for dividing XP786 Pakistan topics across guide, news, hub, tips, and review pages.",
+        "date": "2026-06-22",
+        "author": "XP786 Hub",
+        "body": [
+          "The main guide should target broad evergreen phrases such as XP786 Pakistan, XP786 guide, and XP786 official access.",
+          "News pages can cover timely update phrases, while tips pages should target quick mobile and beginner questions.",
+          "Review pages should handle comparison, trust, and safety searches so every domain has a distinct purpose."
+        ]
+      },
+      {
+        "id": "xp786-indexing-monitoring-plan",
+        "title": "XP786 Indexing and Monitoring Plan",
+        "excerpt": "A daily plan for monitoring XP786 sitemap status, GSC signals, and content changes without inventing data.",
+        "date": "2026-06-22",
+        "author": "XP786 Hub",
+        "body": [
+          "Daily monitoring should separate what is verified from what is still unknown. If GSC data is not available, report it as unavailable.",
+          "Check sitemap access, robots output, canonical tags, page titles, and Search Console performance for every live domain.",
+          "Keep a short log of actions, risks, and next steps so the SEO process improves without relying on guesses."
+        ]
+      },
+      {
+        "id": "xp786-internal-linking-plan",
+        "title": "XP786 Internal Linking Plan",
+        "excerpt": "How to connect XP786 guide, news, hub, tips, and review pages into a clearer topic cluster.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "Internal links should move readers from broad pages to narrow answers and back to the main guide when they need a stable reference.",
+          "Guide pages can link to news for recent context, tips for quick actions, hub for grouped resources, and review for trust checks.",
+          "Use descriptive anchor text so readers and search engines understand why each related page matters."
+        ]
+      },
+      {
+        "id": "xp786-pakistan-user-guide",
+        "title": "XP786 Pakistan User Guide",
+        "excerpt": "A Pakistan-focused XP786 guide covering mobile access, common search intent, and safe navigation basics.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "Pakistan readers often search for XP786 from mobile devices, so the best starting page should be fast, clear, and easy to scan.",
+          "Use the main XP786 Guide domain for evergreen access notes, then move to News, Hub, Tips, or Review pages when the question is more specific.",
+          "A Pakistan-focused guide should explain login intent, mobile reading, safety checks, and domain differences without repeating the same wording on every site."
+        ]
+      },
+      {
+        "id": "xp786-daily-seo-report-format",
+        "title": "XP786 Daily SEO Report Format",
+        "excerpt": "A simple format for daily XP786 SEO reporting across content, technical checks, GSC data, and next actions.",
+        "date": "2026-06-22",
+        "author": "XP786 News",
+        "body": [
+          "A useful daily report starts with the most important action, then separates automatic work from tasks that need user approval.",
+          "The GSC table should include clicks, impressions, CTR, average position, queries, data date, and source for every site.",
+          "If a metric cannot be read reliably, mark it clearly as unavailable instead of filling the report with guesses."
+        ]
+      },
       {
         "id": "xp786-resource-center-map",
         "title": "XP786 Resource Center Map",
@@ -1151,6 +1353,11 @@ export const sites = [
     "heroTitle": "Quick XP786 tips for mobile readers and beginners",
     "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
     "articles": [
+      "xp786-mobile-h5-checklist",
+      "xp786-pakistan-login-intent",
+      "xp786-official-site-signals",
+      "xp786-internal-linking-plan",
+      "xp786-risk-control-notes",
       "xp786-quick-start-tips",
       "xp786-common-mistakes",
       "xp786-mobile-guide",
@@ -1162,7 +1369,70 @@ export const sites = [
       "xp786-review-checklist",
       "xp786-help-center-structure"
     ],
+    "redirectDomains": [
+      "www.xp786-tips.com"
+    ],
     "resolvedArticles": [
+      {
+        "id": "xp786-mobile-h5-checklist",
+        "title": "XP786 Mobile H5 Checklist",
+        "excerpt": "A concise checklist for improving XP786 pages on mobile and H5-style browsing flows.",
+        "date": "2026-06-22",
+        "author": "XP786 Tips",
+        "body": [
+          "Mobile readers need large tap targets, readable headings, short paragraphs, and a clear path back to the main guide.",
+          "A good H5 page should avoid layout shifts, hidden navigation, and buttons that are hard to tap on small screens.",
+          "Check every XP786 page on mobile after updates because most search visitors will judge the site from a phone first."
+        ]
+      },
+      {
+        "id": "xp786-pakistan-login-intent",
+        "title": "XP786 Pakistan Login Search Intent Explained",
+        "excerpt": "How to understand XP786 login searches from Pakistan and match them with safer guide pages.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "Many login searches are urgent, but a useful page should slow the reader down enough to check the domain and page purpose first.",
+          "For Pakistan traffic, the page should answer whether the visitor wants access help, mobile instructions, update notes, or a trust check.",
+          "Clear internal links help separate login guidance from news, tips, and review content so readers can choose the right next page."
+        ]
+      },
+      {
+        "id": "xp786-official-site-signals",
+        "title": "XP786 Official Site Signals to Check",
+        "excerpt": "Practical signals that make an XP786 page feel more official, trustworthy, and useful for new visitors.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Official-feeling pages use consistent branding, a clear title, contact details, current sitemap links, and simple navigation.",
+          "Readers should be cautious when a page repeats keywords but does not explain its purpose or connect to related resources.",
+          "Strong official signals include a focused homepage, updated articles, clear login and register buttons, and a clean mobile layout."
+        ]
+      },
+      {
+        "id": "xp786-internal-linking-plan",
+        "title": "XP786 Internal Linking Plan",
+        "excerpt": "How to connect XP786 guide, news, hub, tips, and review pages into a clearer topic cluster.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "Internal links should move readers from broad pages to narrow answers and back to the main guide when they need a stable reference.",
+          "Guide pages can link to news for recent context, tips for quick actions, hub for grouped resources, and review for trust checks.",
+          "Use descriptive anchor text so readers and search engines understand why each related page matters."
+        ]
+      },
+      {
+        "id": "xp786-risk-control-notes",
+        "title": "XP786 SEO Risk Control Notes",
+        "excerpt": "Risk controls for XP786 pages covering duplicate content, unsupported claims, redirects, and data reporting.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Avoid copying the same article across multiple domains because repeated content weakens the purpose of each site.",
+          "Do not claim rankings, traffic, or search performance unless the data comes from a reliable source such as Search Console.",
+          "Keep redirect domains clean, monitor DNS changes, and document any external promotion before treating it as an SEO signal."
+        ]
+      },
       {
         "id": "xp786-quick-start-tips",
         "title": "XP786 Quick Start Tips",
@@ -1318,6 +1588,11 @@ export const sites = [
     "heroTitle": "XP786 review notes for safer reading decisions",
     "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
     "articles": [
+      "xp786-official-site-signals",
+      "xp786-competitor-serp-review",
+      "xp786-risk-control-notes",
+      "xp786-indexing-monitoring-plan",
+      "xp786-pakistan-keyword-map",
       "xp786-review-checklist",
       "xp786-domain-comparison",
       "xp786-download-safety-notes",
@@ -1329,7 +1604,70 @@ export const sites = [
       "xp786-latest-update-watchlist",
       "xp786-beginner-faq"
     ],
+    "redirectDomains": [
+      "www.xp786-review.com"
+    ],
     "resolvedArticles": [
+      {
+        "id": "xp786-official-site-signals",
+        "title": "XP786 Official Site Signals to Check",
+        "excerpt": "Practical signals that make an XP786 page feel more official, trustworthy, and useful for new visitors.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Official-feeling pages use consistent branding, a clear title, contact details, current sitemap links, and simple navigation.",
+          "Readers should be cautious when a page repeats keywords but does not explain its purpose or connect to related resources.",
+          "Strong official signals include a focused homepage, updated articles, clear login and register buttons, and a clean mobile layout."
+        ]
+      },
+      {
+        "id": "xp786-competitor-serp-review",
+        "title": "XP786 Competitor SERP Review Notes",
+        "excerpt": "What to compare when reviewing XP786 competitors in search results without copying their content.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Competitor review should look at search titles, page type, content depth, update dates, mobile experience, and internal linking patterns.",
+          "The goal is not to copy a ranking page, but to find gaps where XP786 pages can be clearer, safer, and more useful.",
+          "Record whether competitors answer Pakistan-specific questions, explain official signals, and support mobile users well."
+        ]
+      },
+      {
+        "id": "xp786-risk-control-notes",
+        "title": "XP786 SEO Risk Control Notes",
+        "excerpt": "Risk controls for XP786 pages covering duplicate content, unsupported claims, redirects, and data reporting.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "Avoid copying the same article across multiple domains because repeated content weakens the purpose of each site.",
+          "Do not claim rankings, traffic, or search performance unless the data comes from a reliable source such as Search Console.",
+          "Keep redirect domains clean, monitor DNS changes, and document any external promotion before treating it as an SEO signal."
+        ]
+      },
+      {
+        "id": "xp786-indexing-monitoring-plan",
+        "title": "XP786 Indexing and Monitoring Plan",
+        "excerpt": "A daily plan for monitoring XP786 sitemap status, GSC signals, and content changes without inventing data.",
+        "date": "2026-06-22",
+        "author": "XP786 Hub",
+        "body": [
+          "Daily monitoring should separate what is verified from what is still unknown. If GSC data is not available, report it as unavailable.",
+          "Check sitemap access, robots output, canonical tags, page titles, and Search Console performance for every live domain.",
+          "Keep a short log of actions, risks, and next steps so the SEO process improves without relying on guesses."
+        ]
+      },
+      {
+        "id": "xp786-pakistan-keyword-map",
+        "title": "XP786 Pakistan Keyword Map",
+        "excerpt": "A simple keyword map for dividing XP786 Pakistan topics across guide, news, hub, tips, and review pages.",
+        "date": "2026-06-22",
+        "author": "XP786 Hub",
+        "body": [
+          "The main guide should target broad evergreen phrases such as XP786 Pakistan, XP786 guide, and XP786 official access.",
+          "News pages can cover timely update phrases, while tips pages should target quick mobile and beginner questions.",
+          "Review pages should handle comparison, trust, and safety searches so every domain has a distinct purpose."
+        ]
+      },
       {
         "id": "xp786-review-checklist",
         "title": "XP786 Review Checklist",

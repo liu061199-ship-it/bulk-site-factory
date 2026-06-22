@@ -33,12 +33,18 @@
   ],
   "redirectDomains": [
     "xp786pakistan.com",
-    "xp786official.com"
+    "xp786official.com",
+    "www.xp786guide.com"
   ],
   "contactEmail": "hello@xp786guide.com",
   "heroTitle": "XP786 official guide for login, download, and mobile access",
   "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
   "articles": [
+    "xp786-pakistan-user-guide",
+    "xp786-pakistan-login-intent",
+    "xp786-official-site-signals",
+    "xp786-mobile-h5-checklist",
+    "xp786-internal-linking-plan",
     "xp786-official-access-guide",
     "xp786-login-page-checklist",
     "xp786-download-safety-notes",
@@ -51,6 +57,66 @@
     "xp786-domain-comparison"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-pakistan-user-guide",
+      "title": "XP786 Pakistan User Guide",
+      "excerpt": "A Pakistan-focused XP786 guide covering mobile access, common search intent, and safe navigation basics.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Pakistan readers often search for XP786 from mobile devices, so the best starting page should be fast, clear, and easy to scan.",
+        "Use the main XP786 Guide domain for evergreen access notes, then move to News, Hub, Tips, or Review pages when the question is more specific.",
+        "A Pakistan-focused guide should explain login intent, mobile reading, safety checks, and domain differences without repeating the same wording on every site."
+      ]
+    },
+    {
+      "id": "xp786-pakistan-login-intent",
+      "title": "XP786 Pakistan Login Search Intent Explained",
+      "excerpt": "How to understand XP786 login searches from Pakistan and match them with safer guide pages.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Many login searches are urgent, but a useful page should slow the reader down enough to check the domain and page purpose first.",
+        "For Pakistan traffic, the page should answer whether the visitor wants access help, mobile instructions, update notes, or a trust check.",
+        "Clear internal links help separate login guidance from news, tips, and review content so readers can choose the right next page."
+      ]
+    },
+    {
+      "id": "xp786-official-site-signals",
+      "title": "XP786 Official Site Signals to Check",
+      "excerpt": "Practical signals that make an XP786 page feel more official, trustworthy, and useful for new visitors.",
+      "date": "2026-06-22",
+      "author": "XP786 Review",
+      "body": [
+        "Official-feeling pages use consistent branding, a clear title, contact details, current sitemap links, and simple navigation.",
+        "Readers should be cautious when a page repeats keywords but does not explain its purpose or connect to related resources.",
+        "Strong official signals include a focused homepage, updated articles, clear login and register buttons, and a clean mobile layout."
+      ]
+    },
+    {
+      "id": "xp786-mobile-h5-checklist",
+      "title": "XP786 Mobile H5 Checklist",
+      "excerpt": "A concise checklist for improving XP786 pages on mobile and H5-style browsing flows.",
+      "date": "2026-06-22",
+      "author": "XP786 Tips",
+      "body": [
+        "Mobile readers need large tap targets, readable headings, short paragraphs, and a clear path back to the main guide.",
+        "A good H5 page should avoid layout shifts, hidden navigation, and buttons that are hard to tap on small screens.",
+        "Check every XP786 page on mobile after updates because most search visitors will judge the site from a phone first."
+      ]
+    },
+    {
+      "id": "xp786-internal-linking-plan",
+      "title": "XP786 Internal Linking Plan",
+      "excerpt": "How to connect XP786 guide, news, hub, tips, and review pages into a clearer topic cluster.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Internal links should move readers from broad pages to narrow answers and back to the main guide when they need a stable reference.",
+        "Guide pages can link to news for recent context, tips for quick actions, hub for grouped resources, and review for trust checks.",
+        "Use descriptive anchor text so readers and search engines understand why each related page matters."
+      ]
+    },
     {
       "id": "xp786-official-access-guide",
       "title": "XP786 Official Access Guide for New Visitors",

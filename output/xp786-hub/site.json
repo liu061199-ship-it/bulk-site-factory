@@ -31,6 +31,11 @@
   "heroTitle": "XP786 resource hub for guides, tips, and review pages",
   "heroSubtitle": "Use one organized XP786 hub to find official guide notes, help center pages, quick tips, and safety review content.",
   "articles": [
+    "xp786-pakistan-keyword-map",
+    "xp786-indexing-monitoring-plan",
+    "xp786-internal-linking-plan",
+    "xp786-pakistan-user-guide",
+    "xp786-daily-seo-report-format",
     "xp786-resource-center-map",
     "xp786-help-center-structure",
     "xp786-topic-cluster-plan",
@@ -42,7 +47,70 @@
     "xp786-domain-comparison",
     "xp786-latest-update-watchlist"
   ],
+  "redirectDomains": [
+    "www.xp786-hub.com"
+  ],
   "resolvedArticles": [
+    {
+      "id": "xp786-pakistan-keyword-map",
+      "title": "XP786 Pakistan Keyword Map",
+      "excerpt": "A simple keyword map for dividing XP786 Pakistan topics across guide, news, hub, tips, and review pages.",
+      "date": "2026-06-22",
+      "author": "XP786 Hub",
+      "body": [
+        "The main guide should target broad evergreen phrases such as XP786 Pakistan, XP786 guide, and XP786 official access.",
+        "News pages can cover timely update phrases, while tips pages should target quick mobile and beginner questions.",
+        "Review pages should handle comparison, trust, and safety searches so every domain has a distinct purpose."
+      ]
+    },
+    {
+      "id": "xp786-indexing-monitoring-plan",
+      "title": "XP786 Indexing and Monitoring Plan",
+      "excerpt": "A daily plan for monitoring XP786 sitemap status, GSC signals, and content changes without inventing data.",
+      "date": "2026-06-22",
+      "author": "XP786 Hub",
+      "body": [
+        "Daily monitoring should separate what is verified from what is still unknown. If GSC data is not available, report it as unavailable.",
+        "Check sitemap access, robots output, canonical tags, page titles, and Search Console performance for every live domain.",
+        "Keep a short log of actions, risks, and next steps so the SEO process improves without relying on guesses."
+      ]
+    },
+    {
+      "id": "xp786-internal-linking-plan",
+      "title": "XP786 Internal Linking Plan",
+      "excerpt": "How to connect XP786 guide, news, hub, tips, and review pages into a clearer topic cluster.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Internal links should move readers from broad pages to narrow answers and back to the main guide when they need a stable reference.",
+        "Guide pages can link to news for recent context, tips for quick actions, hub for grouped resources, and review for trust checks.",
+        "Use descriptive anchor text so readers and search engines understand why each related page matters."
+      ]
+    },
+    {
+      "id": "xp786-pakistan-user-guide",
+      "title": "XP786 Pakistan User Guide",
+      "excerpt": "A Pakistan-focused XP786 guide covering mobile access, common search intent, and safe navigation basics.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Pakistan readers often search for XP786 from mobile devices, so the best starting page should be fast, clear, and easy to scan.",
+        "Use the main XP786 Guide domain for evergreen access notes, then move to News, Hub, Tips, or Review pages when the question is more specific.",
+        "A Pakistan-focused guide should explain login intent, mobile reading, safety checks, and domain differences without repeating the same wording on every site."
+      ]
+    },
+    {
+      "id": "xp786-daily-seo-report-format",
+      "title": "XP786 Daily SEO Report Format",
+      "excerpt": "A simple format for daily XP786 SEO reporting across content, technical checks, GSC data, and next actions.",
+      "date": "2026-06-22",
+      "author": "XP786 News",
+      "body": [
+        "A useful daily report starts with the most important action, then separates automatic work from tasks that need user approval.",
+        "The GSC table should include clicks, impressions, CTR, average position, queries, data date, and source for every site.",
+        "If a metric cannot be read reliably, mark it clearly as unavailable instead of filling the report with guesses."
+      ]
+    },
     {
       "id": "xp786-resource-center-map",
       "title": "XP786 Resource Center Map",

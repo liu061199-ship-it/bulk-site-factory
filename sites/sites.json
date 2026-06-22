@@ -209,12 +209,18 @@
     ],
     "redirectDomains": [
       "xp786pakistan.com",
-      "xp786official.com"
+      "xp786official.com",
+      "www.xp786guide.com"
     ],
     "contactEmail": "hello@xp786guide.com",
     "heroTitle": "XP786 official guide for login, download, and mobile access",
     "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
     "articles": [
+      "xp786-pakistan-user-guide",
+      "xp786-pakistan-login-intent",
+      "xp786-official-site-signals",
+      "xp786-mobile-h5-checklist",
+      "xp786-internal-linking-plan",
       "xp786-official-access-guide",
       "xp786-login-page-checklist",
       "xp786-download-safety-notes",
@@ -260,6 +266,11 @@
     "heroTitle": "Fresh XP786 updates and announcement notes",
     "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
     "articles": [
+      "xp786-daily-seo-report-format",
+      "xp786-pakistan-keyword-map",
+      "xp786-competitor-serp-review",
+      "xp786-indexing-monitoring-plan",
+      "xp786-risk-control-notes",
       "xp786-latest-update-watchlist",
       "xp786-news-domain-update",
       "xp786-announcement-summary",
@@ -270,6 +281,9 @@
       "xp786-common-mistakes",
       "xp786-resource-center-map",
       "xp786-topic-cluster-plan"
+    ],
+    "redirectDomains": [
+      "www.xp786-news.com"
     ]
   },
   {
@@ -305,6 +319,11 @@
     "heroTitle": "XP786 resource hub for guides, tips, and review pages",
     "heroSubtitle": "Use one organized XP786 hub to find official guide notes, help center pages, quick tips, and safety review content.",
     "articles": [
+      "xp786-pakistan-keyword-map",
+      "xp786-indexing-monitoring-plan",
+      "xp786-internal-linking-plan",
+      "xp786-pakistan-user-guide",
+      "xp786-daily-seo-report-format",
       "xp786-resource-center-map",
       "xp786-help-center-structure",
       "xp786-topic-cluster-plan",
@@ -315,6 +334,9 @@
       "xp786-review-checklist",
       "xp786-domain-comparison",
       "xp786-latest-update-watchlist"
+    ],
+    "redirectDomains": [
+      "www.xp786-hub.com"
     ]
   },
   {
@@ -350,6 +372,11 @@
     "heroTitle": "Quick XP786 tips for mobile readers and beginners",
     "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
     "articles": [
+      "xp786-mobile-h5-checklist",
+      "xp786-pakistan-login-intent",
+      "xp786-official-site-signals",
+      "xp786-internal-linking-plan",
+      "xp786-risk-control-notes",
       "xp786-quick-start-tips",
       "xp786-common-mistakes",
       "xp786-mobile-guide",
@@ -360,6 +387,9 @@
       "xp786-latest-update-watchlist",
       "xp786-review-checklist",
       "xp786-help-center-structure"
+    ],
+    "redirectDomains": [
+      "www.xp786-tips.com"
     ]
   },
   {
@@ -395,6 +425,11 @@
     "heroTitle": "XP786 review notes for safer reading decisions",
     "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
     "articles": [
+      "xp786-official-site-signals",
+      "xp786-competitor-serp-review",
+      "xp786-risk-control-notes",
+      "xp786-indexing-monitoring-plan",
+      "xp786-pakistan-keyword-map",
       "xp786-review-checklist",
       "xp786-domain-comparison",
       "xp786-download-safety-notes",
@@ -405,6 +440,9 @@
       "xp786-help-center-structure",
       "xp786-latest-update-watchlist",
       "xp786-beginner-faq"
+    ],
+    "redirectDomains": [
+      "www.xp786-review.com"
     ]
   }
 ]
