@@ -76,6 +76,14 @@ function articleCards(site) {
   return "<div class=\\"grid\\">" + site.resolvedArticles.map((article) => "<a class=\\"card\\" href=\\"/blog/" + encodeURIComponent(article.id) + "\\"><p class=\\"muted\\">" + text(article.date) + " by " + text(article.author) + "</p><h2>" + text(article.title) + "</h2><p class=\\"muted\\">" + text(article.excerpt) + "</p></a>").join("") + "</div>";
 }
 
+function relatedBlocks(site, articleId) {
+  const relatedArticles = site.resolvedArticles.filter((item) => item.id !== articleId).slice(0, 3);
+  const relatedSites = sites.filter((item) => item.id !== site.id && item.domain.includes("xp786")).slice(0, 4);
+  const articles = relatedArticles.map((item) => "<a class=\\"card\\" href=\\"/blog/" + encodeURIComponent(item.id) + "\\"><h2>" + text(item.title) + "</h2><p class=\\"muted\\">" + text(item.excerpt) + "</p></a>").join("");
+  const network = relatedSites.map((item) => "<a class=\\"card\\" href=\\"https://" + text(item.domain) + "\\"><h2>" + text(item.siteName) + "</h2><p class=\\"muted\\">" + text(item.description) + "</p></a>").join("");
+  return "<section class=\\"wrap\\"><div class=\\"grid\\"><div><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Related reading</p><div class=\\"grid\\">" + articles + "</div></div><div><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">XP786 resource network</p><div class=\\"grid\\">" + network + "</div></div></div></section>";
+}
+
 function home(site) {
   return layout(site, site.title, site.description, "<section class=\\"hero\\"><div class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">" + text(site.domain) + "</p><h1>" + text(site.heroTitle) + "</h1><p class=\\"muted\\" style=\\"font-size:18px;max-width:760px\\">" + text(site.heroSubtitle) + "</p>" + ctaButtons(site) + "</div></section>" + officialSignals(site) + "<section class=\\"wrap\\">" + articleCards(site) + "</section>" + faqSection(site));
 }
@@ -96,7 +104,7 @@ function article(site, slug) {
   const found = site.resolvedArticles.find((item) => item.id === slug);
   if (!found) return notFound(site);
   const body = found.body.map((p) => "<p class=\\"muted\\" style=\\"font-size:18px\\">" + text(p) + "</p>").join("");
-  return layout(site, found.title + " | " + site.siteName, found.excerpt, "<article class=\\"wrap\\" style=\\"max-width:820px\\"><a href=\\"/blog\\">Back to blog</a><p class=\\"muted\\">" + text(found.date) + " by " + text(found.author) + "</p><h1>" + text(found.title) + "</h1><p class=\\"muted\\" style=\\"font-size:20px\\">" + text(found.excerpt) + "</p>" + body + "</article>");
+  return layout(site, found.title + " | " + site.siteName, found.excerpt, "<article class=\\"wrap\\" style=\\"max-width:820px\\"><a href=\\"/blog\\">Back to blog</a><p class=\\"muted\\">" + text(found.date) + " by " + text(found.author) + "</p><h1>" + text(found.title) + "</h1><p class=\\"muted\\" style=\\"font-size:20px\\">" + text(found.excerpt) + "</p>" + body + "</article>" + relatedBlocks(site, found.id));
 }
 
 function sitemap(site) {

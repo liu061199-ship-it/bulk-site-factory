@@ -61,6 +61,16 @@ export function getArticle(site: GeneratedSite, articleId: string): GeneratedArt
   return article;
 }
 
+export function getRelatedArticles(site: GeneratedSite, articleId: string, limit = 3) {
+  return site.resolvedArticles.filter((article) => article.id !== articleId).slice(0, limit);
+}
+
+export function getRelatedSites(site: GeneratedSite, limit = 4) {
+  return sites
+    .filter((item) => item.id !== site.id && item.domain.includes("xp786"))
+    .slice(0, limit);
+}
+
 export function siteUrl(site: GeneratedSite, pathname = "") {
   return `https://${site.domain}${pathname}`;
 }
