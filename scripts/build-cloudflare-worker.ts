@@ -42,6 +42,10 @@ function siteUrl(site, path = "") {
   return "https://" + site.domain + path;
 }
 
+function jsonLd(data) {
+  return "<script type=\\"application/ld+json\\">" + JSON.stringify(data).replace(/<\\//g, "<\\\\/") + "</script>";
+}
+
 function layout(site, title, description, body) {
   const keywords = (site.keywords || []).join(", ");
   return "<!doctype html><html lang=\\"en\\"><head><meta charset=\\"utf-8\\"><meta name=\\"viewport\\" content=\\"width=device-width,initial-scale=1\\">" +
@@ -72,6 +76,55 @@ function faqSection(site) {
   return "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">FAQ</p><h2>Common questions</h2><div class=\\"grid\\">" + faq.map((item) => "<div class=\\"card\\"><h2>" + text(item.question) + "</h2><p class=\\"muted\\">" + text(item.answer) + "</p></div>").join("") + "</div></section>";
 }
 
+function homeSchema(site) {
+  const faq = site.faq || [
+    { question: "What is " + site.siteName + "?", answer: site.description },
+    { question: "Where should readers start on " + site.siteName + "?", answer: site.heroSubtitle }
+  ];
+  return jsonLd([
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: site.siteName,
+      url: siteUrl(site),
+      description: site.description,
+      inLanguage: "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer
+        }
+      }))
+    }
+  ]);
+}
+
+function articleSchema(site, article) {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    author: {
+      "@type": "Organization",
+      name: article.author
+    },
+    publisher: {
+      "@type": "Organization",
+      name: site.siteName
+    },
+    datePublished: article.date,
+    dateModified: article.date,
+    mainEntityOfPage: siteUrl(site, "/blog/" + article.id)
+  });
+}
+
 function articleCards(site) {
   return "<div class=\\"grid\\">" + site.resolvedArticles.map((article) => "<a class=\\"card\\" href=\\"/blog/" + encodeURIComponent(article.id) + "\\"><p class=\\"muted\\">" + text(article.date) + " by " + text(article.author) + "</p><h2>" + text(article.title) + "</h2><p class=\\"muted\\">" + text(article.excerpt) + "</p></a>").join("") + "</div>";
 }
@@ -85,7 +138,7 @@ function relatedBlocks(site, articleId) {
 }
 
 function home(site) {
-  return layout(site, site.title, site.description, "<section class=\\"hero\\"><div class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">" + text(site.domain) + "</p><h1>" + text(site.heroTitle) + "</h1><p class=\\"muted\\" style=\\"font-size:18px;max-width:760px\\">" + text(site.heroSubtitle) + "</p>" + ctaButtons(site) + "</div></section>" + officialSignals(site) + "<section class=\\"wrap\\">" + articleCards(site) + "</section>" + faqSection(site));
+  return layout(site, site.title, site.description, homeSchema(site) + "<section class=\\"hero\\"><div class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">" + text(site.domain) + "</p><h1>" + text(site.heroTitle) + "</h1><p class=\\"muted\\" style=\\"font-size:18px;max-width:760px\\">" + text(site.heroSubtitle) + "</p>" + ctaButtons(site) + "</div></section>" + officialSignals(site) + "<section class=\\"wrap\\">" + articleCards(site) + "</section>" + faqSection(site));
 }
 
 function about(site) {
@@ -104,7 +157,7 @@ function article(site, slug) {
   const found = site.resolvedArticles.find((item) => item.id === slug);
   if (!found) return notFound(site);
   const body = found.body.map((p) => "<p class=\\"muted\\" style=\\"font-size:18px\\">" + text(p) + "</p>").join("");
-  return layout(site, found.title + " | " + site.siteName, found.excerpt, "<article class=\\"wrap\\" style=\\"max-width:820px\\"><a href=\\"/blog\\">Back to blog</a><p class=\\"muted\\">" + text(found.date) + " by " + text(found.author) + "</p><h1>" + text(found.title) + "</h1><p class=\\"muted\\" style=\\"font-size:20px\\">" + text(found.excerpt) + "</p>" + body + "</article>" + relatedBlocks(site, found.id));
+  return layout(site, found.title + " | " + site.siteName, found.excerpt, articleSchema(site, found) + "<article class=\\"wrap\\" style=\\"max-width:820px\\"><a href=\\"/blog\\">Back to blog</a><p class=\\"muted\\">" + text(found.date) + " by " + text(found.author) + "</p><h1>" + text(found.title) + "</h1><p class=\\"muted\\" style=\\"font-size:20px\\">" + text(found.excerpt) + "</p>" + body + "</article>" + relatedBlocks(site, found.id));
 }
 
 function sitemap(site) {

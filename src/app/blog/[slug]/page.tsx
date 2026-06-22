@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getArticle, getCurrentSite, getRelatedArticles, getRelatedSites } from "@/lib/site";
+import { getArticle, getCurrentSite, getRelatedArticles, getRelatedSites, siteUrl } from "@/lib/site";
 
 export const runtime = "edge";
 
@@ -28,9 +28,27 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
   const article = getArticle(site, slug);
   const relatedArticles = getRelatedArticles(site, slug);
   const relatedSites = getRelatedSites(site);
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    author: {
+      "@type": "Organization",
+      name: article.author
+    },
+    publisher: {
+      "@type": "Organization",
+      name: site.siteName
+    },
+    datePublished: article.date,
+    dateModified: article.date,
+    mainEntityOfPage: siteUrl(site, `/blog/${article.id}`)
+  };
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <article className="mx-auto max-w-3xl px-5 py-16">
         <Link href="/blog" className="text-sm font-semibold" style={{ color: site.themeColor }}>
           Back to blog

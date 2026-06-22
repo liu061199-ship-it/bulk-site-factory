@@ -9,7 +9,8 @@ import {
   getSiteFaq,
   getSiteOfficialSignals,
   getSiteTargetAudience,
-  getSiteTemplate
+  getSiteTemplate,
+  siteUrl
 } from "@/lib/site";
 
 export const runtime = "edge";
@@ -128,6 +129,34 @@ function FaqSection({ site }: { site: GeneratedSite }) {
       </div>
     </section>
   );
+}
+
+function HomeSchema({ site }: { site: GeneratedSite }) {
+  const faq = getSiteFaq(site);
+  const schema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: site.siteName,
+      url: siteUrl(site),
+      description: site.description,
+      inLanguage: "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer
+        }
+      }))
+    }
+  ];
+
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
 function GuideHome({ site }: { site: GeneratedSite }) {
@@ -299,9 +328,14 @@ export default async function HomePage() {
   const site = await getCurrentSite();
   const template = getSiteTemplate(site);
 
-  if (template === "news") return <NewsHome site={site} />;
-  if (template === "hub") return <HubHome site={site} />;
-  if (template === "tips") return <TipsHome site={site} />;
-  if (template === "review") return <ReviewHome site={site} />;
-  return <GuideHome site={site} />;
+  return (
+    <>
+      <HomeSchema site={site} />
+      {template === "news" ? <NewsHome site={site} /> : null}
+      {template === "hub" ? <HubHome site={site} /> : null}
+      {template === "tips" ? <TipsHome site={site} /> : null}
+      {template === "review" ? <ReviewHome site={site} /> : null}
+      {template === "guide" ? <GuideHome site={site} /> : null}
+    </>
+  );
 }
