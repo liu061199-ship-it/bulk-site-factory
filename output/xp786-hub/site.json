@@ -31,6 +31,10 @@
   "heroTitle": "XP786 resource hub for guides, tips, and review pages",
   "heroSubtitle": "Use one organized XP786 hub to find official guide notes, help center pages, quick tips, and safety review content.",
   "articles": [
+    "xp786-pakistan-search-intent-map",
+    "xp786-content-depth-plan",
+    "xp786-pakistan-login-guide-2026",
+    "xp786-download-pakistan-safety-guide",
     "xp786-pakistan-keyword-map",
     "xp786-indexing-monitoring-plan",
     "xp786-internal-linking-plan",
@@ -80,6 +84,58 @@
     "Mobile ready"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-pakistan-search-intent-map",
+      "title": "XP786 Pakistan Search Intent Map",
+      "excerpt": "A deeper map of Pakistan search intent across login, register, app, download, official, tips, and review queries.",
+      "date": "2026-06-22",
+      "author": "XP786 Hub",
+      "body": [
+        "XP786 Pakistan searches can be grouped by intent: login, register, official app, download, update, review, and mobile help.",
+        "The main guide should answer broad access questions, while tips pages should handle fast mobile questions and review pages should handle trust checks.",
+        "Hub pages should map these intents into clusters so readers do not land on ten similar pages that say the same thing.",
+        "When Search Console data appears, the keyword map should be adjusted using real queries instead of guessed rankings."
+      ]
+    },
+    {
+      "id": "xp786-content-depth-plan",
+      "title": "XP786 Content Depth Plan for Long-Tail SEO",
+      "excerpt": "A content depth plan for expanding XP786 long-tail pages without duplicating the same article across domains.",
+      "date": "2026-06-22",
+      "author": "XP786 Hub",
+      "body": [
+        "Long-tail SEO works best when each page answers a specific question. For XP786, useful long-tail groups include Pakistan login, official app, register, download safety, mobile H5, and review checks.",
+        "Each site should keep a different angle: Guide for evergreen instructions, News for updates, Hub for maps, Tips for short fixes, and Review for trust decisions.",
+        "Content depth should come from better explanations, clearer examples, and stronger internal links, not from repeating the same paragraphs in different places.",
+        "A practical plan is to publish in clusters, monitor indexing, then expand the pages that receive real impressions or queries in Search Console."
+      ]
+    },
+    {
+      "id": "xp786-pakistan-login-guide-2026",
+      "title": "XP786 Pakistan Login Guide 2026",
+      "excerpt": "A deeper Pakistan-focused login guide for checking domains, mobile pages, and safer access signals in 2026.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Pakistan login searches usually come from users who want a fast answer, but speed should not replace basic checks. Start by confirming the domain, HTTPS status, page title, and whether the page matches the official XP786 guide layout.",
+        "A useful login guide should explain the difference between the main guide domain, news updates, quick tips, and review pages. This helps readers avoid using a random copied page as the starting point.",
+        "On mobile, keep the flow simple: open the main guide, review the official access checks, use the visible Login or Register button, and avoid any page that hides its purpose or asks users to trust unclear shortcuts.",
+        "For SEO monitoring, do not assume that a page ranks just because it is published. Check Search Console data, sitemap status, and indexing signals before making decisions about the next content update."
+      ]
+    },
+    {
+      "id": "xp786-download-pakistan-safety-guide",
+      "title": "XP786 Download Safety Guide for Pakistan",
+      "excerpt": "A Pakistan-focused download safety guide covering source checks, mobile behavior, and practical warning signs.",
+      "date": "2026-06-22",
+      "author": "XP786 Tips",
+      "body": [
+        "Download searches can attract unclear pages, so the first step is to check whether the page explains the source and purpose clearly.",
+        "A safer XP786 download guide should focus on verification, compatibility, and update notes instead of pushing visitors toward unknown files.",
+        "On mobile, watch for warning signs such as forced popups, buttons that do not match the site design, and text that repeats keywords without explaining the next step.",
+        "Readers should use the review domain when they need a checklist before trusting a download-related page."
+      ]
+    },
     {
       "id": "xp786-pakistan-keyword-map",
       "title": "XP786 Pakistan Keyword Map",

@@ -31,6 +31,10 @@
   "heroTitle": "Fresh XP786 updates and announcement notes",
   "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
   "articles": [
+    "xp786-weekly-update-checklist",
+    "xp786-pakistan-search-intent-map",
+    "xp786-official-app-guide",
+    "xp786-register-pakistan-guide",
     "xp786-daily-seo-report-format",
     "xp786-pakistan-keyword-map",
     "xp786-competitor-serp-review",
@@ -80,6 +84,58 @@
     "Guide linked"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-weekly-update-checklist",
+      "title": "XP786 Weekly Update Checklist",
+      "excerpt": "A weekly XP786 checklist for content freshness, GSC monitoring, technical checks, and risk control.",
+      "date": "2026-06-22",
+      "author": "XP786 News",
+      "body": [
+        "A weekly update should begin with verified data: sitemap status, page availability, Search Console clicks, impressions, CTR, average position, and visible query data when available.",
+        "Next, review whether the latest pages still match search intent for Pakistan users, especially login, register, app, download, and official guide queries.",
+        "Update content only when it improves clarity or reflects a real change. Do not add ranking claims or traffic claims without a reliable source.",
+        "End the weekly check with a short action list: pages to update, internal links to add, technical risks to fix, and user-provided materials still needed."
+      ]
+    },
+    {
+      "id": "xp786-pakistan-search-intent-map",
+      "title": "XP786 Pakistan Search Intent Map",
+      "excerpt": "A deeper map of Pakistan search intent across login, register, app, download, official, tips, and review queries.",
+      "date": "2026-06-22",
+      "author": "XP786 Hub",
+      "body": [
+        "XP786 Pakistan searches can be grouped by intent: login, register, official app, download, update, review, and mobile help.",
+        "The main guide should answer broad access questions, while tips pages should handle fast mobile questions and review pages should handle trust checks.",
+        "Hub pages should map these intents into clusters so readers do not land on ten similar pages that say the same thing.",
+        "When Search Console data appears, the keyword map should be adjusted using real queries instead of guessed rankings."
+      ]
+    },
+    {
+      "id": "xp786-official-app-guide",
+      "title": "XP786 Official App Guide and Mobile Access Notes",
+      "excerpt": "How to write and read XP786 official app guidance without trusting unsafe download claims or copied pages.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Searches for an official app often include mixed intent: some readers want download information, some want mobile access, and some want to confirm whether a page is trustworthy.",
+        "A strong XP786 official app guide should not push unknown files. It should explain how to check the source, review compatibility notes, and compare the page with the main guide domain.",
+        "Readers should treat app-related pages carefully when the page has no date, no contact path, no sitemap context, or no internal links to related guide pages.",
+        "For Pakistan mobile users, the best page is short, readable, and direct. It should explain what to check before tapping a button and link to review content when trust is uncertain."
+      ]
+    },
+    {
+      "id": "xp786-register-pakistan-guide",
+      "title": "XP786 Register Guide for Pakistan Readers",
+      "excerpt": "A practical register-intent guide for Pakistan readers who need official signals, mobile clarity, and safe next steps.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "Register searches are action-oriented, so the page must make the next step clear while still showing enough trust information for readers to make a cautious decision.",
+        "Before registering through any page, confirm the domain, visible navigation, official resource panel, and whether the login and register buttons are consistent across the site.",
+        "Pakistan readers often browse on smaller screens, so the register path should be visible without confusing overlays or cramped buttons.",
+        "If a page feels inconsistent, return to the main guide and use the internal resource network to compare guide, news, tips, hub, and review pages."
+      ]
+    },
     {
       "id": "xp786-daily-seo-report-format",
       "title": "XP786 Daily SEO Report Format",
