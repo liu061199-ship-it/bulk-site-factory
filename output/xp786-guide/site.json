@@ -40,6 +40,7 @@
   "heroTitle": "XP786 official guide for login, download, and mobile access",
   "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
   "articles": [
+    "xp786-official-homepage-check",
     "xp786-pakistan-login-guide-2026",
     "xp786-official-app-guide",
     "xp786-register-pakistan-guide",
@@ -90,6 +91,19 @@
     "Updated sitemap"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-official-homepage-check",
+      "title": "XP786 Official Homepage Check for Pakistan Visitors",
+      "excerpt": "A homepage-focused guide for checking official signals, navigation, mobile layout, and clear XP786 access paths.",
+      "date": "2026-06-22",
+      "author": "XP786 Guide",
+      "body": [
+        "A strong XP786 homepage should make the official purpose clear before asking readers to click anything. Pakistan visitors should see the brand name, guide focus, login and register buttons, and the main resource links without confusion.",
+        "Check whether the homepage links to guide, news, hub, tips, and review pages in a way that explains why each resource exists. Clear structure helps users avoid random mirror pages and copied search results.",
+        "On mobile, the official feeling comes from fast loading, readable text, stable buttons, and a layout that does not hide navigation behind clutter.",
+        "Use this homepage check after each content update so the main domain remains the clearest starting point for XP786 searches."
+      ]
+    },
     {
       "id": "xp786-pakistan-login-guide-2026",
       "title": "XP786 Pakistan Login Guide 2026",

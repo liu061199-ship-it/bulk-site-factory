@@ -31,6 +31,7 @@
   "heroTitle": "Fresh XP786 updates and announcement notes",
   "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
   "articles": [
+    "xp786-pakistan-update-log",
     "xp786-weekly-update-checklist",
     "xp786-pakistan-search-intent-map",
     "xp786-official-app-guide",
@@ -84,6 +85,19 @@
     "Guide linked"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-pakistan-update-log",
+      "title": "XP786 Pakistan Update Log: What Changed and What to Check",
+      "excerpt": "A news-style update log for tracking XP786 Pakistan content, sitemap changes, mobile notes, and verified Search Console data.",
+      "date": "2026-06-22",
+      "author": "XP786 News",
+      "body": [
+        "An update log should separate verified changes from assumptions. When new XP786 pages are published, record the date, affected domain, page purpose, and whether the sitemap is live.",
+        "Pakistan readers often search around login, register, app, download, and official access topics. News updates should explain which intent changed and which guide page should be read next.",
+        "Do not report rankings, clicks, impressions, or CTR unless the numbers come from Google Search Console or another reliable source.",
+        "A useful update log ends with the next action: wait for Google to refresh the sitemap, request indexing when quota is available, or improve content depth when a page has weak intent coverage."
+      ]
+    },
     {
       "id": "xp786-weekly-update-checklist",
       "title": "XP786 Weekly Update Checklist",

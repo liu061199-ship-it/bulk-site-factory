@@ -31,6 +31,7 @@
   "heroTitle": "Quick XP786 tips for mobile readers and beginners",
   "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
   "articles": [
+    "xp786-mobile-login-quick-fixes",
     "xp786-login-problems-mobile",
     "xp786-download-pakistan-safety-guide",
     "xp786-register-pakistan-guide",
@@ -84,6 +85,19 @@
     "Beginner safe"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-mobile-login-quick-fixes",
+      "title": "XP786 Mobile Login Quick Fixes",
+      "excerpt": "Fast mobile checks for XP786 readers who face login page loading issues, unclear buttons, or broken layouts.",
+      "date": "2026-06-22",
+      "author": "XP786 Tips",
+      "body": [
+        "If an XP786 login page looks broken on mobile, start with the simple checks: refresh once, confirm the domain, check HTTPS, and make sure the button labels match the site design.",
+        "Avoid repeated retries through unknown links. A clean path from the main guide or tips page is safer than jumping between copied URLs from search results.",
+        "If the problem is layout-related, rotate the phone, close popups, and use the visible navigation to return to the article or homepage.",
+        "When a page still feels unclear, use the review site to compare trust signals before tapping login or register again."
+      ]
+    },
     {
       "id": "xp786-login-problems-mobile",
       "title": "XP786 Login Problems on Mobile: Checks Before You Retry",

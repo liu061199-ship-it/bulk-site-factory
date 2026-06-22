@@ -31,6 +31,7 @@
   "heroTitle": "XP786 review notes for safer reading decisions",
   "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
   "articles": [
+    "xp786-trust-signal-scorecard",
     "xp786-official-vs-mirror-pages",
     "xp786-review-for-new-users",
     "xp786-download-pakistan-safety-guide",
@@ -84,6 +85,19 @@
     "No fake data"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-trust-signal-scorecard",
+      "title": "XP786 Trust Signal Scorecard",
+      "excerpt": "A practical review scorecard for comparing XP786 domains, official signals, mobile quality, and content reliability.",
+      "date": "2026-06-22",
+      "author": "XP786 Review",
+      "body": [
+        "A trust scorecard should look at concrete signals: domain clarity, HTTPS, sitemap access, robots output, readable mobile layout, current articles, contact information, and consistent login or register buttons.",
+        "The goal is not to claim that a page ranks or is indexed. The goal is to help readers decide whether a page gives enough evidence to be useful.",
+        "Score each XP786 page by purpose. A news page should have dates and update context, while a guide page should explain stable access steps and link to deeper resources.",
+        "When evidence is missing, mark it as unknown instead of turning assumptions into claims. This keeps review content safer and more credible."
+      ]
+    },
     {
       "id": "xp786-official-vs-mirror-pages",
       "title": "XP786 Official Pages vs Mirror Pages: What to Compare",

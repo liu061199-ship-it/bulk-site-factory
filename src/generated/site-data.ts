@@ -651,6 +651,7 @@ export const sites = [
     "heroTitle": "XP786 official guide for login, download, and mobile access",
     "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
     "articles": [
+      "xp786-official-homepage-check",
       "xp786-pakistan-login-guide-2026",
       "xp786-official-app-guide",
       "xp786-register-pakistan-guide",
@@ -701,6 +702,19 @@ export const sites = [
       "Updated sitemap"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-official-homepage-check",
+        "title": "XP786 Official Homepage Check for Pakistan Visitors",
+        "excerpt": "A homepage-focused guide for checking official signals, navigation, mobile layout, and clear XP786 access paths.",
+        "date": "2026-06-22",
+        "author": "XP786 Guide",
+        "body": [
+          "A strong XP786 homepage should make the official purpose clear before asking readers to click anything. Pakistan visitors should see the brand name, guide focus, login and register buttons, and the main resource links without confusion.",
+          "Check whether the homepage links to guide, news, hub, tips, and review pages in a way that explains why each resource exists. Clear structure helps users avoid random mirror pages and copied search results.",
+          "On mobile, the official feeling comes from fast loading, readable text, stable buttons, and a layout that does not hide navigation behind clutter.",
+          "Use this homepage check after each content update so the main domain remains the clearest starting point for XP786 searches."
+        ]
+      },
       {
         "id": "xp786-pakistan-login-guide-2026",
         "title": "XP786 Pakistan Login Guide 2026",
@@ -968,6 +982,7 @@ export const sites = [
     "heroTitle": "Fresh XP786 updates and announcement notes",
     "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
     "articles": [
+      "xp786-pakistan-update-log",
       "xp786-weekly-update-checklist",
       "xp786-pakistan-search-intent-map",
       "xp786-official-app-guide",
@@ -1021,6 +1036,19 @@ export const sites = [
       "Guide linked"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-pakistan-update-log",
+        "title": "XP786 Pakistan Update Log: What Changed and What to Check",
+        "excerpt": "A news-style update log for tracking XP786 Pakistan content, sitemap changes, mobile notes, and verified Search Console data.",
+        "date": "2026-06-22",
+        "author": "XP786 News",
+        "body": [
+          "An update log should separate verified changes from assumptions. When new XP786 pages are published, record the date, affected domain, page purpose, and whether the sitemap is live.",
+          "Pakistan readers often search around login, register, app, download, and official access topics. News updates should explain which intent changed and which guide page should be read next.",
+          "Do not report rankings, clicks, impressions, or CTR unless the numbers come from Google Search Console or another reliable source.",
+          "A useful update log ends with the next action: wait for Google to refresh the sitemap, request indexing when quota is available, or improve content depth when a page has weak intent coverage."
+        ]
+      },
       {
         "id": "xp786-weekly-update-checklist",
         "title": "XP786 Weekly Update Checklist",
@@ -1288,6 +1316,7 @@ export const sites = [
     "heroTitle": "XP786 resource hub for guides, tips, and review pages",
     "heroSubtitle": "Use one organized XP786 hub to find official guide notes, help center pages, quick tips, and safety review content.",
     "articles": [
+      "xp786-resource-navigation-guide",
       "xp786-pakistan-search-intent-map",
       "xp786-content-depth-plan",
       "xp786-pakistan-login-guide-2026",
@@ -1341,6 +1370,19 @@ export const sites = [
       "Mobile ready"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-resource-navigation-guide",
+        "title": "XP786 Resource Navigation Guide",
+        "excerpt": "A hub-focused guide explaining how readers should move between XP786 guide, news, tips, review, and help pages.",
+        "date": "2026-06-22",
+        "author": "XP786 Hub",
+        "body": [
+          "The XP786 resource network works best when every domain has a clear job. The guide explains stable access topics, news tracks changes, tips answer short mobile questions, and review pages compare trust signals.",
+          "A reader who starts with a broad Pakistan search should be able to move from the hub to a specific login, register, download, app, or safety page in one or two clicks.",
+          "Internal links should use descriptive text instead of vague labels. For example, link to mobile login checks when the reader has a phone problem, and link to review checklists when the reader needs trust context.",
+          "The hub should be maintained as a map, not a duplicate copy of every article. Its value is helping readers choose the right page faster."
+        ]
+      },
       {
         "id": "xp786-pakistan-search-intent-map",
         "title": "XP786 Pakistan Search Intent Map",
@@ -1608,6 +1650,7 @@ export const sites = [
     "heroTitle": "Quick XP786 tips for mobile readers and beginners",
     "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
     "articles": [
+      "xp786-mobile-login-quick-fixes",
       "xp786-login-problems-mobile",
       "xp786-download-pakistan-safety-guide",
       "xp786-register-pakistan-guide",
@@ -1661,6 +1704,19 @@ export const sites = [
       "Beginner safe"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-mobile-login-quick-fixes",
+        "title": "XP786 Mobile Login Quick Fixes",
+        "excerpt": "Fast mobile checks for XP786 readers who face login page loading issues, unclear buttons, or broken layouts.",
+        "date": "2026-06-22",
+        "author": "XP786 Tips",
+        "body": [
+          "If an XP786 login page looks broken on mobile, start with the simple checks: refresh once, confirm the domain, check HTTPS, and make sure the button labels match the site design.",
+          "Avoid repeated retries through unknown links. A clean path from the main guide or tips page is safer than jumping between copied URLs from search results.",
+          "If the problem is layout-related, rotate the phone, close popups, and use the visible navigation to return to the article or homepage.",
+          "When a page still feels unclear, use the review site to compare trust signals before tapping login or register again."
+        ]
+      },
       {
         "id": "xp786-login-problems-mobile",
         "title": "XP786 Login Problems on Mobile: Checks Before You Retry",
@@ -1928,6 +1984,7 @@ export const sites = [
     "heroTitle": "XP786 review notes for safer reading decisions",
     "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
     "articles": [
+      "xp786-trust-signal-scorecard",
       "xp786-official-vs-mirror-pages",
       "xp786-review-for-new-users",
       "xp786-download-pakistan-safety-guide",
@@ -1981,6 +2038,19 @@ export const sites = [
       "No fake data"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-trust-signal-scorecard",
+        "title": "XP786 Trust Signal Scorecard",
+        "excerpt": "A practical review scorecard for comparing XP786 domains, official signals, mobile quality, and content reliability.",
+        "date": "2026-06-22",
+        "author": "XP786 Review",
+        "body": [
+          "A trust scorecard should look at concrete signals: domain clarity, HTTPS, sitemap access, robots output, readable mobile layout, current articles, contact information, and consistent login or register buttons.",
+          "The goal is not to claim that a page ranks or is indexed. The goal is to help readers decide whether a page gives enough evidence to be useful.",
+          "Score each XP786 page by purpose. A news page should have dates and update context, while a guide page should explain stable access steps and link to deeper resources.",
+          "When evidence is missing, mark it as unknown instead of turning assumptions into claims. This keeps review content safer and more credible."
+        ]
+      },
       {
         "id": "xp786-official-vs-mirror-pages",
         "title": "XP786 Official Pages vs Mirror Pages: What to Compare",
