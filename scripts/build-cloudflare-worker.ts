@@ -18,14 +18,18 @@ function normalizedHost(host) {
   return hostname.startsWith("www.") ? hostname.slice(4) : hostname;
 }
 
+function exactHost(host) {
+  return (host || "").split(":")[0].toLowerCase();
+}
+
 function siteByHost(host) {
   const hostname = normalizedHost(host);
   return sites.find((site) => [site.domain, ...(site.aliases || [])].some((domain) => normalizedHost(domain) === hostname)) || sites[0];
 }
 
 function redirectForHost(host, url) {
-  const hostname = normalizedHost(host);
-  const site = sites.find((item) => (item.redirectDomains || []).some((domain) => normalizedHost(domain) === hostname));
+  const hostname = exactHost(host);
+  const site = sites.find((item) => (item.redirectDomains || []).some((domain) => exactHost(domain) === hostname));
   if (!site) return null;
   const target = new URL(url);
   target.hostname = site.domain;
