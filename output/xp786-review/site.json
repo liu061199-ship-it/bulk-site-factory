@@ -50,6 +50,29 @@
   "redirectDomains": [
     "www.xp786-review.com"
   ],
+  "officialSignals": [
+    "XP786 Review focuses on trust checks, comparison notes, and risk control before readers act.",
+    "Review pages should avoid unsupported claims and clearly separate verified data from unknown status.",
+    "Domain comparison, official signals, and safety notes should be easy to find from the homepage."
+  ],
+  "faq": [
+    {
+      "question": "What is XP786 Review?",
+      "answer": "XP786 Review helps readers compare domains, check trust signals, and evaluate XP786 pages before relying on them."
+    },
+    {
+      "question": "Does XP786 Review claim rankings or traffic?",
+      "answer": "No. Rankings, clicks, impressions, and CTR should only be reported when they are read from reliable sources such as Google Search Console."
+    },
+    {
+      "question": "What should I check before trusting an XP786 page?",
+      "answer": "Check the domain, HTTPS status, title, update date, contact details, internal links, and whether the page explains its purpose clearly."
+    },
+    {
+      "question": "Why does review content matter?",
+      "answer": "Review content reduces confusion for readers who see multiple domains and need a safer way to choose the right page."
+    }
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-official-site-signals",

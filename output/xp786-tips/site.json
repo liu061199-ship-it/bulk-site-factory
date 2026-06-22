@@ -50,6 +50,29 @@
   "redirectDomains": [
     "www.xp786-tips.com"
   ],
+  "officialSignals": [
+    "XP786 Tips focuses on short mobile-first answers and H5 reading checks.",
+    "Each tip should solve one small reader problem without duplicating long guide pages.",
+    "Buttons, headings, and article links should remain easy to tap on small screens."
+  ],
+  "faq": [
+    {
+      "question": "What is XP786 Tips?",
+      "answer": "XP786 Tips is for short tutorials, mobile checks, common mistakes, and quick answers for XP786 readers."
+    },
+    {
+      "question": "Are XP786 Tips pages mobile friendly?",
+      "answer": "Yes. Tips pages are designed for H5 and mobile readers with short paragraphs, visible actions, and simple navigation."
+    },
+    {
+      "question": "Should I use Tips for official access questions?",
+      "answer": "Use Tips for quick checks, then return to XP786 Guide for complete evergreen access instructions."
+    },
+    {
+      "question": "What mistakes should readers avoid?",
+      "answer": "Avoid unknown mirror links, unclear update claims, copied pages, and login paths where the domain or page purpose is not clear."
+    }
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-mobile-h5-checklist",

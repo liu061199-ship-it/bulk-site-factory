@@ -50,6 +50,29 @@
   "redirectDomains": [
     "www.xp786-hub.com"
   ],
+  "officialSignals": [
+    "XP786 Hub groups guides, tips, review notes, and Pakistan keyword clusters in one resource center.",
+    "Resource pages should explain why each linked topic matters instead of listing links without context.",
+    "Hub pages should help readers move from broad search intent to the right specific answer."
+  ],
+  "faq": [
+    {
+      "question": "What is XP786 Hub?",
+      "answer": "XP786 Hub is a resource center that organizes guide pages, tips, review notes, Pakistan keywords, and monitoring topics."
+    },
+    {
+      "question": "When should I use XP786 Hub instead of XP786 Guide?",
+      "answer": "Use the Hub when you want to compare multiple XP786 resources or find related pages across the whole topic cluster."
+    },
+    {
+      "question": "Does XP786 Hub replace the main guide?",
+      "answer": "No. The Hub organizes resources, while the main guide stays the primary starting point for evergreen access help."
+    },
+    {
+      "question": "How does the Hub help SEO?",
+      "answer": "It clarifies site structure, internal links, and topic relationships so readers and search engines can understand the content network."
+    }
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-pakistan-keyword-map",

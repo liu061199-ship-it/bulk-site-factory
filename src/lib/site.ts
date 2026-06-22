@@ -99,3 +99,30 @@ export function getSiteContentPillars(site: GeneratedSite) {
   }
   return [...site.keywords].slice(0, 4);
 }
+
+export function getSiteOfficialSignals(site: GeneratedSite) {
+  if ("officialSignals" in site) {
+    return [...(site.officialSignals as readonly string[])];
+  }
+  return [
+    "Clear domain and HTTPS access",
+    "Updated sitemap and robots.txt",
+    "Mobile-friendly guide pages"
+  ];
+}
+
+export function getSiteFaq(site: GeneratedSite) {
+  if ("faq" in site) {
+    return [...(site.faq as readonly { question: string; answer: string }[])];
+  }
+  return [
+    {
+      question: `What is ${site.siteName}?`,
+      answer: site.description
+    },
+    {
+      question: `Where should readers start on ${site.siteName}?`,
+      answer: site.heroSubtitle
+    }
+  ];
+}

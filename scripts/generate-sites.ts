@@ -15,6 +15,11 @@ type SiteConfig = {
   targetAudience?: string;
   editorialPromise?: string;
   contentPillars?: string[];
+  officialSignals?: string[];
+  faq?: {
+    question: string;
+    answer: string;
+  }[];
   aliases?: string[];
   redirectDomains?: string[];
   contactEmail: string;
@@ -131,10 +136,13 @@ Sitemap: https://${site.domain}/sitemap.xml
 
 function buildCloudflareRedirects(sites: GeneratedSite[]) {
   const redirectLines = sites.flatMap((site) => {
-    return (site.redirectDomains ?? []).flatMap((domain) => [
-      `https://${domain}/* https://${site.domain}/:splat 301`,
-      `https://www.${domain}/* https://${site.domain}/:splat 301`
-    ]);
+    return (site.redirectDomains ?? []).flatMap((domain) => {
+      const redirects = [`https://${domain}/* https://${site.domain}/:splat 301`];
+      if (!domain.toLowerCase().startsWith("www.")) {
+        redirects.push(`https://www.${domain}/* https://${site.domain}/:splat 301`);
+      }
+      return redirects;
+    });
   });
 
   if (redirectLines.length === 0) {

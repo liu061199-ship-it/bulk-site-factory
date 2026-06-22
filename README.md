@@ -38,6 +38,13 @@ src/generated/            Generated data consumed by the app
   "targetAudience": "The reader group this site is built for.",
   "editorialPromise": "What this site consistently helps readers do.",
   "contentPillars": ["pillar one", "pillar two", "pillar three"],
+  "officialSignals": ["Official signal one", "Official signal two"],
+  "faq": [
+    {
+      "question": "Common question?",
+      "answer": "Clear answer for readers and search intent."
+    }
+  ],
   "aliases": ["new-site.pages.dev"],
   "redirectDomains": ["new-site-official.com"],
   "contactEmail": "hello@new.example.com",
@@ -56,6 +63,8 @@ Template and content fields:
 - `targetAudience`: the audience this site is written for.
 - `editorialPromise`: the site-specific content promise shown on pages.
 - `contentPillars`: short topic labels used by templates and About pages.
+- `officialSignals`: homepage trust and official-access checks.
+- `faq`: homepage FAQ entries for search intent coverage.
 
 Use different templates, keyword sets, content focus, and article selections when creating multiple sites in the same niche. This keeps each site distinct while still using the same Next.js codebase.
 

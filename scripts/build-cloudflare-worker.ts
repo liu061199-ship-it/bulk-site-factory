@@ -55,12 +55,29 @@ function ctaButtons(site) {
   return "<div class=\\"cta-row\\"><a class=\\"btn\\" style=\\"background:" + text(site.themeColor) + "\\" href=\\"" + CTA_URL + "\\">Login</a><a class=\\"btn-outline\\" href=\\"" + CTA_URL + "\\">Register</a></div>";
 }
 
+function officialSignals(site) {
+  const signals = site.officialSignals || [
+    "Clear domain and HTTPS access",
+    "Updated sitemap and robots.txt",
+    "Mobile-friendly guide pages"
+  ];
+  return "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Official access checks</p><h2>Before using " + text(site.siteName) + "</h2><div class=\\"grid\\">" + signals.map((signal) => "<div class=\\"card\\"><p class=\\"muted\\">" + text(signal) + "</p></div>").join("") + "</div></section>";
+}
+
+function faqSection(site) {
+  const faq = site.faq || [
+    { question: "What is " + site.siteName + "?", answer: site.description },
+    { question: "Where should readers start on " + site.siteName + "?", answer: site.heroSubtitle }
+  ];
+  return "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">FAQ</p><h2>Common questions</h2><div class=\\"grid\\">" + faq.map((item) => "<div class=\\"card\\"><h2>" + text(item.question) + "</h2><p class=\\"muted\\">" + text(item.answer) + "</p></div>").join("") + "</div></section>";
+}
+
 function articleCards(site) {
   return "<div class=\\"grid\\">" + site.resolvedArticles.map((article) => "<a class=\\"card\\" href=\\"/blog/" + encodeURIComponent(article.id) + "\\"><p class=\\"muted\\">" + text(article.date) + " by " + text(article.author) + "</p><h2>" + text(article.title) + "</h2><p class=\\"muted\\">" + text(article.excerpt) + "</p></a>").join("") + "</div>";
 }
 
 function home(site) {
-  return layout(site, site.title, site.description, "<section class=\\"hero\\"><div class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">" + text(site.domain) + "</p><h1>" + text(site.heroTitle) + "</h1><p class=\\"muted\\" style=\\"font-size:18px;max-width:760px\\">" + text(site.heroSubtitle) + "</p>" + ctaButtons(site) + "</div></section><section class=\\"wrap\\">" + articleCards(site) + "</section>");
+  return layout(site, site.title, site.description, "<section class=\\"hero\\"><div class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">" + text(site.domain) + "</p><h1>" + text(site.heroTitle) + "</h1><p class=\\"muted\\" style=\\"font-size:18px;max-width:760px\\">" + text(site.heroSubtitle) + "</p>" + ctaButtons(site) + "</div></section>" + officialSignals(site) + "<section class=\\"wrap\\">" + articleCards(site) + "</section>" + faqSection(site));
 }
 
 function about(site) {

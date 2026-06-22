@@ -56,6 +56,29 @@
     "xp786-resource-center-map",
     "xp786-domain-comparison"
   ],
+  "officialSignals": [
+    "Use xp786guide.com as the primary evergreen XP786 guide domain.",
+    "Check HTTPS, sitemap, robots.txt, and current article dates before following access pages.",
+    "Use the Login and Register buttons only when the page matches the official guide layout."
+  ],
+  "faq": [
+    {
+      "question": "Is XP786 Guide the main starting page?",
+      "answer": "Yes. XP786 Guide is positioned as the primary evergreen guide for login, download, mobile access, and safe navigation notes."
+    },
+    {
+      "question": "Which XP786 page should Pakistan users start with?",
+      "answer": "Pakistan users should start with the main guide, then use News for updates, Tips for quick mobile answers, Hub for resources, and Review for trust checks."
+    },
+    {
+      "question": "How do I check the official XP786 access path?",
+      "answer": "Confirm the domain, HTTPS status, page title, contact details, and internal links before using any login or register path."
+    },
+    {
+      "question": "Why are there multiple XP786 domains?",
+      "answer": "Each domain has a different role so readers can separate evergreen guide content, news updates, quick tips, resource lists, and review notes."
+    }
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-pakistan-user-guide",

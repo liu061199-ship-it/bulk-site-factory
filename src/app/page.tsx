@@ -6,6 +6,8 @@ import {
   getSiteContentFocus,
   getSiteContentPillars,
   getSiteEditorialPromise,
+  getSiteFaq,
+  getSiteOfficialSignals,
   getSiteTargetAudience,
   getSiteTemplate
 } from "@/lib/site";
@@ -85,6 +87,49 @@ function CtaButtons({ site, dark = false }: { site: GeneratedSite; dark?: boolea
   );
 }
 
+function OfficialSignals({ site }: { site: GeneratedSite }) {
+  const signals = getSiteOfficialSignals(site);
+
+  return (
+    <section className="border-y border-slate-200 bg-white">
+      <div className="mx-auto max-w-6xl px-5 py-10">
+        <p className="text-sm font-semibold uppercase" style={{ color: site.themeColor }}>
+          Official access checks
+        </p>
+        <h2 className="mt-3 text-2xl font-bold text-slate-950">Before using {site.siteName}</h2>
+        <div className="mt-6 grid gap-4 md:grid-cols-3">
+          {signals.map((signal) => (
+            <div key={signal} className="rounded-md border border-slate-200 bg-slate-50 p-5">
+              <p className="text-sm leading-6 text-slate-700">{signal}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FaqSection({ site }: { site: GeneratedSite }) {
+  const faq = getSiteFaq(site);
+
+  return (
+    <section className="mx-auto max-w-6xl px-5 py-12">
+      <p className="text-sm font-semibold uppercase" style={{ color: site.themeColor }}>
+        FAQ
+      </p>
+      <h2 className="mt-3 text-2xl font-bold text-slate-950">Common questions</h2>
+      <div className="mt-6 grid gap-4 md:grid-cols-2">
+        {faq.map((item) => (
+          <div key={item.question} className="rounded-md border border-slate-200 bg-white p-5">
+            <h3 className="font-semibold text-slate-950">{item.question}</h3>
+            <p className="mt-3 text-sm leading-6 text-slate-600">{item.answer}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function GuideHome({ site }: { site: GeneratedSite }) {
   return (
     <>
@@ -107,12 +152,14 @@ function GuideHome({ site }: { site: GeneratedSite }) {
           </div>
         </div>
       </section>
+      <OfficialSignals site={site} />
       <section className="mx-auto max-w-6xl px-5 py-12">
         <TemplateFacts site={site} />
         <div className="mt-10">
           <ArticleLinks site={site} />
         </div>
       </section>
+      <FaqSection site={site} />
     </>
   );
 }
@@ -151,6 +198,8 @@ function NewsHome({ site }: { site: GeneratedSite }) {
           </div>
         </div>
       </section>
+      <OfficialSignals site={site} />
+      <FaqSection site={site} />
     </>
   );
 }
@@ -183,6 +232,8 @@ function HubHome({ site }: { site: GeneratedSite }) {
         </aside>
         <ArticleLinks site={site} />
       </section>
+      <OfficialSignals site={site} />
+      <FaqSection site={site} />
     </>
   );
 }
@@ -213,6 +264,8 @@ function TipsHome({ site }: { site: GeneratedSite }) {
           ))}
         </div>
       </section>
+      <OfficialSignals site={site} />
+      <FaqSection site={site} />
     </>
   );
 }
@@ -236,6 +289,8 @@ function ReviewHome({ site }: { site: GeneratedSite }) {
         </div>
         <ArticleLinks site={site} variant="list" />
       </section>
+      <OfficialSignals site={site} />
+      <FaqSection site={site} />
     </>
   );
 }

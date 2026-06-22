@@ -50,6 +50,29 @@
   "redirectDomains": [
     "www.xp786-news.com"
   ],
+  "officialSignals": [
+    "XP786 News is for recent updates, announcement notes, and dated context.",
+    "Update pages should mention dates, affected topics, and links back to stable guide resources.",
+    "Readers should compare news notes with the main guide before acting on access-related changes."
+  ],
+  "faq": [
+    {
+      "question": "What is XP786 News for?",
+      "answer": "XP786 News tracks latest updates, access notes, announcements, and trend context for returning readers."
+    },
+    {
+      "question": "Are XP786 News pages evergreen?",
+      "answer": "No. News pages are time-sensitive and should link to guide pages when a topic needs stable instructions."
+    },
+    {
+      "question": "How often should XP786 News be updated?",
+      "answer": "News content should be updated when domains, mobile access, login guidance, or search trends change."
+    },
+    {
+      "question": "Can Pakistan readers use XP786 News?",
+      "answer": "Yes. Pakistan readers can use it for recent context, but evergreen actions should still start from the main guide."
+    }
+  ],
   "resolvedArticles": [
     {
       "id": "xp786-daily-seo-report-format",

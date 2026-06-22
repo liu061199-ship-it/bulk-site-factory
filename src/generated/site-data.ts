@@ -667,6 +667,29 @@ export const sites = [
       "xp786-resource-center-map",
       "xp786-domain-comparison"
     ],
+    "officialSignals": [
+      "Use xp786guide.com as the primary evergreen XP786 guide domain.",
+      "Check HTTPS, sitemap, robots.txt, and current article dates before following access pages.",
+      "Use the Login and Register buttons only when the page matches the official guide layout."
+    ],
+    "faq": [
+      {
+        "question": "Is XP786 Guide the main starting page?",
+        "answer": "Yes. XP786 Guide is positioned as the primary evergreen guide for login, download, mobile access, and safe navigation notes."
+      },
+      {
+        "question": "Which XP786 page should Pakistan users start with?",
+        "answer": "Pakistan users should start with the main guide, then use News for updates, Tips for quick mobile answers, Hub for resources, and Review for trust checks."
+      },
+      {
+        "question": "How do I check the official XP786 access path?",
+        "answer": "Confirm the domain, HTTPS status, page title, contact details, and internal links before using any login or register path."
+      },
+      {
+        "question": "Why are there multiple XP786 domains?",
+        "answer": "Each domain has a different role so readers can separate evergreen guide content, news updates, quick tips, resource lists, and review notes."
+      }
+    ],
     "resolvedArticles": [
       {
         "id": "xp786-pakistan-user-guide",
@@ -901,6 +924,29 @@ export const sites = [
     ],
     "redirectDomains": [
       "www.xp786-news.com"
+    ],
+    "officialSignals": [
+      "XP786 News is for recent updates, announcement notes, and dated context.",
+      "Update pages should mention dates, affected topics, and links back to stable guide resources.",
+      "Readers should compare news notes with the main guide before acting on access-related changes."
+    ],
+    "faq": [
+      {
+        "question": "What is XP786 News for?",
+        "answer": "XP786 News tracks latest updates, access notes, announcements, and trend context for returning readers."
+      },
+      {
+        "question": "Are XP786 News pages evergreen?",
+        "answer": "No. News pages are time-sensitive and should link to guide pages when a topic needs stable instructions."
+      },
+      {
+        "question": "How often should XP786 News be updated?",
+        "answer": "News content should be updated when domains, mobile access, login guidance, or search trends change."
+      },
+      {
+        "question": "Can Pakistan readers use XP786 News?",
+        "answer": "Yes. Pakistan readers can use it for recent context, but evergreen actions should still start from the main guide."
+      }
     ],
     "resolvedArticles": [
       {
@@ -1137,6 +1183,29 @@ export const sites = [
     "redirectDomains": [
       "www.xp786-hub.com"
     ],
+    "officialSignals": [
+      "XP786 Hub groups guides, tips, review notes, and Pakistan keyword clusters in one resource center.",
+      "Resource pages should explain why each linked topic matters instead of listing links without context.",
+      "Hub pages should help readers move from broad search intent to the right specific answer."
+    ],
+    "faq": [
+      {
+        "question": "What is XP786 Hub?",
+        "answer": "XP786 Hub is a resource center that organizes guide pages, tips, review notes, Pakistan keywords, and monitoring topics."
+      },
+      {
+        "question": "When should I use XP786 Hub instead of XP786 Guide?",
+        "answer": "Use the Hub when you want to compare multiple XP786 resources or find related pages across the whole topic cluster."
+      },
+      {
+        "question": "Does XP786 Hub replace the main guide?",
+        "answer": "No. The Hub organizes resources, while the main guide stays the primary starting point for evergreen access help."
+      },
+      {
+        "question": "How does the Hub help SEO?",
+        "answer": "It clarifies site structure, internal links, and topic relationships so readers and search engines can understand the content network."
+      }
+    ],
     "resolvedArticles": [
       {
         "id": "xp786-pakistan-keyword-map",
@@ -1372,6 +1441,29 @@ export const sites = [
     "redirectDomains": [
       "www.xp786-tips.com"
     ],
+    "officialSignals": [
+      "XP786 Tips focuses on short mobile-first answers and H5 reading checks.",
+      "Each tip should solve one small reader problem without duplicating long guide pages.",
+      "Buttons, headings, and article links should remain easy to tap on small screens."
+    ],
+    "faq": [
+      {
+        "question": "What is XP786 Tips?",
+        "answer": "XP786 Tips is for short tutorials, mobile checks, common mistakes, and quick answers for XP786 readers."
+      },
+      {
+        "question": "Are XP786 Tips pages mobile friendly?",
+        "answer": "Yes. Tips pages are designed for H5 and mobile readers with short paragraphs, visible actions, and simple navigation."
+      },
+      {
+        "question": "Should I use Tips for official access questions?",
+        "answer": "Use Tips for quick checks, then return to XP786 Guide for complete evergreen access instructions."
+      },
+      {
+        "question": "What mistakes should readers avoid?",
+        "answer": "Avoid unknown mirror links, unclear update claims, copied pages, and login paths where the domain or page purpose is not clear."
+      }
+    ],
     "resolvedArticles": [
       {
         "id": "xp786-mobile-h5-checklist",
@@ -1606,6 +1698,29 @@ export const sites = [
     ],
     "redirectDomains": [
       "www.xp786-review.com"
+    ],
+    "officialSignals": [
+      "XP786 Review focuses on trust checks, comparison notes, and risk control before readers act.",
+      "Review pages should avoid unsupported claims and clearly separate verified data from unknown status.",
+      "Domain comparison, official signals, and safety notes should be easy to find from the homepage."
+    ],
+    "faq": [
+      {
+        "question": "What is XP786 Review?",
+        "answer": "XP786 Review helps readers compare domains, check trust signals, and evaluate XP786 pages before relying on them."
+      },
+      {
+        "question": "Does XP786 Review claim rankings or traffic?",
+        "answer": "No. Rankings, clicks, impressions, and CTR should only be reported when they are read from reliable sources such as Google Search Console."
+      },
+      {
+        "question": "What should I check before trusting an XP786 page?",
+        "answer": "Check the domain, HTTPS status, title, update date, contact details, internal links, and whether the page explains its purpose clearly."
+      },
+      {
+        "question": "Why does review content matter?",
+        "answer": "Review content reduces confusion for readers who see multiple domains and need a safer way to choose the right page."
+      }
     ],
     "resolvedArticles": [
       {
