@@ -109,6 +109,8 @@ This creates:
 - `output/<site-id>/sitemap.xml`
 - `output/<site-id>/robots.txt`
 
+SEO metadata is generated from the active site config. Each page emits its own canonical URL for the current domain and path, including article pages such as `/blog/<article-id>`.
+
 ## How to Create Many Site Configs
 
 For large batches such as 5, 10, 20, 50, 100, 150, or 200 sites, use:

@@ -4,7 +4,8 @@ import {
   getSiteContentFocus,
   getSiteContentPillars,
   getSiteEditorialPromise,
-  getSiteTargetAudience
+  getSiteTargetAudience,
+  siteUrl
 } from "@/lib/site";
 
 export const runtime = "edge";
@@ -13,7 +14,17 @@ export async function generateMetadata(): Promise<Metadata> {
   const site = await getCurrentSite();
   return {
     title: "About",
-    description: `Learn more about ${site.siteName}.`
+    description: `Learn more about ${site.siteName}.`,
+    alternates: {
+      canonical: siteUrl(site, "/about")
+    },
+    openGraph: {
+      title: `About ${site.siteName}`,
+      description: `Learn more about ${site.siteName}.`,
+      url: siteUrl(site, "/about"),
+      siteName: site.siteName,
+      type: "website"
+    }
   };
 }
 

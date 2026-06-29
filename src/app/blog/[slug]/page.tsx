@@ -14,11 +14,25 @@ export async function generateMetadata({ params }: BlogArticlePageProps): Promis
   const site = await getCurrentSite();
   const { slug } = await params;
   const article = getArticle(site, slug);
+  const articleUrl = siteUrl(site, `/blog/${article.id}`);
 
   return {
     title: article.title,
     description: article.excerpt,
-    authors: [{ name: article.author }]
+    authors: [{ name: article.author }],
+    alternates: {
+      canonical: articleUrl
+    },
+    openGraph: {
+      title: article.title,
+      description: article.excerpt,
+      url: articleUrl,
+      siteName: site.siteName,
+      type: "article",
+      publishedTime: article.date,
+      modifiedTime: article.date,
+      authors: [article.author]
+    }
   };
 }
 

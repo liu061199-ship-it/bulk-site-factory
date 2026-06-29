@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getCurrentSite } from "@/lib/site";
+import { getCurrentSite, siteUrl } from "@/lib/site";
 
 export const runtime = "edge";
 
@@ -7,7 +7,17 @@ export async function generateMetadata(): Promise<Metadata> {
   const site = await getCurrentSite();
   return {
     title: "Contact",
-    description: `Contact ${site.siteName}.`
+    description: `Contact ${site.siteName}.`,
+    alternates: {
+      canonical: siteUrl(site, "/contact")
+    },
+    openGraph: {
+      title: `Contact ${site.siteName}`,
+      description: `Contact ${site.siteName}.`,
+      url: siteUrl(site, "/contact"),
+      siteName: site.siteName,
+      type: "website"
+    }
   };
 }
 

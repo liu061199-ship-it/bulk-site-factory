@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getCurrentSite, getSiteContentFocus, getSiteTemplate } from "@/lib/site";
+import { getCurrentSite, getSiteContentFocus, getSiteTemplate, siteUrl } from "@/lib/site";
 
 export const runtime = "edge";
 
@@ -8,7 +8,17 @@ export async function generateMetadata(): Promise<Metadata> {
   const site = await getCurrentSite();
   return {
     title: "Blog",
-    description: `${site.siteName} articles about ${getSiteContentFocus(site)}`
+    description: `${site.siteName} articles about ${getSiteContentFocus(site)}`,
+    alternates: {
+      canonical: siteUrl(site, "/blog")
+    },
+    openGraph: {
+      title: `${site.siteName} Blog`,
+      description: `${site.siteName} articles about ${getSiteContentFocus(site)}`,
+      url: siteUrl(site, "/blog"),
+      siteName: site.siteName,
+      type: "website"
+    }
   };
 }
 
