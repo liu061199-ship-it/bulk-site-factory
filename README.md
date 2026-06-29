@@ -195,12 +195,13 @@ It runs automatically when code is pushed to the `main` branch:
 1. Checks out the repository.
 2. Installs dependencies with `npm ci`.
 3. Runs `npm run generate`.
-4. Runs `npm run build`.
+4. Runs `npm run build:cloudflare`.
 5. Uploads a build artifact named `bulk-site-factory-build`.
 
 The uploaded artifact includes:
 
 - `.next`
+- `out`
 - `output`
 - `public`
 - `package.json`
@@ -241,7 +242,7 @@ npm ci
 5. Set the build command to:
 
 ```bash
-npm run build
+npm run build:cloudflare
 ```
 
 6. For each deployment, set one of these environment variables:

@@ -26,8 +26,8 @@ jobs:
       - name: Generate site data
         run: npm run generate
 
-      - name: Build Next.js app
-        run: npm run build
+      - name: Build Cloudflare Pages output
+        run: npm run build:cloudflare
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
@@ -37,6 +37,7 @@ jobs:
           retention-days: 7
           path: |
             .next
+            out
             output
             public
             package.json

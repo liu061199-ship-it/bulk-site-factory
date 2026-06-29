@@ -46,11 +46,12 @@ function jsonLd(data) {
   return "<script type=\\"application/ld+json\\">" + JSON.stringify(data).replace(/<\\//g, "<\\\\/") + "</script>";
 }
 
-function layout(site, title, description, body) {
+function layout(site, title, description, body, pathname = "") {
   const keywords = (site.keywords || []).join(", ");
+  const canonicalUrl = siteUrl(site, pathname);
   return "<!doctype html><html lang=\\"en\\"><head><meta charset=\\"utf-8\\"><meta name=\\"viewport\\" content=\\"width=device-width,initial-scale=1\\">" +
     "<title>" + text(title) + "</title><meta name=\\"description\\" content=\\"" + text(description) + "\\"><meta name=\\"keywords\\" content=\\"" + text(keywords) + "\\">" +
-    "<link rel=\\"canonical\\" href=\\"" + siteUrl(site) + "\\"><style>body{margin:0;font-family:Arial,sans-serif;color:#0f172a;background:#f8fafc}a{color:inherit}header,footer{background:#fff;border-color:#e2e8f0}header{border-bottom:1px solid #e2e8f0}footer{border-top:1px solid #e2e8f0}.wrap{max-width:1120px;margin:auto;padding:24px}.nav{display:flex;justify-content:space-between;gap:20px;align-items:center}.links{display:flex;gap:14px;font-size:14px;align-items:center;flex-wrap:wrap}.hero{padding:56px 24px;background:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:22px}.muted{color:#64748b;line-height:1.7}.btn{display:inline-block;color:#fff;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700}.btn-outline{display:inline-block;border:1px solid #cbd5e1;padding:11px 17px;border-radius:6px;text-decoration:none;font-weight:700}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}h1{font-size:44px;line-height:1.08;margin:12px 0}h2{font-size:26px;margin:8px 0}main{min-height:70vh}@media(max-width:640px){h1{font-size:34px}.nav{align-items:flex-start;flex-direction:column}}</style></head><body>" +
+    "<link rel=\\"canonical\\" href=\\"" + canonicalUrl + "\\"><meta property=\\"og:title\\" content=\\"" + text(title) + "\\"><meta property=\\"og:description\\" content=\\"" + text(description) + "\\"><meta property=\\"og:url\\" content=\\"" + canonicalUrl + "\\"><meta property=\\"og:site_name\\" content=\\"" + text(site.siteName) + "\\"><style>body{margin:0;font-family:Arial,sans-serif;color:#0f172a;background:#f8fafc}a{color:inherit}header,footer{background:#fff;border-color:#e2e8f0}header{border-bottom:1px solid #e2e8f0}footer{border-top:1px solid #e2e8f0}.wrap{max-width:1120px;margin:auto;padding:24px}.nav{display:flex;justify-content:space-between;gap:20px;align-items:center}.links{display:flex;gap:14px;font-size:14px;align-items:center;flex-wrap:wrap}.hero{padding:56px 24px;background:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:22px}.muted{color:#64748b;line-height:1.7}.btn{display:inline-block;color:#fff;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700}.btn-outline{display:inline-block;border:1px solid #cbd5e1;padding:11px 17px;border-radius:6px;text-decoration:none;font-weight:700}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}h1{font-size:44px;line-height:1.08;margin:12px 0}h2{font-size:26px;margin:8px 0}main{min-height:70vh}@media(max-width:640px){h1{font-size:34px}.nav{align-items:flex-start;flex-direction:column}}</style></head><body>" +
     "<header><div class=\\"wrap nav\\"><strong>" + text(site.siteName) + "</strong><nav class=\\"links\\"><a href=\\"/about\\">About</a><a href=\\"/blog\\">Blog</a><a href=\\"/contact\\">Contact</a><a class=\\"btn-outline\\" href=\\"" + CTA_URL + "\\">Login</a><a class=\\"btn\\" style=\\"background:#0f172a\\" href=\\"" + CTA_URL + "\\">Register</a></nav></div></header><main>" +
     body + "</main><footer><div class=\\"wrap muted\\">Copyright " + new Date().getFullYear() + " " + text(site.siteName) + " - " + text(site.contactEmail) + "</div></footer></body></html>";
 }
@@ -147,22 +148,22 @@ function home(site) {
 }
 
 function about(site) {
-  return layout(site, "About | " + site.siteName, site.description, "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">About</p><h1>" + text(site.siteName) + "</h1><p class=\\"muted\\">" + text(site.description) + "</p><div class=\\"card\\"><h2>Editorial focus</h2><p class=\\"muted\\">" + text(site.contentFocus || site.heroSubtitle) + "</p></div></section>");
+  return layout(site, "About | " + site.siteName, site.description, "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">About</p><h1>" + text(site.siteName) + "</h1><p class=\\"muted\\">" + text(site.description) + "</p><div class=\\"card\\"><h2>Editorial focus</h2><p class=\\"muted\\">" + text(site.contentFocus || site.heroSubtitle) + "</p></div></section>", "/about");
 }
 
 function contact(site) {
-  return layout(site, "Contact | " + site.siteName, "Contact " + site.siteName + ".", "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Contact</p><h1>Get in touch</h1><p class=\\"muted\\">For questions or updates, email <a href=\\"mailto:" + text(site.contactEmail) + "\\">" + text(site.contactEmail) + "</a>.</p><div class=\\"card\\"><h2>Site details</h2><p class=\\"muted\\">" + text(site.siteName) + " - " + text(site.domain) + "</p></div></section>");
+  return layout(site, "Contact | " + site.siteName, "Contact " + site.siteName + ".", "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Contact</p><h1>Get in touch</h1><p class=\\"muted\\">For questions or updates, email <a href=\\"mailto:" + text(site.contactEmail) + "\\">" + text(site.contactEmail) + "</a>.</p><div class=\\"card\\"><h2>Site details</h2><p class=\\"muted\\">" + text(site.siteName) + " - " + text(site.domain) + "</p></div></section>", "/contact");
 }
 
 function blog(site) {
-  return layout(site, "Blog | " + site.siteName, site.description, "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Articles</p><h1>" + text(site.siteName) + " Blog</h1>" + articleCards(site) + "</section>");
+  return layout(site, "Blog | " + site.siteName, site.description, "<section class=\\"wrap\\"><p style=\\"color:" + text(site.themeColor) + ";font-weight:700;text-transform:uppercase\\">Articles</p><h1>" + text(site.siteName) + " Blog</h1>" + articleCards(site) + "</section>", "/blog");
 }
 
 function article(site, slug) {
   const found = site.resolvedArticles.find((item) => item.id === slug);
   if (!found) return notFound(site);
   const body = found.body.map((p) => "<p class=\\"muted\\" style=\\"font-size:18px\\">" + text(p) + "</p>").join("");
-  return layout(site, found.title + " | " + site.siteName, found.excerpt, articleSchema(site, found) + "<article class=\\"wrap\\" style=\\"max-width:820px\\"><a href=\\"/blog\\">Back to blog</a><p class=\\"muted\\">" + text(found.date) + " by " + text(found.author) + "</p><h1>" + text(found.title) + "</h1><p class=\\"muted\\" style=\\"font-size:20px\\">" + text(found.excerpt) + "</p>" + body + "</article>" + relatedBlocks(site, found.id));
+  return layout(site, found.title + " | " + site.siteName, found.excerpt, articleSchema(site, found) + "<article class=\\"wrap\\" style=\\"max-width:820px\\"><a href=\\"/blog\\">Back to blog</a><p class=\\"muted\\">" + text(found.date) + " by " + text(found.author) + "</p><h1>" + text(found.title) + "</h1><p class=\\"muted\\" style=\\"font-size:20px\\">" + text(found.excerpt) + "</p>" + body + "</article>" + relatedBlocks(site, found.id), "/blog/" + found.id);
 }
 
 function sitemap(site) {
