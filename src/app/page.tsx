@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import type { GeneratedSite } from "@/generated/site-data";
 import { CTA_URL } from "@/lib/cta";
@@ -15,6 +16,23 @@ import {
 } from "@/lib/site";
 
 export const runtime = "edge";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const site = await getCurrentSite();
+
+  return {
+    alternates: {
+      canonical: siteUrl(site)
+    },
+    openGraph: {
+      title: site.title,
+      description: site.description,
+      url: siteUrl(site),
+      siteName: site.siteName,
+      type: "website"
+    }
+  };
+}
 
 function ArticleLinks({ site, variant = "grid" }: { site: GeneratedSite; variant?: "grid" | "list" }) {
   const articles = site.resolvedArticles.slice(0, 4);
