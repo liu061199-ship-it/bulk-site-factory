@@ -40,6 +40,7 @@
   "heroTitle": "XP786 review notes for safer reading decisions",
   "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
   "articles": [
+    "xp786-review-official-confidence-check",
     "xp786-trust-signal-scorecard",
     "xp786-official-vs-mirror-pages",
     "xp786-review-for-new-users",
@@ -94,6 +95,19 @@
     "No fake data"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-review-official-confidence-check",
+      "title": "XP786 Official Confidence Check Before You Trust a Page",
+      "excerpt": "A review checklist for deciding whether an XP786 page feels official, useful, and safe enough to follow.",
+      "date": "2026-07-04",
+      "author": "XP786 Review",
+      "body": [
+        "An official-looking XP786 page should pass a confidence check before readers trust it. Start with the domain, HTTPS status, clear title, current content, visible contact path, and consistent navigation.",
+        "A page that repeats XP786 keywords but gives no useful explanation should be treated carefully. Strong pages explain their role, link to related resources, and avoid unsupported traffic or ranking claims.",
+        "For Pakistan readers, mobile quality is part of trust. If text overlaps, buttons are hard to tap, or the page hides its next step, return to the main guide or use the Hub to find a clearer resource.",
+        "Use the Review site to compare signals, not to invent certainty. When a metric is not available from a reliable source, mark it as unknown and continue with practical checks."
+      ]
+    },
     {
       "id": "xp786-trust-signal-scorecard",
       "title": "XP786 Trust Signal Scorecard",

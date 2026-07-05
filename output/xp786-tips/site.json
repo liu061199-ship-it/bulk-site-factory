@@ -40,6 +40,7 @@
   "heroTitle": "Quick XP786 tips for mobile readers and beginners",
   "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
   "articles": [
+    "xp786-tips-mobile-speed-checks",
     "xp786-mobile-login-quick-fixes",
     "xp786-login-problems-mobile",
     "xp786-download-pakistan-safety-guide",
@@ -94,6 +95,19 @@
     "Beginner safe"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-tips-mobile-speed-checks",
+      "title": "XP786 Mobile Speed and Tap Checks for Pakistan Readers",
+      "excerpt": "Quick mobile checks for XP786 readers using phones, H5 pages, and small-screen login paths.",
+      "date": "2026-07-04",
+      "author": "XP786 Tips",
+      "body": [
+        "Most XP786 readers will judge a page from a phone. Before using a login or register button, confirm that the page loads quickly, the text is readable, and the buttons are easy to tap without zooming.",
+        "If the page feels slow, do the simple checks first: refresh once, close extra tabs, confirm the domain, and avoid unknown mirror links that do not match the main guide layout.",
+        "A good mobile page should keep headings short, paragraphs scannable, and actions visible. The best quick tip is to return to the main guide when a page hides its purpose or pushes unclear shortcuts.",
+        "Tips pages should remain short and practical. Use them for fast checks, then move to the guide, Hub, or Review site when the question needs deeper context."
+      ]
+    },
     {
       "id": "xp786-mobile-login-quick-fixes",
       "title": "XP786 Mobile Login Quick Fixes",

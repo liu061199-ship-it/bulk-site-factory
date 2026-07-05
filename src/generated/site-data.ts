@@ -616,8 +616,8 @@ export const sites = [
     "logo": "/logos/xp786-guide.svg",
     "themeColor": "#dc2626",
     "template": "guide",
-    "title": "XP786 Game Official Guide | Login, Download and Mobile Help",
-    "description": "XP786 Guide gives readers a clear starting point for XP786 login, download, mobile access, safety checks, and official guide resources.",
+    "title": "XP786 Official Guide Pakistan | Login, Register, Download and Mobile Access",
+    "description": "XP786 Guide is the main Pakistan-focused starting point for XP786 official access, login, register, download, mobile help, and safety checks.",
     "keywords": [
       "XP786 Guide",
       "online guide",
@@ -656,9 +656,10 @@ export const sites = [
       "www.xp786guide.com"
     ],
     "contactEmail": "hello@xp786guide.com",
-    "heroTitle": "XP786 official guide for login, download, and mobile access",
-    "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
+    "heroTitle": "XP786 official guide for Pakistan login, register, and download help",
+    "heroSubtitle": "Start from the main XP786 guide for official access notes, mobile login help, register guidance, download safety checks, and trusted resource links.",
     "articles": [
+      "xp786-guide-click-through-plan",
       "xp786-official-homepage-check",
       "xp786-pakistan-login-guide-2026",
       "xp786-official-app-guide",
@@ -710,6 +711,19 @@ export const sites = [
       "Updated sitemap"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-guide-click-through-plan",
+        "title": "XP786 Guide Click-Through Plan for Pakistan Searches",
+        "excerpt": "A focused plan for improving the main XP786 Guide homepage when GSC shows impressions but no clicks.",
+        "date": "2026-07-04",
+        "author": "XP786 Guide",
+        "body": [
+          "When the main guide receives impressions but no clicks, the first job is to make the search result promise clearer. The title should name XP786, official guide, Pakistan, login, register, download, and mobile access without sounding vague.",
+          "The homepage should immediately confirm that XP786 Guide is the main starting point. Pakistan readers should see a direct path to login help, register guidance, download safety notes, mobile tips, and review checks.",
+          "Do not claim rankings or traffic beyond verified Search Console data. Use the available signal carefully: impressions show visibility, but zero clicks means the page must earn a stronger reason to open.",
+          "Internal links should support the click-through promise. A reader who lands on the homepage should reach the official homepage check, Pakistan login guide, official app guide, mobile tips, and review checklist in one or two taps."
+        ]
+      },
       {
         "id": "xp786-official-homepage-check",
         "title": "XP786 Official Homepage Check for Pakistan Visitors",
@@ -999,6 +1013,7 @@ export const sites = [
     "heroTitle": "Fresh XP786 updates and announcement notes",
     "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
     "articles": [
+      "xp786-news-july-visibility-brief",
       "xp786-pakistan-update-log",
       "xp786-weekly-update-checklist",
       "xp786-pakistan-search-intent-map",
@@ -1053,6 +1068,19 @@ export const sites = [
       "Guide linked"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-news-july-visibility-brief",
+        "title": "XP786 July Visibility Brief: Guide Signals, Hub Signals and Next Checks",
+        "excerpt": "A dated XP786 News brief summarizing verified early visibility signals and what should be checked next.",
+        "date": "2026-07-04",
+        "author": "XP786 News",
+        "body": [
+          "This July visibility brief separates verified data from assumptions. The main guide has Search Console impressions, while the Hub has a smaller early signal. Other domains still need more content depth and clearer internal links before stronger conclusions can be made.",
+          "News updates should help returning readers understand what changed. The current priority is not to claim success, but to improve the pages that already show visibility and continue publishing useful supporting content.",
+          "For Pakistan searches, watch login, register, app, download, official, mobile, tips, review, and hub intent. When GSC starts showing real query rows, those terms should guide the next title and content updates.",
+          "Until then, every report should keep the same standard: clicks, impressions, CTR, average position, query data, date range, and source must come from Search Console or be marked unavailable."
+        ]
+      },
       {
         "id": "xp786-pakistan-update-log",
         "title": "XP786 Pakistan Update Log: What Changed and What to Check",
@@ -1342,6 +1370,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan resource hub for guides, login help, and review links",
     "heroSubtitle": "Use one organized XP786 hub to find official guide notes, login and register help, app and download resources, quick tips, and safety review content.",
     "articles": [
+      "xp786-hub-resource-pathways",
       "xp786-resource-navigation-guide",
       "xp786-pakistan-search-intent-map",
       "xp786-content-depth-plan",
@@ -1400,6 +1429,19 @@ export const sites = [
       "Mobile ready"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-hub-resource-pathways",
+        "title": "XP786 Hub Resource Pathways for Login, App, Download and Review Intent",
+        "excerpt": "A resource-path guide that turns broad XP786 Pakistan searches into clear next pages.",
+        "date": "2026-07-04",
+        "author": "XP786 Hub",
+        "body": [
+          "The Hub should not behave like a copy of the main guide. Its job is to route broad XP786 Pakistan intent into the correct page: login help, register guidance, app notes, download safety, mobile tips, news updates, or review checks.",
+          "A strong resource pathway explains why each link exists. Login intent should go to the Pakistan login guide, app intent should go to official app notes, download intent should go to safety checks, and trust intent should go to the review scorecard.",
+          "Because Search Console shows early Hub impressions, the Hub should become more useful as a navigation page. Add descriptive internal links and short explanations instead of generic link lists.",
+          "Keep the Hub updated as the topic cluster grows. When real GSC queries appear, adjust pathway labels using those queries rather than guessed keywords."
+        ]
+      },
       {
         "id": "xp786-resource-navigation-guide",
         "title": "XP786 Resource Navigation Guide for Pakistan Readers",
@@ -1690,6 +1732,7 @@ export const sites = [
     "heroTitle": "Quick XP786 tips for mobile readers and beginners",
     "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
     "articles": [
+      "xp786-tips-mobile-speed-checks",
       "xp786-mobile-login-quick-fixes",
       "xp786-login-problems-mobile",
       "xp786-download-pakistan-safety-guide",
@@ -1744,6 +1787,19 @@ export const sites = [
       "Beginner safe"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-tips-mobile-speed-checks",
+        "title": "XP786 Mobile Speed and Tap Checks for Pakistan Readers",
+        "excerpt": "Quick mobile checks for XP786 readers using phones, H5 pages, and small-screen login paths.",
+        "date": "2026-07-04",
+        "author": "XP786 Tips",
+        "body": [
+          "Most XP786 readers will judge a page from a phone. Before using a login or register button, confirm that the page loads quickly, the text is readable, and the buttons are easy to tap without zooming.",
+          "If the page feels slow, do the simple checks first: refresh once, close extra tabs, confirm the domain, and avoid unknown mirror links that do not match the main guide layout.",
+          "A good mobile page should keep headings short, paragraphs scannable, and actions visible. The best quick tip is to return to the main guide when a page hides its purpose or pushes unclear shortcuts.",
+          "Tips pages should remain short and practical. Use them for fast checks, then move to the guide, Hub, or Review site when the question needs deeper context."
+        ]
+      },
       {
         "id": "xp786-mobile-login-quick-fixes",
         "title": "XP786 Mobile Login Quick Fixes",
@@ -2033,6 +2089,7 @@ export const sites = [
     "heroTitle": "XP786 review notes for safer reading decisions",
     "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
     "articles": [
+      "xp786-review-official-confidence-check",
       "xp786-trust-signal-scorecard",
       "xp786-official-vs-mirror-pages",
       "xp786-review-for-new-users",
@@ -2087,6 +2144,19 @@ export const sites = [
       "No fake data"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-review-official-confidence-check",
+        "title": "XP786 Official Confidence Check Before You Trust a Page",
+        "excerpt": "A review checklist for deciding whether an XP786 page feels official, useful, and safe enough to follow.",
+        "date": "2026-07-04",
+        "author": "XP786 Review",
+        "body": [
+          "An official-looking XP786 page should pass a confidence check before readers trust it. Start with the domain, HTTPS status, clear title, current content, visible contact path, and consistent navigation.",
+          "A page that repeats XP786 keywords but gives no useful explanation should be treated carefully. Strong pages explain their role, link to related resources, and avoid unsupported traffic or ranking claims.",
+          "For Pakistan readers, mobile quality is part of trust. If text overlaps, buttons are hard to tap, or the page hides its next step, return to the main guide or use the Hub to find a clearer resource.",
+          "Use the Review site to compare signals, not to invent certainty. When a metric is not available from a reliable source, mark it as unknown and continue with practical checks."
+        ]
+      },
       {
         "id": "xp786-trust-signal-scorecard",
         "title": "XP786 Trust Signal Scorecard",

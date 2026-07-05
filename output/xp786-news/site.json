@@ -40,6 +40,7 @@
   "heroTitle": "Fresh XP786 updates and announcement notes",
   "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
   "articles": [
+    "xp786-news-july-visibility-brief",
     "xp786-pakistan-update-log",
     "xp786-weekly-update-checklist",
     "xp786-pakistan-search-intent-map",
@@ -94,6 +95,19 @@
     "Guide linked"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-news-july-visibility-brief",
+      "title": "XP786 July Visibility Brief: Guide Signals, Hub Signals and Next Checks",
+      "excerpt": "A dated XP786 News brief summarizing verified early visibility signals and what should be checked next.",
+      "date": "2026-07-04",
+      "author": "XP786 News",
+      "body": [
+        "This July visibility brief separates verified data from assumptions. The main guide has Search Console impressions, while the Hub has a smaller early signal. Other domains still need more content depth and clearer internal links before stronger conclusions can be made.",
+        "News updates should help returning readers understand what changed. The current priority is not to claim success, but to improve the pages that already show visibility and continue publishing useful supporting content.",
+        "For Pakistan searches, watch login, register, app, download, official, mobile, tips, review, and hub intent. When GSC starts showing real query rows, those terms should guide the next title and content updates.",
+        "Until then, every report should keep the same standard: clicks, impressions, CTR, average position, query data, date range, and source must come from Search Console or be marked unavailable."
+      ]
+    },
     {
       "id": "xp786-pakistan-update-log",
       "title": "XP786 Pakistan Update Log: What Changed and What to Check",

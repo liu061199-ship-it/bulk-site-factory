@@ -181,8 +181,8 @@
     "logo": "/logos/xp786-guide.svg",
     "themeColor": "#dc2626",
     "template": "guide",
-    "title": "XP786 Game Official Guide | Login, Download and Mobile Help",
-    "description": "XP786 Guide gives readers a clear starting point for XP786 login, download, mobile access, safety checks, and official guide resources.",
+    "title": "XP786 Official Guide Pakistan | Login, Register, Download and Mobile Access",
+    "description": "XP786 Guide is the main Pakistan-focused starting point for XP786 official access, login, register, download, mobile help, and safety checks.",
     "keywords": [
       "XP786 Guide",
       "online guide",
@@ -221,9 +221,10 @@
       "www.xp786guide.com"
     ],
     "contactEmail": "hello@xp786guide.com",
-    "heroTitle": "XP786 official guide for login, download, and mobile access",
-    "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
+    "heroTitle": "XP786 official guide for Pakistan login, register, and download help",
+    "heroSubtitle": "Start from the main XP786 guide for official access notes, mobile login help, register guidance, download safety checks, and trusted resource links.",
     "articles": [
+      "xp786-guide-click-through-plan",
       "xp786-official-homepage-check",
       "xp786-pakistan-login-guide-2026",
       "xp786-official-app-guide",
@@ -317,6 +318,7 @@
     "heroTitle": "Fresh XP786 updates and announcement notes",
     "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
     "articles": [
+      "xp786-news-july-visibility-brief",
       "xp786-pakistan-update-log",
       "xp786-weekly-update-checklist",
       "xp786-pakistan-search-intent-map",
@@ -413,6 +415,7 @@
     "heroTitle": "XP786 Pakistan resource hub for guides, login help, and review links",
     "heroSubtitle": "Use one organized XP786 hub to find official guide notes, login and register help, app and download resources, quick tips, and safety review content.",
     "articles": [
+      "xp786-hub-resource-pathways",
       "xp786-resource-navigation-guide",
       "xp786-pakistan-search-intent-map",
       "xp786-content-depth-plan",
@@ -513,6 +516,7 @@
     "heroTitle": "Quick XP786 tips for mobile readers and beginners",
     "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
     "articles": [
+      "xp786-tips-mobile-speed-checks",
       "xp786-mobile-login-quick-fixes",
       "xp786-login-problems-mobile",
       "xp786-download-pakistan-safety-guide",
@@ -609,6 +613,7 @@
     "heroTitle": "XP786 review notes for safer reading decisions",
     "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
     "articles": [
+      "xp786-review-official-confidence-check",
       "xp786-trust-signal-scorecard",
       "xp786-official-vs-mirror-pages",
       "xp786-review-for-new-users",

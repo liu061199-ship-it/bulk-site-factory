@@ -5,8 +5,8 @@
   "logo": "/logos/xp786-guide.svg",
   "themeColor": "#dc2626",
   "template": "guide",
-  "title": "XP786 Game Official Guide | Login, Download and Mobile Help",
-  "description": "XP786 Guide gives readers a clear starting point for XP786 login, download, mobile access, safety checks, and official guide resources.",
+  "title": "XP786 Official Guide Pakistan | Login, Register, Download and Mobile Access",
+  "description": "XP786 Guide is the main Pakistan-focused starting point for XP786 official access, login, register, download, mobile help, and safety checks.",
   "keywords": [
     "XP786 Guide",
     "online guide",
@@ -45,9 +45,10 @@
     "www.xp786guide.com"
   ],
   "contactEmail": "hello@xp786guide.com",
-  "heroTitle": "XP786 official guide for login, download, and mobile access",
-  "heroSubtitle": "Start with clear XP786 guides, safety notes, mobile tips, and resource links organized for quick reading.",
+  "heroTitle": "XP786 official guide for Pakistan login, register, and download help",
+  "heroSubtitle": "Start from the main XP786 guide for official access notes, mobile login help, register guidance, download safety checks, and trusted resource links.",
   "articles": [
+    "xp786-guide-click-through-plan",
     "xp786-official-homepage-check",
     "xp786-pakistan-login-guide-2026",
     "xp786-official-app-guide",
@@ -99,6 +100,19 @@
     "Updated sitemap"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-guide-click-through-plan",
+      "title": "XP786 Guide Click-Through Plan for Pakistan Searches",
+      "excerpt": "A focused plan for improving the main XP786 Guide homepage when GSC shows impressions but no clicks.",
+      "date": "2026-07-04",
+      "author": "XP786 Guide",
+      "body": [
+        "When the main guide receives impressions but no clicks, the first job is to make the search result promise clearer. The title should name XP786, official guide, Pakistan, login, register, download, and mobile access without sounding vague.",
+        "The homepage should immediately confirm that XP786 Guide is the main starting point. Pakistan readers should see a direct path to login help, register guidance, download safety notes, mobile tips, and review checks.",
+        "Do not claim rankings or traffic beyond verified Search Console data. Use the available signal carefully: impressions show visibility, but zero clicks means the page must earn a stronger reason to open.",
+        "Internal links should support the click-through promise. A reader who lands on the homepage should reach the official homepage check, Pakistan login guide, official app guide, mobile tips, and review checklist in one or two taps."
+      ]
+    },
     {
       "id": "xp786-official-homepage-check",
       "title": "XP786 Official Homepage Check for Pakistan Visitors",

@@ -40,6 +40,7 @@
   "heroTitle": "XP786 Pakistan resource hub for guides, login help, and review links",
   "heroSubtitle": "Use one organized XP786 hub to find official guide notes, login and register help, app and download resources, quick tips, and safety review content.",
   "articles": [
+    "xp786-hub-resource-pathways",
     "xp786-resource-navigation-guide",
     "xp786-pakistan-search-intent-map",
     "xp786-content-depth-plan",
@@ -98,6 +99,19 @@
     "Mobile ready"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-hub-resource-pathways",
+      "title": "XP786 Hub Resource Pathways for Login, App, Download and Review Intent",
+      "excerpt": "A resource-path guide that turns broad XP786 Pakistan searches into clear next pages.",
+      "date": "2026-07-04",
+      "author": "XP786 Hub",
+      "body": [
+        "The Hub should not behave like a copy of the main guide. Its job is to route broad XP786 Pakistan intent into the correct page: login help, register guidance, app notes, download safety, mobile tips, news updates, or review checks.",
+        "A strong resource pathway explains why each link exists. Login intent should go to the Pakistan login guide, app intent should go to official app notes, download intent should go to safety checks, and trust intent should go to the review scorecard.",
+        "Because Search Console shows early Hub impressions, the Hub should become more useful as a navigation page. Add descriptive internal links and short explanations instead of generic link lists.",
+        "Keep the Hub updated as the topic cluster grows. When real GSC queries appear, adjust pathway labels using those queries rather than guessed keywords."
+      ]
+    },
     {
       "id": "xp786-resource-navigation-guide",
       "title": "XP786 Resource Navigation Guide for Pakistan Readers",
