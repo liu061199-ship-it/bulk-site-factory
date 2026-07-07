@@ -978,30 +978,24 @@ export const sites = [
     "logo": "/logos/xp786-news.svg",
     "themeColor": "#2563eb",
     "template": "news",
-    "title": "XP786 News | Latest Updates, Announcements and Access Notes",
-    "description": "XP786 News tracks timely XP786 updates, announcements, search trends, access notes, and practical changes for returning readers.",
+    "title": "XP786 News Pakistan | Latest Login, Register, App and Download Updates",
+    "description": "XP786 News Pakistan tracks dated XP786 login updates, register notes, app and download changes, sitemap monitoring, and official access context.",
     "keywords": [
-      "XP786 News",
-      "online updates",
-      "digital news",
-      "website guides",
-      "XP786 latest news",
-      "XP786 update",
-      "XP786 announcement",
-      "XP786 latest update",
-      "XP786 news today",
-      "XP786",
-      "XP786 Pakistan",
-      "XP786 official update",
+      "XP786 News Pakistan",
+      "XP786 latest update Pakistan",
       "XP786 login update",
+      "XP786 register update",
       "XP786 app update",
       "XP786 download update",
-      "XP786 Pakistan news",
-      "XP786 latest announcement",
-      "XP786 official news"
+      "XP786 official news",
+      "XP786 sitemap update",
+      "XP786 index watch",
+      "XP786 mobile update",
+      "XP786 Pakistan announcement",
+      "XP786 news today"
     ],
-    "contentFocus": "Fresh updates, change notes, and short explainers around XP786-related searches.",
-    "targetAudience": "returning readers who want recent XP786 updates and quick context",
+    "contentFocus": "Dated XP786 Pakistan update coverage for login, register, app, download, sitemap, and official-access changes.",
+    "targetAudience": "returning Pakistan readers looking for fresh XP786 update context before using guide, login, register, app, or download pages",
     "editorialPromise": "News pages prioritize recent context, concise summaries, and links to practical follow-up guides.",
     "contentPillars": [
       "latest updates",
@@ -1010,9 +1004,12 @@ export const sites = [
       "trend coverage"
     ],
     "contactEmail": "hello@xp786-news.com",
-    "heroTitle": "Fresh XP786 updates and announcement notes",
-    "heroSubtitle": "Follow XP786 news, latest access notes, mobile reminders, and short explainers without digging through noisy results.",
+    "heroTitle": "XP786 Pakistan news for login, register, app, and download updates",
+    "heroSubtitle": "Follow dated XP786 update notes for Pakistan readers, including login changes, register guidance, app context, download safety, sitemap checks, and official access reminders.",
     "articles": [
+      "xp786-news-login-update-pakistan",
+      "xp786-news-register-app-update",
+      "xp786-news-sitemap-index-watch",
       "xp786-news-july-visibility-brief",
       "xp786-pakistan-update-log",
       "xp786-weekly-update-checklist",
@@ -1068,6 +1065,45 @@ export const sites = [
       "Guide linked"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-news-login-update-pakistan",
+        "title": "XP786 Login Update for Pakistan Readers",
+        "excerpt": "A dated news note for Pakistan readers tracking XP786 login access, official signals, and mobile changes.",
+        "date": "2026-07-07",
+        "author": "XP786 News",
+        "body": [
+          "Pakistan login searches need fresh context because readers often want to know whether anything changed before opening an access page.",
+          "This update focuses on practical signals: current domain, HTTPS status, visible login and register buttons, updated sitemap access, and whether the page links back to the main guide.",
+          "If a login-related page does not clearly explain its role, readers should return to XP786 Guide or use XP786 Review before trusting the page.",
+          "News content should stay dated and specific. It should never claim rankings, clicks, or indexing unless the numbers come from Search Console or another reliable source."
+        ]
+      },
+      {
+        "id": "xp786-news-register-app-update",
+        "title": "XP786 Register and App Update Notes",
+        "excerpt": "Short update notes covering register intent, app-related searches, and mobile access context for XP786.",
+        "date": "2026-07-07",
+        "author": "XP786 News",
+        "body": [
+          "Register and app searches are action-heavy, so a news page should explain what changed, what stayed the same, and which stable guide page should be checked next.",
+          "For XP786 Pakistan readers, the safest update path is to confirm the main guide, then compare app and register notes with the Hub and Review pages.",
+          "A strong update page uses clear dates, specific topics, and internal links instead of vague claims about the latest version or official access.",
+          "When no reliable update is available, say so directly and keep the page focused on checks readers can perform themselves."
+        ]
+      },
+      {
+        "id": "xp786-news-sitemap-index-watch",
+        "title": "XP786 Sitemap and Index Watch for News Pages",
+        "excerpt": "A news-side monitoring note for sitemap access, index readiness, and early Search Console signals.",
+        "date": "2026-07-07",
+        "author": "XP786 News",
+        "body": [
+          "A news domain needs crawlable dated pages before it can earn reliable search data. The first checks are sitemap access, robots access, clean metadata, and working internal links.",
+          "XP786 News should link recent topics to stable guides so search engines can understand that news pages add context rather than duplicate evergreen instructions.",
+          "Index monitoring should report only verified status. If Search Console has no data, the report should say no reliable data instead of guessing.",
+          "The next content priority is to publish update notes around login, register, app, download, and Pakistan mobile intent, then request indexing for the most useful pages."
+        ]
+      },
       {
         "id": "xp786-news-july-visibility-brief",
         "title": "XP786 July Visibility Brief: Guide Signals, Hub Signals and Next Checks",
@@ -1697,30 +1733,24 @@ export const sites = [
     "logo": "/logos/xp786-tips.svg",
     "themeColor": "#f59e0b",
     "template": "tips",
-    "title": "XP786 Tips | Quick Tutorials, Mobile Tips and Common Mistakes",
-    "description": "XP786 Tips publishes short tutorials, quick safety checks, mobile reading tips, and common mistakes for XP786 readers.",
+    "title": "XP786 Tips Pakistan | Mobile Login, Register, H5 and Download Fixes",
+    "description": "XP786 Tips Pakistan gives short mobile-first tips for login, register, H5 pages, Android download checks, tap targets, and safe XP786 navigation.",
     "keywords": [
-      "XP786 Tips",
-      "website tips",
-      "content tips",
-      "SEO basics",
-      "XP786 tips",
-      "XP786 tricks",
-      "XP786 quick guide",
-      "XP786 tutorial",
+      "XP786 Tips Pakistan",
       "XP786 mobile tips",
-      "XP786",
-      "XP786 Pakistan",
-      "XP786 login tips",
+      "XP786 login tips Pakistan",
       "XP786 register tips",
+      "XP786 H5 tips",
+      "XP786 Android download tips",
+      "XP786 tap target tips",
+      "XP786 mobile login fix",
+      "XP786 quick tutorial",
+      "XP786 safe navigation",
       "XP786 app tips",
-      "XP786 download tips",
-      "XP786 mobile login",
-      "XP786 Pakistan tips",
-      "XP786 quick tutorial"
+      "XP786 download safety tips"
     ],
-    "contentFocus": "Short actionable tips for readers who want quick answers instead of long guides.",
-    "targetAudience": "mobile readers and repeat visitors looking for fast XP786 tips",
+    "contentFocus": "Short mobile-first XP786 tips for Pakistan readers who need fast login, register, H5, Android download, and tap-target checks.",
+    "targetAudience": "Pakistan mobile readers who want quick XP786 fixes before reading longer guide or review pages",
     "editorialPromise": "Tips pages keep advice brief, scannable, and focused on one useful action at a time.",
     "contentPillars": [
       "quick tips",
@@ -1729,9 +1759,12 @@ export const sites = [
       "fast fixes"
     ],
     "contactEmail": "tips@xp786-tips.com",
-    "heroTitle": "Quick XP786 tips for mobile readers and beginners",
-    "heroSubtitle": "Read short XP786 tutorials, common mistakes, safety checks, and fast answers before opening deeper guides.",
+    "heroTitle": "XP786 Pakistan mobile tips for login, register, H5, and download checks",
+    "heroSubtitle": "Use quick XP786 tips for mobile login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
     "articles": [
+      "xp786-tips-login-register-mobile",
+      "xp786-tips-android-download-safe",
+      "xp786-tips-h5-home-screen",
       "xp786-tips-mobile-speed-checks",
       "xp786-mobile-login-quick-fixes",
       "xp786-login-problems-mobile",
@@ -1787,6 +1820,45 @@ export const sites = [
       "Beginner safe"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-tips-login-register-mobile",
+        "title": "XP786 Login and Register Mobile Tips for Pakistan",
+        "excerpt": "Fast mobile tips for Pakistan readers checking XP786 login and register paths on small screens.",
+        "date": "2026-07-07",
+        "author": "XP786 Tips",
+        "body": [
+          "Before tapping login or register on mobile, check that the page title, domain, and button labels match the XP786 resource you intended to open.",
+          "If buttons feel cramped or the page jumps while loading, wait for the layout to settle before tapping. Accidental taps are common on small screens.",
+          "Use the main guide for complete instructions, the Hub for related resources, and the Review site when a page feels unclear or copied.",
+          "A useful mobile tip should solve one problem quickly, then point the reader to a deeper page when the question needs more context."
+        ]
+      },
+      {
+        "id": "xp786-tips-android-download-safe",
+        "title": "XP786 Android Download Safety Tips",
+        "excerpt": "Quick Android-focused safety tips for XP786 download searches and mobile browsing.",
+        "date": "2026-07-07",
+        "author": "XP786 Tips",
+        "body": [
+          "Android download searches can lead to unclear files and copied pages, so start by checking whether the page explains the source and purpose clearly.",
+          "Do not trust a download prompt only because it includes the XP786 name. Look for current dates, internal links, clear contact details, and consistent navigation.",
+          "If a page pressures you to install something without explaining compatibility or safety, return to the main guide and read the download safety notes first.",
+          "Tips pages should stay mobile-first: short checks, visible next steps, and clear links to guide and review content."
+        ]
+      },
+      {
+        "id": "xp786-tips-h5-home-screen",
+        "title": "XP786 H5 Home Screen and Tap Target Tips",
+        "excerpt": "H5-focused tips for reading XP786 pages, checking tap targets, and avoiding mobile navigation mistakes.",
+        "date": "2026-07-07",
+        "author": "XP786 Tips",
+        "body": [
+          "On H5-style pages, the first screen should show the page purpose, key links, and clear login or register actions without forcing the reader to search.",
+          "Tap targets should be large enough for mobile use. If buttons overlap, disappear, or use unclear labels, treat the page carefully.",
+          "Readers should use visible navigation instead of popup shortcuts when moving between XP786 guide, news, hub, tips, and review resources.",
+          "This tip supports mobile search intent by keeping the advice fast, practical, and connected to deeper trust checks."
+        ]
+      },
       {
         "id": "xp786-tips-mobile-speed-checks",
         "title": "XP786 Mobile Speed and Tap Checks for Pakistan Readers",
@@ -2054,30 +2126,24 @@ export const sites = [
     "logo": "/logos/xp786-review.svg",
     "themeColor": "#9333ea",
     "template": "review",
-    "title": "XP786 Review | Safety Checks, Domain Comparison and Trust Notes",
-    "description": "XP786 Review helps readers compare XP786 domains, review trust signals, check safety notes, and choose the right guide page.",
+    "title": "XP786 Review Pakistan | Official Login, App, Download and Domain Trust Checks",
+    "description": "XP786 Review Pakistan compares official login signals, domain trust, app and download safety, mobile quality, and review checklists before readers act.",
     "keywords": [
-      "XP786 Review",
-      "reviews",
-      "online checklist",
-      "trust signals",
-      "XP786 review",
-      "XP786 comparison",
-      "XP786 safety check",
-      "XP786 domain review",
-      "XP786 trust signals",
-      "XP786",
-      "XP786 Pakistan",
+      "XP786 Review Pakistan",
       "XP786 official review",
-      "XP786 login review",
+      "XP786 login safety",
+      "XP786 domain trust",
       "XP786 app review",
       "XP786 download review",
-      "XP786 Pakistan review",
+      "XP786 trusted site",
       "XP786 official safety",
-      "XP786 trusted site"
+      "XP786 Pakistan review",
+      "XP786 mirror check",
+      "XP786 trust signals",
+      "XP786 risk checklist"
     ],
-    "contentFocus": "Review-style pages that compare signals, summarize trust factors, and organize checklists.",
-    "targetAudience": "readers checking XP786 options, trust signals, and comparison-style content",
+    "contentFocus": "Evidence-based XP786 Pakistan review content for official login safety, domain trust, app checks, download safety, and comparison intent.",
+    "targetAudience": "Pakistan readers comparing XP786 pages before trusting login, app, download, or domain claims",
     "editorialPromise": "Review pages focus on comparison, evidence, and practical checklists before readers take action.",
     "contentPillars": [
       "review notes",
@@ -2086,9 +2152,12 @@ export const sites = [
       "decision checklist"
     ],
     "contactEmail": "reviews@xp786-review.com",
-    "heroTitle": "XP786 review notes for safer reading decisions",
-    "heroSubtitle": "Compare XP786 domains, check trust signals, and use practical review notes before relying on a page.",
+    "heroTitle": "XP786 Pakistan review checks for official login, app, download, and domain trust",
+    "heroSubtitle": "Compare XP786 official signals, login safety, app and download checks, domain trust, mobile quality, and risk notes before relying on a page.",
     "articles": [
+      "xp786-review-official-login-safety",
+      "xp786-review-domain-trust-pakistan",
+      "xp786-review-download-app-checklist",
       "xp786-review-official-confidence-check",
       "xp786-trust-signal-scorecard",
       "xp786-official-vs-mirror-pages",
@@ -2144,6 +2213,45 @@ export const sites = [
       "No fake data"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-review-official-login-safety",
+        "title": "XP786 Official Login Safety Review",
+        "excerpt": "A review guide for checking official login signals before trusting an XP786 page.",
+        "date": "2026-07-07",
+        "author": "XP786 Review",
+        "body": [
+          "A login safety review starts with evidence: domain clarity, HTTPS, page title, consistent branding, current sitemap, and links to related guide pages.",
+          "Readers should be cautious when a login page gives no explanation, no contact path, or no way to return to the main guide.",
+          "For Pakistan mobile readers, safety also includes layout quality. Hidden buttons, broken text, and forced redirects reduce confidence.",
+          "Review pages should help readers compare signals without inventing certainty. If a metric or status is unknown, mark it as unknown."
+        ]
+      },
+      {
+        "id": "xp786-review-domain-trust-pakistan",
+        "title": "XP786 Domain Trust Review for Pakistan Users",
+        "excerpt": "A Pakistan-focused review of domain trust signals across XP786 guide, news, hub, tips, and review pages.",
+        "date": "2026-07-07",
+        "author": "XP786 Review",
+        "body": [
+          "Multiple XP786 domains can be useful when each domain has a distinct role. The guide explains stable access, news handles updates, tips gives quick fixes, hub organizes resources, and review checks trust.",
+          "A domain trust review should compare role clarity, article depth, internal links, contact details, and whether each page avoids unsupported claims.",
+          "Pakistan readers should not rely on a page just because it repeats brand terms. Useful pages explain what the reader should do next and why.",
+          "The review site should keep comparison content factual, cautious, and linked to deeper resources."
+        ]
+      },
+      {
+        "id": "xp786-review-download-app-checklist",
+        "title": "XP786 App and Download Review Checklist",
+        "excerpt": "A practical checklist for reviewing XP786 app and download pages before taking action.",
+        "date": "2026-07-07",
+        "author": "XP786 Review",
+        "body": [
+          "App and download pages need extra review because they often ask readers to take action quickly. Slow down and check the page evidence first.",
+          "Look for source explanation, compatibility notes, update context, clear navigation, and links back to the main XP786 guide or Hub.",
+          "Warning signs include unsupported official claims, unclear files, copied paragraphs, hidden navigation, and buttons that do not match the site layout.",
+          "A review checklist should end with a safe next step: read the main guide, compare the Hub resources, or wait until reliable information is available."
+        ]
+      },
       {
         "id": "xp786-review-official-confidence-check",
         "title": "XP786 Official Confidence Check Before You Trust a Page",
