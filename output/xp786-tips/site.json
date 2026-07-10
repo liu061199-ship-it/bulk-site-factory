@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan mobile tips for login, register, H5, and download checks",
   "heroSubtitle": "Use quick XP786 tips for mobile login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
   "articles": [
+    "xp786-tips-pakistan-zero-data-mobile-actions",
     "xp786-tips-login-register-mobile",
     "xp786-tips-android-download-safe",
     "xp786-tips-h5-home-screen",
@@ -92,6 +93,19 @@
     "Beginner safe"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-tips-pakistan-zero-data-mobile-actions",
+      "title": "XP786 Zero Data Mobile Actions for Pakistan Readers",
+      "excerpt": "Short mobile-first actions for XP786 pages that are live but not yet producing Search Console impressions.",
+      "date": "2026-07-10",
+      "author": "XP786 Tips",
+      "body": [
+        "When a live XP786 page has zero Search Console impressions, the mobile experience still matters. Pakistan readers should be able to understand the page purpose, tap the main action, and move to guide or review pages without confusion.",
+        "Start with simple checks: confirm the domain, open the sitemap, read the first screen, and make sure login and register actions are easy to tap on a phone.",
+        "Tips pages should point readers to one clear next step. If the question is about official access, use XP786 Guide. If the question is about source trust, use XP786 Review. If the question is broad, use XP786 Hub.",
+        "Zero data does not mean a page is useless. It means the page still needs discovery, internal links, useful wording, and enough time for Google to process the sitemap."
+      ]
+    },
     {
       "id": "xp786-tips-login-register-mobile",
       "title": "XP786 Login and Register Mobile Tips for Pakistan",

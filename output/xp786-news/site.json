@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan news for login, register, app, and download updates",
   "heroSubtitle": "Follow dated XP786 update notes for Pakistan readers, including login changes, register guidance, app context, download safety, sitemap checks, and official access reminders.",
   "articles": [
+    "xp786-news-pakistan-search-demand-july-10",
     "xp786-news-login-update-pakistan",
     "xp786-news-register-app-update",
     "xp786-news-sitemap-index-watch",
@@ -92,6 +93,19 @@
     "Guide linked"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-news-pakistan-search-demand-july-10",
+      "title": "XP786 Pakistan Search Demand Watch for July 10",
+      "excerpt": "A dated XP786 News watch note for Pakistan search demand, zero-impression pages, and the next indexing checks.",
+      "date": "2026-07-10",
+      "author": "XP786 News",
+      "body": [
+        "The July 10 watch note keeps the news site focused on verified demand signals instead of broad claims. XP786 Guide and XP786 Hub have early impressions, while News, Tips, and Review still need more discovery and clearer intent routes.",
+        "Pakistan search demand should be monitored around login update, register update, app update, download update, official guide, mobile access, and domain trust phrases. These phrases help decide which pages should receive internal links first.",
+        "When a page has no impressions, the news response is not to invent performance. The practical response is to keep the page dated, link it to stable guide resources, and submit important URLs when Search Console quota is available.",
+        "This page should be used as the latest update entry for readers who want to understand what is being watched today and which XP786 resource to open next."
+      ]
+    },
     {
       "id": "xp786-news-login-update-pakistan",
       "title": "XP786 Login Update for Pakistan Readers",

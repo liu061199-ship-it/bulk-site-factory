@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan review checks for official login, app, download, and domain trust",
   "heroSubtitle": "Compare XP786 official signals, login safety, app and download checks, domain trust, mobile quality, and risk notes before relying on a page.",
   "articles": [
+    "xp786-review-no-data-trust-check",
     "xp786-review-official-login-safety",
     "xp786-review-domain-trust-pakistan",
     "xp786-review-download-app-checklist",
@@ -92,6 +93,19 @@
     "No fake data"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-review-no-data-trust-check",
+      "title": "XP786 No Data Trust Check for Pakistan Pages",
+      "excerpt": "A review note for evaluating XP786 pages when Search Console has no reliable clicks, impressions, or queries.",
+      "date": "2026-07-10",
+      "author": "XP786 Review",
+      "body": [
+        "A no-data review is useful when a page is live but Search Console has not produced reliable clicks, impressions, or query rows. The correct answer is to mark the data as unavailable and review the page evidence instead.",
+        "For XP786 Pakistan pages, trust checks should look at domain clarity, HTTPS, sitemap access, robots access, readable mobile layout, contact details, and internal links to guide, news, hub, and tips content.",
+        "Do not treat average ranking as meaningful when impressions are zero. A page with no exposure still needs stronger discovery paths before performance conclusions can be made.",
+        "The next safe action is to improve internal links, submit important URLs when quota is available, and keep every metric tied to a reliable source."
+      ]
+    },
     {
       "id": "xp786-review-official-login-safety",
       "title": "XP786 Official Login Safety Review",

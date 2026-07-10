@@ -1007,6 +1007,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan news for login, register, app, and download updates",
     "heroSubtitle": "Follow dated XP786 update notes for Pakistan readers, including login changes, register guidance, app context, download safety, sitemap checks, and official access reminders.",
     "articles": [
+      "xp786-news-pakistan-search-demand-july-10",
       "xp786-news-login-update-pakistan",
       "xp786-news-register-app-update",
       "xp786-news-sitemap-index-watch",
@@ -1065,6 +1066,19 @@ export const sites = [
       "Guide linked"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-news-pakistan-search-demand-july-10",
+        "title": "XP786 Pakistan Search Demand Watch for July 10",
+        "excerpt": "A dated XP786 News watch note for Pakistan search demand, zero-impression pages, and the next indexing checks.",
+        "date": "2026-07-10",
+        "author": "XP786 News",
+        "body": [
+          "The July 10 watch note keeps the news site focused on verified demand signals instead of broad claims. XP786 Guide and XP786 Hub have early impressions, while News, Tips, and Review still need more discovery and clearer intent routes.",
+          "Pakistan search demand should be monitored around login update, register update, app update, download update, official guide, mobile access, and domain trust phrases. These phrases help decide which pages should receive internal links first.",
+          "When a page has no impressions, the news response is not to invent performance. The practical response is to keep the page dated, link it to stable guide resources, and submit important URLs when Search Console quota is available.",
+          "This page should be used as the latest update entry for readers who want to understand what is being watched today and which XP786 resource to open next."
+        ]
+      },
       {
         "id": "xp786-news-login-update-pakistan",
         "title": "XP786 Login Update for Pakistan Readers",
@@ -1762,6 +1776,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan mobile tips for login, register, H5, and download checks",
     "heroSubtitle": "Use quick XP786 tips for mobile login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
     "articles": [
+      "xp786-tips-pakistan-zero-data-mobile-actions",
       "xp786-tips-login-register-mobile",
       "xp786-tips-android-download-safe",
       "xp786-tips-h5-home-screen",
@@ -1820,6 +1835,19 @@ export const sites = [
       "Beginner safe"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-tips-pakistan-zero-data-mobile-actions",
+        "title": "XP786 Zero Data Mobile Actions for Pakistan Readers",
+        "excerpt": "Short mobile-first actions for XP786 pages that are live but not yet producing Search Console impressions.",
+        "date": "2026-07-10",
+        "author": "XP786 Tips",
+        "body": [
+          "When a live XP786 page has zero Search Console impressions, the mobile experience still matters. Pakistan readers should be able to understand the page purpose, tap the main action, and move to guide or review pages without confusion.",
+          "Start with simple checks: confirm the domain, open the sitemap, read the first screen, and make sure login and register actions are easy to tap on a phone.",
+          "Tips pages should point readers to one clear next step. If the question is about official access, use XP786 Guide. If the question is about source trust, use XP786 Review. If the question is broad, use XP786 Hub.",
+          "Zero data does not mean a page is useless. It means the page still needs discovery, internal links, useful wording, and enough time for Google to process the sitemap."
+        ]
+      },
       {
         "id": "xp786-tips-login-register-mobile",
         "title": "XP786 Login and Register Mobile Tips for Pakistan",
@@ -2155,6 +2183,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan review checks for official login, app, download, and domain trust",
     "heroSubtitle": "Compare XP786 official signals, login safety, app and download checks, domain trust, mobile quality, and risk notes before relying on a page.",
     "articles": [
+      "xp786-review-no-data-trust-check",
       "xp786-review-official-login-safety",
       "xp786-review-domain-trust-pakistan",
       "xp786-review-download-app-checklist",
@@ -2213,6 +2242,19 @@ export const sites = [
       "No fake data"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-review-no-data-trust-check",
+        "title": "XP786 No Data Trust Check for Pakistan Pages",
+        "excerpt": "A review note for evaluating XP786 pages when Search Console has no reliable clicks, impressions, or queries.",
+        "date": "2026-07-10",
+        "author": "XP786 Review",
+        "body": [
+          "A no-data review is useful when a page is live but Search Console has not produced reliable clicks, impressions, or query rows. The correct answer is to mark the data as unavailable and review the page evidence instead.",
+          "For XP786 Pakistan pages, trust checks should look at domain clarity, HTTPS, sitemap access, robots access, readable mobile layout, contact details, and internal links to guide, news, hub, and tips content.",
+          "Do not treat average ranking as meaningful when impressions are zero. A page with no exposure still needs stronger discovery paths before performance conclusions can be made.",
+          "The next safe action is to improve internal links, submit important URLs when quota is available, and keep every metric tied to a reliable source."
+        ]
+      },
       {
         "id": "xp786-review-official-login-safety",
         "title": "XP786 Official Login Safety Review",
