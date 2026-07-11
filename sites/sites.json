@@ -181,8 +181,8 @@
     "logo": "/logos/xp786-guide.svg",
     "themeColor": "#dc2626",
     "template": "guide",
-    "title": "XP786 Official Guide Pakistan | Login, Register, Download and Mobile Access",
-    "description": "XP786 Guide is the main Pakistan-focused starting point for XP786 official access, login, register, download, mobile help, and safety checks.",
+    "title": "XP786 Official Pakistan Guide 2026 | Login, Register, App and Download Help",
+    "description": "XP786 Guide is the main Pakistan start page for official XP786 login, register, app download, mobile access, safety checks, and trusted resource links.",
     "keywords": [
       "XP786 Guide",
       "online guide",
@@ -199,9 +199,12 @@
       "XP786 official",
       "XP786 register",
       "XP786 app",
+      "XP786 app download",
       "XP786 mobile login",
       "XP786 Pakistan login",
-      "XP786 official website"
+      "XP786 official website",
+      "XP786 official Pakistan guide 2026",
+      "XP786 trusted access"
     ],
     "contentFocus": "Step-by-step evergreen guides for readers who need the clearest path first.",
     "targetAudience": "new XP786 readers looking for simple explanations, safe navigation, and practical next steps",
@@ -221,8 +224,8 @@
       "www.xp786guide.com"
     ],
     "contactEmail": "hello@xp786guide.com",
-    "heroTitle": "XP786 official guide for Pakistan login, register, and download help",
-    "heroSubtitle": "Start from the main XP786 guide for official access notes, mobile login help, register guidance, download safety checks, and trusted resource links.",
+    "heroTitle": "XP786 official Pakistan guide for login, register, app, and download help",
+    "heroSubtitle": "Use the main XP786 Guide start page for official access notes, mobile login help, register guidance, app download safety, H5 checks, and trusted resource links.",
     "articles": [
       "xp786-guide-click-through-plan",
       "xp786-official-homepage-check",
@@ -270,10 +273,11 @@
       }
     ],
     "trustBadges": [
-      "Official guide",
+      "Official start page",
       "Pakistan mobile",
       "HTTPS checked",
-      "Updated sitemap"
+      "Updated sitemap",
+      "App download help"
     ]
   },
   {
