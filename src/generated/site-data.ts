@@ -1439,6 +1439,8 @@ export const sites = [
     "heroSubtitle": "Use one organized XP786 hub to find official guide notes, login and register help, app and download resources, quick tips, and safety review content.",
     "articles": [
       "xp786-hub-resource-pathways",
+      "xp786-news-official-update-path-pakistan",
+      "xp786-tips-mobile-login-download-fixes",
       "xp786-resource-navigation-guide",
       "xp786-pakistan-search-intent-map",
       "xp786-content-depth-plan",
@@ -1508,6 +1510,32 @@ export const sites = [
           "A strong resource pathway explains why each link exists. Login intent should go to the Pakistan login guide, app intent should go to official app notes, download intent should go to safety checks, and trust intent should go to the review scorecard.",
           "Because Search Console shows early Hub impressions, the Hub should become more useful as a navigation page. Add descriptive internal links and short explanations instead of generic link lists.",
           "Keep the Hub updated as the topic cluster grows. When real GSC queries appear, adjust pathway labels using those queries rather than guessed keywords."
+        ]
+      },
+      {
+        "id": "xp786-news-official-update-path-pakistan",
+        "title": "XP786 Official Update Path for Pakistan Readers",
+        "excerpt": "A dated XP786 News note explaining how Pakistan readers should follow official login, register, app, and download update paths.",
+        "date": "2026-07-13",
+        "author": "XP786 News",
+        "body": [
+          "Pakistan readers often search for XP786 updates when they are trying to confirm whether login, register, app, or download instructions have changed. A useful news page should make that path clear without claiming data that has not been verified.",
+          "Start with the main guide for evergreen access notes, then use XP786 News for dated context. If an update mentions app or download changes, compare it with the Hub and Review pages before taking action.",
+          "The official update path should include a visible date, a clear domain, working sitemap and robots files, and internal links back to stable guide resources. These signals help readers avoid copied pages and vague mirror claims.",
+          "When Search Console still shows no query rows, the correct editorial response is to publish clearer intent coverage, strengthen internal links, and wait for reliable data rather than inventing rankings or traffic."
+        ]
+      },
+      {
+        "id": "xp786-tips-mobile-login-download-fixes",
+        "title": "XP786 Mobile Login and Download Fixes for Pakistan",
+        "excerpt": "Fast Pakistan-focused mobile fixes for XP786 login, register, app, H5, and download searches.",
+        "date": "2026-07-13",
+        "author": "XP786 Tips",
+        "body": [
+          "If XP786 login or download pages feel unclear on mobile, begin with practical checks: confirm HTTPS, check the domain spelling, wait for the page to finish loading, and make sure the login or register button is easy to tap.",
+          "For H5-style pages, avoid tapping while the layout is shifting. Use the visible navigation to return to the guide, Hub, or Review pages when a button label does not match the page purpose.",
+          "Android download searches need extra caution. A page should explain what the reader is checking, why the download topic matters, and where to find a safer guide or review before taking action.",
+          "Tips content should stay short and action-focused. The goal is to help Pakistan mobile readers solve one problem quickly, then move them to deeper guide or trust-check pages when needed."
         ]
       },
       {
