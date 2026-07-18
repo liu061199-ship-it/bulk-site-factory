@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan news for login, register, app, and download updates",
   "heroSubtitle": "Follow dated XP786 update notes for Pakistan readers, including login changes, register guidance, app context, download safety, sitemap checks, and official access reminders.",
   "articles": [
+    "xp786-news-july-18-indexing-update",
     "xp786-news-official-update-path-pakistan",
     "xp786-news-pakistan-search-demand-july-10",
     "xp786-news-login-update-pakistan",
@@ -94,6 +95,19 @@
     "Guide linked"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-news-july-18-indexing-update",
+      "title": "XP786 July 18 Indexing Update for Pakistan Search",
+      "excerpt": "A dated XP786 News update covering current GSC visibility, zero-query pages, sitemap access, and the next safe indexing actions.",
+      "date": "2026-07-18",
+      "author": "XP786 News",
+      "body": [
+        "The July 18 update keeps XP786 News focused on verified signals. Current Search Console pages show early impressions for the main guide, Hub, and Review, while News and Tips still need stronger discovery before performance conclusions can be made.",
+        "For Pakistan search intent, the next useful update topics remain login update, register guidance, app context, download safety, official access, H5 mobile checks, and domain trust. News should explain what changed and link readers to the stable guide pages when the topic needs evergreen instructions.",
+        "Indexing work should stay controlled. Submit important URLs when quota is available, keep sitemap and robots files accessible, and avoid repeating unsupported ranking or traffic claims.",
+        "When query rows are not visible in Search Console, the correct report is no query data. The editorial response is to make titles clearer, add internal links, and publish dated context that helps readers choose the right XP786 resource."
+      ]
+    },
     {
       "id": "xp786-news-official-update-path-pakistan",
       "title": "XP786 Official Update Path for Pakistan Readers",

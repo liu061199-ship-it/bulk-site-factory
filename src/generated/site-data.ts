@@ -1011,6 +1011,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan news for login, register, app, and download updates",
     "heroSubtitle": "Follow dated XP786 update notes for Pakistan readers, including login changes, register guidance, app context, download safety, sitemap checks, and official access reminders.",
     "articles": [
+      "xp786-news-july-18-indexing-update",
       "xp786-news-official-update-path-pakistan",
       "xp786-news-pakistan-search-demand-july-10",
       "xp786-news-login-update-pakistan",
@@ -1071,6 +1072,19 @@ export const sites = [
       "Guide linked"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-news-july-18-indexing-update",
+        "title": "XP786 July 18 Indexing Update for Pakistan Search",
+        "excerpt": "A dated XP786 News update covering current GSC visibility, zero-query pages, sitemap access, and the next safe indexing actions.",
+        "date": "2026-07-18",
+        "author": "XP786 News",
+        "body": [
+          "The July 18 update keeps XP786 News focused on verified signals. Current Search Console pages show early impressions for the main guide, Hub, and Review, while News and Tips still need stronger discovery before performance conclusions can be made.",
+          "For Pakistan search intent, the next useful update topics remain login update, register guidance, app context, download safety, official access, H5 mobile checks, and domain trust. News should explain what changed and link readers to the stable guide pages when the topic needs evergreen instructions.",
+          "Indexing work should stay controlled. Submit important URLs when quota is available, keep sitemap and robots files accessible, and avoid repeating unsupported ranking or traffic claims.",
+          "When query rows are not visible in Search Console, the correct report is no query data. The editorial response is to make titles clearer, add internal links, and publish dated context that helps readers choose the right XP786 resource."
+        ]
+      },
       {
         "id": "xp786-news-official-update-path-pakistan",
         "title": "XP786 Official Update Path for Pakistan Readers",
@@ -1822,6 +1836,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan mobile tips for login, register, H5, and download checks",
     "heroSubtitle": "Use quick XP786 tips for mobile login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
     "articles": [
+      "xp786-tips-july-18-mobile-discovery-checks",
       "xp786-tips-mobile-login-download-fixes",
       "xp786-tips-pakistan-zero-data-mobile-actions",
       "xp786-tips-login-register-mobile",
@@ -1882,6 +1897,19 @@ export const sites = [
       "Beginner safe"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-tips-july-18-mobile-discovery-checks",
+        "title": "XP786 July 18 Mobile Discovery Checks for Pakistan Readers",
+        "excerpt": "Short mobile-first checks to help zero-impression XP786 pages become easier to read, crawl, and navigate.",
+        "date": "2026-07-18",
+        "author": "XP786 Tips",
+        "body": [
+          "A zero-impression mobile page still needs to behave like a useful answer. Pakistan readers should see the page purpose, login or register action, article links, and safety notes without zooming or hunting through the layout.",
+          "Start with tap checks: buttons should be visible, text should not overlap, and the first screen should explain whether the page is a guide, news note, quick tip, hub resource, or review checklist.",
+          "Discovery improves when quick tips link to deeper pages. A mobile login tip should point to the main Pakistan login guide, a download tip should point to safety notes, and unclear pages should point readers to Review.",
+          "Do not treat no GSC data as failure or success. Treat it as a signal to improve clarity, internal links, and crawl paths while waiting for Google to process the live pages."
+        ]
+      },
       {
         "id": "xp786-tips-mobile-login-download-fixes",
         "title": "XP786 Mobile Login and Download Fixes for Pakistan",
@@ -2243,6 +2271,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan review checks for official login, app, download, and domain trust",
     "heroSubtitle": "Compare XP786 official signals, login safety, app and download checks, domain trust, mobile quality, and risk notes before relying on a page.",
     "articles": [
+      "xp786-review-july-18-zero-signal-audit",
       "xp786-review-no-data-trust-check",
       "xp786-review-official-login-safety",
       "xp786-review-domain-trust-pakistan",
@@ -2302,6 +2331,19 @@ export const sites = [
       "No fake data"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-review-july-18-zero-signal-audit",
+        "title": "XP786 July 18 Zero Signal Audit for Review Pages",
+        "excerpt": "A review-side audit for XP786 pages that are live but still show no reliable clicks, impressions, CTR, or query data.",
+        "date": "2026-07-18",
+        "author": "XP786 Review",
+        "body": [
+          "A zero-signal audit separates technical access from Search Console performance. A page can return 200, have a sitemap entry, and still show no reliable GSC data while Google evaluates discovery and relevance.",
+          "Review checks should confirm domain clarity, HTTPS, page title, visible contact path, homepage role, mobile readability, internal links, and whether the content avoids unsupported official or ranking claims.",
+          "For Pakistan readers, trust also depends on comparison. The Review site should explain how XP786 Guide, News, Hub, Tips, and Review differ instead of repeating the same generic article across every domain.",
+          "The next safe action is to strengthen the highest-value review pages, request indexing when quota allows, and keep every metric marked as unavailable until Search Console exposes reliable data."
+        ]
+      },
       {
         "id": "xp786-review-no-data-trust-check",
         "title": "XP786 No Data Trust Check for Pakistan Pages",

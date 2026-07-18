@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan mobile tips for login, register, H5, and download checks",
   "heroSubtitle": "Use quick XP786 tips for mobile login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
   "articles": [
+    "xp786-tips-july-18-mobile-discovery-checks",
     "xp786-tips-mobile-login-download-fixes",
     "xp786-tips-pakistan-zero-data-mobile-actions",
     "xp786-tips-login-register-mobile",
@@ -94,6 +95,19 @@
     "Beginner safe"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-tips-july-18-mobile-discovery-checks",
+      "title": "XP786 July 18 Mobile Discovery Checks for Pakistan Readers",
+      "excerpt": "Short mobile-first checks to help zero-impression XP786 pages become easier to read, crawl, and navigate.",
+      "date": "2026-07-18",
+      "author": "XP786 Tips",
+      "body": [
+        "A zero-impression mobile page still needs to behave like a useful answer. Pakistan readers should see the page purpose, login or register action, article links, and safety notes without zooming or hunting through the layout.",
+        "Start with tap checks: buttons should be visible, text should not overlap, and the first screen should explain whether the page is a guide, news note, quick tip, hub resource, or review checklist.",
+        "Discovery improves when quick tips link to deeper pages. A mobile login tip should point to the main Pakistan login guide, a download tip should point to safety notes, and unclear pages should point readers to Review.",
+        "Do not treat no GSC data as failure or success. Treat it as a signal to improve clarity, internal links, and crawl paths while waiting for Google to process the live pages."
+      ]
+    },
     {
       "id": "xp786-tips-mobile-login-download-fixes",
       "title": "XP786 Mobile Login and Download Fixes for Pakistan",
