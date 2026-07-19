@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan review checks for official login, app, download, and domain trust",
   "heroSubtitle": "Compare XP786 official signals, login safety, app and download checks, domain trust, mobile quality, and risk notes before relying on a page.",
   "articles": [
+    "xp786-review-july-18-zero-signal-audit",
     "xp786-review-no-data-trust-check",
     "xp786-review-official-login-safety",
     "xp786-review-domain-trust-pakistan",
@@ -93,6 +94,19 @@
     "No fake data"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-review-july-18-zero-signal-audit",
+      "title": "XP786 July 18 Zero Signal Audit for Review Pages",
+      "excerpt": "A review-side audit for XP786 pages that are live but still show no reliable clicks, impressions, CTR, or query data.",
+      "date": "2026-07-18",
+      "author": "XP786 Review",
+      "body": [
+        "A zero-signal audit separates technical access from Search Console performance. A page can return 200, have a sitemap entry, and still show no reliable GSC data while Google evaluates discovery and relevance.",
+        "Review checks should confirm domain clarity, HTTPS, page title, visible contact path, homepage role, mobile readability, internal links, and whether the content avoids unsupported official or ranking claims.",
+        "For Pakistan readers, trust also depends on comparison. The Review site should explain how XP786 Guide, News, Hub, Tips, and Review differ instead of repeating the same generic article across every domain.",
+        "The next safe action is to strengthen the highest-value review pages, request indexing when quota allows, and keep every metric marked as unavailable until Search Console exposes reliable data."
+      ]
+    },
     {
       "id": "xp786-review-no-data-trust-check",
       "title": "XP786 No Data Trust Check for Pakistan Pages",
