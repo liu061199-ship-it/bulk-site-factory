@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan mobile tips for login, register, H5, and download checks",
   "heroSubtitle": "Use quick XP786 tips for mobile login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
   "articles": [
+    "xp786-tips-july-23-h5-login-register-quick-checks",
     "xp786-tips-july-18-mobile-discovery-checks",
     "xp786-tips-mobile-login-download-fixes",
     "xp786-tips-pakistan-zero-data-mobile-actions",
@@ -95,6 +96,19 @@
     "Beginner safe"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-tips-july-23-h5-login-register-quick-checks",
+      "title": "XP786 July 23 H5 Login and Register Quick Checks for Pakistan",
+      "excerpt": "Short mobile-first XP786 Tips checks for Pakistan readers using H5 pages, login buttons, register paths, and download notes on phones.",
+      "date": "2026-07-23",
+      "author": "XP786 Tips",
+      "body": [
+        "When a tips domain has zero visible GSC impressions, the page still needs to solve a real mobile problem. Pakistan readers should be able to check the page purpose, login action, register action, and download note without scrolling through repeated text.",
+        "Start with the H5 basics: confirm the domain, wait for the page to finish loading, make sure the text does not overlap, and check that login and register buttons are large enough to tap on a phone.",
+        "If the mobile page feels unclear, use XP786 Guide for the full access path, XP786 Hub for related resources, or XP786 Review before trusting app or download claims. A quick tip should lead to one clear next step, not trap the reader on a thin page.",
+        "This July 23 tip is written for discovery and usefulness. It should be linked from the Tips article list, appear in the sitemap, and remain cautious until Search Console shows reliable clicks, impressions, or query data."
+      ]
+    },
     {
       "id": "xp786-tips-july-18-mobile-discovery-checks",
       "title": "XP786 July 18 Mobile Discovery Checks for Pakistan Readers",

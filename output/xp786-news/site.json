@@ -34,6 +34,7 @@
   "heroTitle": "XP786 Pakistan news for login, register, app, and download updates",
   "heroSubtitle": "Follow dated XP786 update notes for Pakistan readers, including login changes, register guidance, app context, download safety, sitemap checks, and official access reminders.",
   "articles": [
+    "xp786-news-july-23-login-register-update-watch",
     "xp786-news-july-18-indexing-update",
     "xp786-news-official-update-path-pakistan",
     "xp786-news-pakistan-search-demand-july-10",
@@ -95,6 +96,19 @@
     "Guide linked"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-news-july-23-login-register-update-watch",
+      "title": "XP786 July 23 Login and Register Update Watch for Pakistan",
+      "excerpt": "A dated XP786 News note for Pakistan readers tracking login, register, app, download, and official access update intent after the latest GSC read.",
+      "date": "2026-07-23",
+      "author": "XP786 News",
+      "body": [
+        "The July 23 GSC read shows that XP786 News still has no reliable clicks, impressions, or query rows. The right response is not to claim demand, but to publish clearer dated coverage for the searches Pakistan readers are likely to use.",
+        "This update watch focuses on login update, register update, app update, download update, official access, and mobile access intent. Each topic should link back to stable guide or review pages when the reader needs a safer next step.",
+        "A useful news page should answer what changed, what has not been verified, and where the reader should continue. If there is no reliable Search Console query data, the page should say so through cautious wording and practical checks.",
+        "For indexing work, keep this page in the sitemap, connect it from the News homepage article list, and submit the URL only as a crawl request. Submission is not proof that Google has indexed or ranked the page."
+      ]
+    },
     {
       "id": "xp786-news-july-18-indexing-update",
       "title": "XP786 July 18 Indexing Update for Pakistan Search",
