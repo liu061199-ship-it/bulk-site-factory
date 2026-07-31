@@ -488,8 +488,8 @@
     "logo": "/logos/xp786-tips.svg",
     "themeColor": "#f59e0b",
     "template": "tips",
-    "title": "XP786 Tips Pakistan | Mobile Login, Register, H5 and Download Fixes",
-    "description": "XP786 Tips Pakistan gives short mobile-first tips for login, register, H5 pages, Android download checks, tap targets, and safe XP786 navigation.",
+    "title": "XP786 Tips Pakistan | XP 786 Mobile Login, Register, H5 and Download Fixes",
+    "description": "XP786 Tips Pakistan gives short XP 786 mobile-first tips for login, register, H5 pages, Android download checks, tap targets, and safe XP786 navigation.",
     "keywords": [
       "XP786 Tips Pakistan",
       "XP786 mobile tips",
@@ -502,7 +502,10 @@
       "XP786 quick tutorial",
       "XP786 safe navigation",
       "XP786 app tips",
-      "XP786 download safety tips"
+      "XP786 download safety tips",
+      "xp 786",
+      "xp 786 mobile tips",
+      "xp 786 Pakistan"
     ],
     "contentFocus": "Short mobile-first XP786 tips for Pakistan readers who need fast login, register, H5, Android download, and tap-target checks.",
     "targetAudience": "Pakistan mobile readers who want quick XP786 fixes before reading longer guide or review pages",
@@ -514,9 +517,10 @@
       "fast fixes"
     ],
     "contactEmail": "tips@xp786-tips.com",
-    "heroTitle": "XP786 Pakistan mobile tips for login, register, H5, and download checks",
-    "heroSubtitle": "Use quick XP786 tips for mobile login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
+    "heroTitle": "XP786 and XP 786 Pakistan mobile tips for login, register, H5, and download checks",
+    "heroSubtitle": "Use quick XP786 tips for xp 786 mobile searches, login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
     "articles": [
+      "xp786-tips-xp-786-mobile-search-checks",
       "xp786-tips-july-23-h5-login-register-quick-checks",
       "xp786-tips-july-18-mobile-discovery-checks",
       "xp786-tips-mobile-login-download-fixes",
