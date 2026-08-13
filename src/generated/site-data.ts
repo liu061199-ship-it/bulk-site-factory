@@ -616,8 +616,8 @@ export const sites = [
     "logo": "/logos/xp786-guide.svg",
     "themeColor": "#dc2626",
     "template": "guide",
-    "title": "XP786 Official Pakistan Guide 2026 | Login, Register, App and Download Help",
-    "description": "XP786 Guide is the main Pakistan start page for official XP786 login, register, app download, mobile access, safety checks, and trusted resource links.",
+    "title": "XP786 Official Pakistan Guide | Login, Register, App Download and Mobile Help",
+    "description": "Open XP786 Guide for Pakistan login, register, app download, H5 mobile access, official site checks, safety notes, and trusted XP786 resource links.",
     "keywords": [
       "XP786 Guide",
       "online guide",
@@ -659,9 +659,10 @@ export const sites = [
       "www.xp786guide.com"
     ],
     "contactEmail": "hello@xp786guide.com",
-    "heroTitle": "XP786 official Pakistan guide for login, register, app, and download help",
-    "heroSubtitle": "Use the main XP786 Guide start page for official access notes, mobile login help, register guidance, app download safety, H5 checks, and trusted resource links.",
+    "heroTitle": "XP786 official guide for Pakistan login, register, app download, and mobile access",
+    "heroSubtitle": "Start here when you need XP786 login help, register guidance, Android app download notes, H5 mobile checks, official site signals, and safer resource links.",
     "articles": [
+      "xp786-guide-august-click-intent-update",
       "xp786-guide-click-through-plan",
       "xp786-official-homepage-check",
       "xp786-pakistan-login-guide-2026",
@@ -715,6 +716,19 @@ export const sites = [
       "App download help"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-guide-august-click-intent-update",
+        "title": "XP786 Official Guide: Login, Register and App Download Start Page",
+        "excerpt": "An August click-intent update for Pakistan readers who see XP786 Guide in search and need a clearer reason to open the main page.",
+        "date": "2026-08-13",
+        "author": "XP786 Guide",
+        "body": [
+          "The latest Search Console read shows XP786 Guide receiving impressions but no clicks, so the main page now needs a sharper promise for Pakistan readers. The first message should make it clear that the page helps with login, register, app download, H5 mobile checks, and official site signals in one place.",
+          "Readers who search XP786 usually want a fast next step, but a useful official guide should also reduce risk. Start by confirming the domain, HTTPS status, page title, visible contact path, and whether the guide links to deeper login, register, app, download, tips, hub, and review pages.",
+          "The homepage should feel official without making unsupported claims. Clear headings, current article dates, consistent buttons, sitemap access, and simple mobile navigation are stronger trust signals than repeated keywords.",
+          "After this update, the next check is CTR. If impressions continue but clicks stay at zero, the title and description should be tested again using only reliable Search Console data."
+        ]
+      },
       {
         "id": "xp786-guide-click-through-plan",
         "title": "XP786 Guide Click-Through Plan for Pakistan Searches",
@@ -1011,6 +1025,7 @@ export const sites = [
     "heroTitle": "XP786 Pakistan news for login, register, app, and download updates",
     "heroSubtitle": "Follow dated XP786 update notes for Pakistan readers, including login changes, register guidance, app context, download safety, sitemap checks, and official access reminders.",
     "articles": [
+      "xp786-news-august-13-visibility-update",
       "xp786-news-july-23-login-register-update-watch",
       "xp786-news-july-18-indexing-update",
       "xp786-news-official-update-path-pakistan",
@@ -1073,6 +1088,19 @@ export const sites = [
       "Guide linked"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-news-august-13-visibility-update",
+        "title": "XP786 August 13 Visibility Update for Pakistan Search",
+        "excerpt": "A dated XP786 News update covering the latest visible GSC movement, news-site intent, and the next safe internal linking action.",
+        "date": "2026-08-13",
+        "author": "XP786 News",
+        "body": [
+          "The August 13 GSC read shows XP786 News with 4 impressions and 0 clicks for the available performance window. This is an early visibility signal, not a ranking win, and it should be handled with cautious dated coverage.",
+          "News pages should answer what changed, why Pakistan readers should care, and where they should continue. For XP786 News, that means linking update intent back to stable guide pages for login, register, app download, official access, mobile checks, and review notes.",
+          "The useful next step is not to add broad claims. It is to strengthen the current update path, keep sitemap and robots accessible, and make sure dated news articles connect to the main XP786 Guide and relevant Tips or Review pages.",
+          "If News impressions continue to rise, future updates should focus on specific phrases such as XP786 login update, XP786 register update, XP786 app update, XP786 download update, and XP786 Pakistan announcement."
+        ]
+      },
       {
         "id": "xp786-news-july-23-login-register-update-watch",
         "title": "XP786 July 23 Login and Register Update Watch for Pakistan",
@@ -1853,6 +1881,7 @@ export const sites = [
     "heroTitle": "XP786 and XP 786 Pakistan mobile tips for login, register, H5, and download checks",
     "heroSubtitle": "Use quick XP786 tips for xp 786 mobile searches, login checks, register buttons, Android download safety, H5 tap targets, and small-screen navigation before opening deeper guides.",
     "articles": [
+      "xp786-tips-august-xp-786-mobile-actions",
       "xp786-tips-xp-786-mobile-search-checks",
       "xp786-tips-july-23-h5-login-register-quick-checks",
       "xp786-tips-july-18-mobile-discovery-checks",
@@ -1916,6 +1945,19 @@ export const sites = [
       "Beginner safe"
     ],
     "resolvedArticles": [
+      {
+        "id": "xp786-tips-august-xp-786-mobile-actions",
+        "title": "XP 786 Mobile Actions for Login, Register and Download Searches",
+        "excerpt": "A query-led XP786 Tips update for Pakistan readers using the visible xp 786 search phrase on mobile.",
+        "date": "2026-08-13",
+        "author": "XP786 Tips",
+        "body": [
+          "The latest reliable query visible for XP786 Tips is xp 786, so this page stays narrow and mobile-first. A reader using that phrase usually needs a quick way to check the page, understand the next action, and avoid unclear login or download paths.",
+          "On mobile, first check the domain and page title. Then look for clear login and register buttons, readable text, stable layout, and links to deeper guide or review pages before tapping anything important.",
+          "For app or download searches, pause before following a file prompt. A useful XP 786 tip should explain what the reader is checking, why the source matters, and where to find a safer guide if the page feels incomplete.",
+          "This update is based on a real query read, but it does not claim ranking, traffic, or index status beyond the available Search Console evidence. The page should be reviewed again after the next daily GSC refresh."
+        ]
+      },
       {
         "id": "xp786-tips-xp-786-mobile-search-checks",
         "title": "XP 786 Mobile Search Checks for Pakistan Readers",

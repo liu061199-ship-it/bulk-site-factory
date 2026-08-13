@@ -5,8 +5,8 @@
   "logo": "/logos/xp786-guide.svg",
   "themeColor": "#dc2626",
   "template": "guide",
-  "title": "XP786 Official Pakistan Guide 2026 | Login, Register, App and Download Help",
-  "description": "XP786 Guide is the main Pakistan start page for official XP786 login, register, app download, mobile access, safety checks, and trusted resource links.",
+  "title": "XP786 Official Pakistan Guide | Login, Register, App Download and Mobile Help",
+  "description": "Open XP786 Guide for Pakistan login, register, app download, H5 mobile access, official site checks, safety notes, and trusted XP786 resource links.",
   "keywords": [
     "XP786 Guide",
     "online guide",
@@ -48,9 +48,10 @@
     "www.xp786guide.com"
   ],
   "contactEmail": "hello@xp786guide.com",
-  "heroTitle": "XP786 official Pakistan guide for login, register, app, and download help",
-  "heroSubtitle": "Use the main XP786 Guide start page for official access notes, mobile login help, register guidance, app download safety, H5 checks, and trusted resource links.",
+  "heroTitle": "XP786 official guide for Pakistan login, register, app download, and mobile access",
+  "heroSubtitle": "Start here when you need XP786 login help, register guidance, Android app download notes, H5 mobile checks, official site signals, and safer resource links.",
   "articles": [
+    "xp786-guide-august-click-intent-update",
     "xp786-guide-click-through-plan",
     "xp786-official-homepage-check",
     "xp786-pakistan-login-guide-2026",
@@ -104,6 +105,19 @@
     "App download help"
   ],
   "resolvedArticles": [
+    {
+      "id": "xp786-guide-august-click-intent-update",
+      "title": "XP786 Official Guide: Login, Register and App Download Start Page",
+      "excerpt": "An August click-intent update for Pakistan readers who see XP786 Guide in search and need a clearer reason to open the main page.",
+      "date": "2026-08-13",
+      "author": "XP786 Guide",
+      "body": [
+        "The latest Search Console read shows XP786 Guide receiving impressions but no clicks, so the main page now needs a sharper promise for Pakistan readers. The first message should make it clear that the page helps with login, register, app download, H5 mobile checks, and official site signals in one place.",
+        "Readers who search XP786 usually want a fast next step, but a useful official guide should also reduce risk. Start by confirming the domain, HTTPS status, page title, visible contact path, and whether the guide links to deeper login, register, app, download, tips, hub, and review pages.",
+        "The homepage should feel official without making unsupported claims. Clear headings, current article dates, consistent buttons, sitemap access, and simple mobile navigation are stronger trust signals than repeated keywords.",
+        "After this update, the next check is CTR. If impressions continue but clicks stay at zero, the title and description should be tested again using only reliable Search Console data."
+      ]
+    },
     {
       "id": "xp786-guide-click-through-plan",
       "title": "XP786 Guide Click-Through Plan for Pakistan Searches",
