@@ -4,6 +4,48 @@ import { sites } from "../src/generated/site-data";
 
 const root = process.cwd();
 const outDir = path.join(root, "out");
+const CTA_URL = "https://b9.game/refer/MDMwMDAxMTIyNjY=";
+
+function escapeHtml(value: unknown) {
+  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;",
+  })[char] ?? char);
+}
+
+function staticLayout(site: (typeof sites)[number], title: string, description: string, body: string, pathname = "") {
+  const keywords = (site.keywords || []).join(", ");
+  const canonical = `https://${site.domain}${pathname}`;
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="keywords" content="${escapeHtml(keywords)}"><link rel="canonical" href="${canonical}"><style>body{margin:0;font-family:Arial,sans-serif;color:#0f172a;background:#f8fafc}a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:24px}header,footer,.card{background:#fff;border-color:#e2e8f0}header{border-bottom:1px solid #e2e8f0}footer{border-top:1px solid #e2e8f0}.nav{display:flex;justify-content:space-between;gap:20px;align-items:center}.links{display:flex;gap:14px;flex-wrap:wrap}.hero{background:#fff;padding:56px 24px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{border:1px solid #e2e8f0;border-radius:8px;padding:22px}.muted{color:#64748b;line-height:1.7}.btn{display:inline-block;color:#fff;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700}.btn-outline{display:inline-block;border:1px solid #cbd5e1;padding:11px 17px;border-radius:6px;text-decoration:none;font-weight:700}h1{font-size:44px;line-height:1.08;margin:12px 0}h2{font-size:26px;margin:8px 0}@media(max-width:640px){h1{font-size:34px}.nav{align-items:flex-start;flex-direction:column}}</style></head><body><header><div class="wrap nav"><strong>${escapeHtml(site.siteName)}</strong><nav class="links"><a href="/about">About</a><a href="/blog">Blog</a><a href="/contact">Contact</a><a class="btn-outline" href="${CTA_URL}">Login</a><a class="btn" style="background:#0f172a" href="${CTA_URL}">Register</a></nav></div></header><main>${body}</main><footer><div class="wrap muted">Copyright ${new Date().getFullYear()} ${escapeHtml(site.siteName)} - ${escapeHtml(site.contactEmail)}</div></footer></body></html>`;
+}
+
+function staticArticleCards(site: (typeof sites)[number]) {
+  return `<div class="grid">${site.resolvedArticles.map((article) => `<a class="card" href="/blog/${encodeURIComponent(article.id)}"><p class="muted">${escapeHtml(article.date)} by ${escapeHtml(article.author)}</p><h2>${escapeHtml(article.title)}</h2><p class="muted">${escapeHtml(article.excerpt)}</p></a>`).join("")}</div>`;
+}
+
+async function writeStaticFallback(site: (typeof sites)[number]) {
+  const contentFocus = "contentFocus" in site ? site.contentFocus : site.heroSubtitle;
+  const homeBody = `<section class="hero"><div class="wrap"><p style="color:${escapeHtml(site.themeColor)};font-weight:700;text-transform:uppercase">${escapeHtml(site.domain)}</p><h1>${escapeHtml(site.heroTitle)}</h1><p class="muted" style="font-size:18px;max-width:760px">${escapeHtml(site.heroSubtitle)}</p><p><a class="btn" style="background:${escapeHtml(site.themeColor)}" href="${CTA_URL}">Login</a> <a class="btn-outline" href="${CTA_URL}">Register</a></p></div></section><section class="wrap">${staticArticleCards(site)}</section>`;
+  await writeFile(path.join(outDir, "index.html"), staticLayout(site, site.title, site.description, homeBody), "utf8");
+  await mkdir(path.join(outDir, "about"), { recursive: true });
+  await writeFile(path.join(outDir, "about", "index.html"), staticLayout(site, `About | ${site.siteName}`, site.description, `<section class="wrap"><h1>${escapeHtml(site.siteName)}</h1><p class="muted">${escapeHtml(site.description)}</p><div class="card"><h2>Editorial focus</h2><p class="muted">${escapeHtml(contentFocus)}</p></div></section>`, "/about"), "utf8");
+  await mkdir(path.join(outDir, "contact"), { recursive: true });
+  await writeFile(path.join(outDir, "contact", "index.html"), staticLayout(site, `Contact | ${site.siteName}`, `Contact ${site.siteName}.`, `<section class="wrap"><h1>Get in touch</h1><p class="muted">For questions or updates, email <a href="mailto:${escapeHtml(site.contactEmail)}">${escapeHtml(site.contactEmail)}</a>.</p></section>`, "/contact"), "utf8");
+  await mkdir(path.join(outDir, "blog"), { recursive: true });
+  await writeFile(path.join(outDir, "blog", "index.html"), staticLayout(site, `Blog | ${site.siteName}`, site.description, `<section class="wrap"><h1>${escapeHtml(site.siteName)} Blog</h1>${staticArticleCards(site)}</section>`, "/blog"), "utf8");
+  for (const article of site.resolvedArticles) {
+    const articleDir = path.join(outDir, "blog", article.id);
+    await mkdir(articleDir, { recursive: true });
+    const body = article.body.map((paragraph) => `<p class="muted" style="font-size:18px">${escapeHtml(paragraph)}</p>`).join("");
+    await writeFile(path.join(articleDir, "index.html"), staticLayout(site, `${article.title} | ${site.siteName}`, article.excerpt, `<article class="wrap" style="max-width:820px"><a href="/blog">Back to blog</a><p class="muted">${escapeHtml(article.date)} by ${escapeHtml(article.author)}</p><h1>${escapeHtml(article.title)}</h1><p class="muted" style="font-size:20px">${escapeHtml(article.excerpt)}</p>${body}</article>`, `/blog/${article.id}`), "utf8");
+  }
+  const urls = ["", "/about", "/contact", "/blog", ...site.resolvedArticles.map((article) => `/blog/${article.id}`)];
+  await writeFile(path.join(outDir, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>https://${site.domain}${url}</loc></url>`).join("\n")}\n</urlset>\n`, "utf8");
+  await writeFile(path.join(outDir, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: https://${site.domain}/sitemap.xml\n`, "utf8");
+}
 
 function workerSource() {
   return `const sites = ${JSON.stringify(sites, null, 2)};
@@ -210,6 +252,7 @@ export default {
 
 async function main() {
   await mkdir(outDir, { recursive: true });
+  await writeStaticFallback(sites.find((site) => site.id === "xp786-guide") || sites[0]);
   await writeFile(path.join(outDir, "_worker.js"), workerSource(), "utf8");
   await writeFile(
     path.join(outDir, "_routes.json"),
