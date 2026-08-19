@@ -211,6 +211,11 @@ export default {
 async function main() {
   await mkdir(outDir, { recursive: true });
   await writeFile(path.join(outDir, "_worker.js"), workerSource(), "utf8");
+  await writeFile(
+    path.join(outDir, "_routes.json"),
+    JSON.stringify({ version: 1, include: ["/*"], exclude: [] }, null, 2),
+    "utf8",
+  );
   console.log(`Generated Cloudflare Pages worker for ${sites.length} sites.`);
 }
 
