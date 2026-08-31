@@ -5,8 +5,8 @@
   "logo": "/logos/xp786-hub.svg",
   "themeColor": "#16a34a",
   "template": "hub",
-  "title": "XP786 Hub | Resource Center, Help Pages and Guide Library",
-  "description": "XP786 Hub is the central XP786 resource center for Pakistan readers who need guide, login, register, app, download, tips, and review links in one place.",
+  "title": "XP786 Hub Pakistan | Predictor, Login Help and Resource Library",
+  "description": "XP786 Hub organizes Pakistan resource pages for XP786 predictor queries, login help, register steps, app download guides, review links, and mobile troubleshooting.",
   "keywords": [
     "XP786 Hub",
     "resource center",
@@ -25,7 +25,10 @@
     "XP786 download guide",
     "XP786 mobile help",
     "XP786 Pakistan resources",
-    "XP786 official resources"
+    "XP786 official resources",
+    "XP786 predictor hub",
+    "XP786 predictor guide",
+    "XP786 login resources"
   ],
   "contentFocus": "A resource center that groups XP786 Pakistan topics into clear paths for login, register, app, download, mobile, and trust-check intent.",
   "targetAudience": "Pakistan mobile readers comparing multiple XP786 resources before choosing the next guide, tip, or review page",
@@ -37,8 +40,8 @@
     "reference pages"
   ],
   "contactEmail": "team@xp786-hub.com",
-  "heroTitle": "XP786 Pakistan resource hub for guides, login help, and review links",
-  "heroSubtitle": "Use one organized XP786 hub to find official guide notes, login and register help, app and download resources, quick tips, and safety review content.",
+  "heroTitle": "XP786 Pakistan hub for predictor resources, login help, and review links",
+  "heroSubtitle": "Use one organized XP786 hub to compare predictor resources, official guide notes, login and register help, app download pages, quick tips, and safety review content.",
   "articles": [
     "xp786-hub-resource-pathways",
     "xp786-news-official-update-path-pakistan",

@@ -616,8 +616,8 @@ export const sites = [
     "logo": "/logos/xp786-guide.svg",
     "themeColor": "#dc2626",
     "template": "guide",
-    "title": "XP786 Official Pakistan Guide | Login, Register, App Download and Mobile Help",
-    "description": "Open XP786 Guide for Pakistan login, register, app download, H5 mobile access, official site checks, safety notes, and trusted XP786 resource links.",
+    "title": "XP786 Official Pakistan Guide | Predictor, Login, Register and App Download",
+    "description": "Open the XP786 official Pakistan guide for predictor searches, XP786 login, register help, app download notes, H5 mobile access, and trusted site checks.",
     "keywords": [
       "XP786 Guide",
       "online guide",
@@ -639,7 +639,10 @@ export const sites = [
       "XP786 Pakistan login",
       "XP786 official website",
       "XP786 official Pakistan guide 2026",
-      "XP786 trusted access"
+      "XP786 trusted access",
+      "XP786 predictor",
+      "XP786 predictor Pakistan",
+      "XP 786 login"
     ],
     "contentFocus": "Step-by-step evergreen guides for readers who need the clearest path first.",
     "targetAudience": "new XP786 readers looking for simple explanations, safe navigation, and practical next steps",
@@ -659,8 +662,8 @@ export const sites = [
       "www.xp786guide.com"
     ],
     "contactEmail": "hello@xp786guide.com",
-    "heroTitle": "XP786 official guide for Pakistan login, register, app download, and mobile access",
-    "heroSubtitle": "Start here when you need XP786 login help, register guidance, Android app download notes, H5 mobile checks, official site signals, and safer resource links.",
+    "heroTitle": "XP786 official Pakistan guide for predictor, login, register, and app download help",
+    "heroSubtitle": "Start here for XP786 predictor searches, login help, register guidance, Android app download notes, H5 mobile checks, official site signals, and safer resource links.",
     "articles": [
       "xp786-guide-august-click-intent-update",
       "xp786-guide-click-through-plan",
@@ -1459,8 +1462,8 @@ export const sites = [
     "logo": "/logos/xp786-hub.svg",
     "themeColor": "#16a34a",
     "template": "hub",
-    "title": "XP786 Hub | Resource Center, Help Pages and Guide Library",
-    "description": "XP786 Hub is the central XP786 resource center for Pakistan readers who need guide, login, register, app, download, tips, and review links in one place.",
+    "title": "XP786 Hub Pakistan | Predictor, Login Help and Resource Library",
+    "description": "XP786 Hub organizes Pakistan resource pages for XP786 predictor queries, login help, register steps, app download guides, review links, and mobile troubleshooting.",
     "keywords": [
       "XP786 Hub",
       "resource center",
@@ -1479,7 +1482,10 @@ export const sites = [
       "XP786 download guide",
       "XP786 mobile help",
       "XP786 Pakistan resources",
-      "XP786 official resources"
+      "XP786 official resources",
+      "XP786 predictor hub",
+      "XP786 predictor guide",
+      "XP786 login resources"
     ],
     "contentFocus": "A resource center that groups XP786 Pakistan topics into clear paths for login, register, app, download, mobile, and trust-check intent.",
     "targetAudience": "Pakistan mobile readers comparing multiple XP786 resources before choosing the next guide, tip, or review page",
@@ -1491,8 +1497,8 @@ export const sites = [
       "reference pages"
     ],
     "contactEmail": "team@xp786-hub.com",
-    "heroTitle": "XP786 Pakistan resource hub for guides, login help, and review links",
-    "heroSubtitle": "Use one organized XP786 hub to find official guide notes, login and register help, app and download resources, quick tips, and safety review content.",
+    "heroTitle": "XP786 Pakistan hub for predictor resources, login help, and review links",
+    "heroSubtitle": "Use one organized XP786 hub to compare predictor resources, official guide notes, login and register help, app download pages, quick tips, and safety review content.",
     "articles": [
       "xp786-hub-resource-pathways",
       "xp786-news-official-update-path-pakistan",
